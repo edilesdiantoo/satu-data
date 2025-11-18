@@ -314,6 +314,7 @@
                             href="#"><span>Datasets</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('web-datasets.index') }}">Statistik Sektoral</a></li>
+                            <li><a href="">Metadata Sektoral</a></li>
                             <li><a href="{{ route('web-datasets-api.index') }}"> API Statistik Sektoral</a></li>
                         </ul>
                     </li>
@@ -357,7 +358,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const token = document.querySelector('meta[name="csrf-token"]').getAttribute(
-            'content'); // Ambil CSRF token
+                'content'); // Ambil CSRF token
             const todayVisitorsSpan = document.getElementById('today-visitors');
             const monthVisitorsSpan = document.getElementById('month-visitors');
             const yearVisitorsSpan = document.getElementById('year-visitors');
