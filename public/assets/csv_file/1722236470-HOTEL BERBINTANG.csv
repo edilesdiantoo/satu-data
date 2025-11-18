@@ -1,0 +1,67 @@
+﻿no;kode_provinsi;nama_provinsi;kode_kabupaten_kota;kode_kecamatan;kode_kelurahan_desa;nama_hotel;data;tenaga_kerja;jumlah_tenaga_kerja;fasilitas;jenis_kamar;jumlah;jumlah_tempat_tidur
+1;15;JAMBI;1508;150803;1508031007;Hotel Amaris;HOTEL BERBINTANG ;L;19;0;Standar, Deluxe, Superior, Suite, Jr. Suite;159;0
+2;15;JAMBI;1508;150803;1508031023;Hotel Semag;HOTEL BERBINTANG ;L;47;0;Standar, Deluxe, Superior, Suite, Jr. Suite;101;0
+3;15;JAMBI;1508;150803;1508031008;Hotel Bungo Plaza;HOTEL BERBINTANG ;L;77;0;Standar, Deluxe, Superior, Suite, Jr. Suite;118;0
+4;15;JAMBI;1571;157102;1508131001;Hotel Bw Luxury Jambi;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,23 ,26;Deluxe Premier Executive Suite President Suite ;0;0
+5;15;JAMBI;1571;157110;1571101001;Hotel Ratu ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Joining Executive Suite Deluxe Superior Standart ;0;0
+6;15;JAMBI;1571;157104;1571041004;Hotel Abadi Suite Tower;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,12,13,14,15,10,20,21,23 ,26 ;Presiden Suite Royal Suite Deluxe Bisnis Deluxe Superior Reguler ;0;0
+7;15;JAMBI;1571;157110;1571101005;Hotel Shang Ratu ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Super Deluxe Deluxe Superior ;0;0
+8;15;JAMBI;1571;157110;1571101002;Hotel Aston Jambi ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe Junior Suite Executive Suite Governor Suite ;0;0
+9;15;JAMBI;1571;157109;1571091003;PT. Putra Psp Rumah Kito Guest House;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Deluxe Junior Suite ;0;0
+10;15;JAMBI;1571;157110;1571101005;Swiss-Bel Hotel ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Business Executive Suite Premier Suite President Suite ;0;0
+11;15;JAMBI;1571;157104;1571041004;Hotel Abadi Grand ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;President Suite Executive J Suite Executive Deluxe Suite Room Superior Room Executive Standard ;0;0
+12;15;JAMBI;1571;157104;1571041004;Hotel Ceria ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Room Deluxe Room Superior Room Standar Room ;0;0
+13;15;JAMBI;1571;157107;1571071005;Hotel Cahaya Prima;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standart Mini Superior ;0;0
+14;15;JAMBI;1571;157104;1571041003;Hotel Grand Malioboro;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Superior ;0;0
+15;15;JAMBI;1571;157104;1571041004;Hotel Ratu Permata Hotelindo;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe Suite ;0;0
+16;15;JAMBI;1571;157110;1571101005;Hotel Luminor ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Room Executive Suite ;0;0
+17;15;JAMBI;1571;157108;1571081004;Hotel Matahari I;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Room Deluxe Vip Standar I Standar II Ekonomi ;0;0
+18;15;JAMBI;1571;157109;1571091001;Hotel Harvest Golden;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Golden Suite Golden Junior Suite Golden Execuitve Golden Business Golden Plus Standar Drive ;0;0
+19;15;JAMBI;1571;157104;1571041003;Hotel Wiltop;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Wiltop Suite Junior Suite Deluxe Executive Superior Superior ;0;0
+20;15;JAMBI;1571;157102;1508131001;Hotel Cosmo;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Room Superior Room Deluxe Room Junior Suite Room ;0;0
+21;15;JAMBI;1571;157101;1571011001;Hotel Grand;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Deluxe Superior Standar ;0;0
+22;15;JAMBI;1571;157107;1571071005;Hotel Royal Garden ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Junior Suite Business Suite II Business Suite I ;0;0
+23;15;JAMBI;1571;157104;1571041003;Hotel Duta ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Super Deluxe Suite Room ;0;0
+24;15;JAMBI;1571;157104;1571041003;Hotel Infinity ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe ;0;0
+25;15;JAMBI;1571;157104;1571041004;Hotel Pundi Rezeki;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Mini Standar Standar Superior Deluxe Junior Suite Suite ;0;0
+26;15;JAMBI;1571;157110;1571101004;Hotel Marisa;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Super Deluxe Deluxe Superior ;0;0
+27;15;JAMBI;1571;157102;1571021003;Hotel Safera ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Deluxe Superior Standar Double Standar Single Ekonom ;0;0
+28;15;JAMBI;1571;157108;1503092004;Hotel Harisman Sentosa ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Standar Standar Ekonomi ;0;0
+29;15;JAMBI;1571;157104;1571041004;Hotel Jambi Raya ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Deluxe Suite ;0;0
+30;15;JAMBI;1571;157102;1571021003;Hotel Pundi Rezeki Thehok ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Super Deluxe Deluxe Superior Standart ;0;0
+31;15;JAMBI;1571;157104;1571041001;Octopuss Hotel Dan Spa ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Bussines Class Junior Suit ;0;0
+32;15;JAMBI;1571;157111;1571111005;Hotel Mj's;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Deluxe Junior Suite Suite ;0;0
+33;15;JAMBI;1571;157109;1571091001;V Hotel ;HOTEL BERBINTANG ;L;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Room Deluxe Room ;0;0
+34;15;JAMBI;1508;150803;1508031007;Hotel Amaris;HOTEL BERBINTANG ;P;7;0;Standar, Deluxe, Superior, Suite, Jr. Suite;159;0
+35;15;JAMBI;1508;150803;1508031023;Hotel Semag;HOTEL BERBINTANG ;P;10;0;Standar, Deluxe, Superior, Suite, Jr. Suite;101;0
+36;15;JAMBI;1508;150803;1508031008;Hotel Bungo Plaza;HOTEL BERBINTANG ;P;10;0;Standar, Deluxe, Superior, Suite, Jr. Suite;118;0
+37;15;JAMBI;1571;157102;1508131001;Hotel Bw Luxury Jambi;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,23 ,26;Deluxe Premier Executive Suite President Suite ;0;0
+38;15;JAMBI;1571;157110;1571101001;Hotel Ratu ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Joining Executive Suite Deluxe Superior Standart ;0;0
+39;15;JAMBI;1571;157104;1571041004;Hotel Abadi Suite Tower;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,12,13,14,15,10,20,21,23 ,26 ;Presiden Suite Royal Suite Deluxe Bisnis Deluxe Superior Reguler ;0;0
+40;15;JAMBI;1571;157110;1571101005;Hotel Shang Ratu ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Super Deluxe Deluxe Superior ;0;0
+41;15;JAMBI;1571;157110;1571101002;Hotel Aston Jambi ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe Junior Suite Executive Suite Governor Suite ;0;0
+42;15;JAMBI;1571;157109;1571091003;PT. Putra Psp Rumah Kito Guest House;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Deluxe Junior Suite ;0;0
+43;15;JAMBI;1571;157110;1571101005;Swiss-Bel Hotel ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Business Executive Suite Premier Suite President Suite ;0;0
+44;15;JAMBI;1571;157104;1571041004;Hotel Abadi Grand;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;President Suite Executive J Suite Executive Deluxe Suite Room Superior Room Executive Standard ;0;0
+45;15;JAMBI;1571;157104;1571041004;Hotel Ceria ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Room Deluxe Room Superior Room Standar Room ;0;0
+46;15;JAMBI;1571;157107;1571071005;Hotel Cahaya Prima;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standart Mini Superior ;0;0
+47;15;JAMBI;1571;157104;1571041003;Hotel Grand Malioboro;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Superior ;0;0
+48;15;JAMBI;1571;157104;1571041004;Hotel Ratu Permata Hotelindo;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe Suite ;0;0
+49;15;JAMBI;1571;157110;1571101005;Hotel Luminor ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Room Executive Suite ;0;0
+50;15;JAMBI;1571;157108;1571081004;Hotel Matahari I;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Room Deluxe Vip Standar I Standar II Ekonomi ;0;0
+51;15;JAMBI;1571;157109;1571091001;Hotel Harvest Golden;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Golden Suite Golden Junior Suite Golden Execuitve Golden Business Golden Plus Standar Drive ;0;0
+52;15;JAMBI;1571;157104;1571041003;Hotel Wiltop;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Wiltop Suite Junior Suite Deluxe Executive Superior Superior ;0;0
+53;15;JAMBI;1571;157102;1508131001;Hotel Cosmo;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Room Superior Room Deluxe Room Junior Suite Room ;0;0
+54;15;JAMBI;1571;157101;1571011001;Hotel Grand;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Deluxe Superior Standar ;0;0
+55;15;JAMBI;1571;157107;1571071005;Hotel Royal Garden ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Junior Suite Business Suite II Business Suite I ;0;0
+56;15;JAMBI;1571;157104;1571041003;Hotel Duta ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Super Deluxe Suite Room ;0;0
+57;15;JAMBI;1571;157104;1571041003;Hotel Infinity ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Superior Deluxe ;0;0
+58;15;JAMBI;1571;157104;1571041004;Hotel Pundi Rezeki;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Mini Standar Standar Superior Deluxe Junior Suite Suite ;0;0
+59;15;JAMBI;1571;157110;1571101004;Hotel Marisa;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Super Deluxe Deluxe Superior ;0;0
+60;15;JAMBI;1571;157102;1571021003;Hotel Safera ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Deluxe Superior Standar Double Standar Single Ekonom ;0;0
+61;15;JAMBI;1571;157108;1503092004;Hotel Harisman Sentosa ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Deluxe Standar Standar Ekonomi ;0;0
+62;15;JAMBI;1571;157104;1571041004;Hotel Jambi Raya ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Deluxe Suite ;0;0
+63;15;JAMBI;1571;157102;1571021003;Hotel Pundi Rezeki Thehok ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Suite Super Deluxe Deluxe Superior Standart ;0;0
+64;15;JAMBI;1571;157104;1571041001;Octopuss Hotel Dan Spa ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Bussines Class Junior Suit ;0;0
+65;15;JAMBI;1571;157111;1571111005;Hotel Mj's;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Superior Deluxe Junior Suite Suite ;0;0
+66;15;JAMBI;1571;157109;1571091001;V Hotel ;HOTEL BERBINTANG ;P;0;1,2,3,4,5,6,7,9,10,11,1 2,13,14,15,10,20,21,2 3,26 ;Standar Room Deluxe Room ;0;0

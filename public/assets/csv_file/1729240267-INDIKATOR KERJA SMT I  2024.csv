@@ -1,0 +1,21 @@
+﻿NO;indikator;nama_indikator;target;satuan;kerinci;merangin;sarolangun;batanghari;muaro_jambi;tanjung_jabung_barat;tanjung_jabung_timur;bungo;tebo;kota_jambi;kota_sungai_penuh;provinsi_jambi
+1;SPESIFIK1;Persentase ibu hamil Kurang Energi Kronik (KEK) yang mendapatkan tambahan asupan gizi.;90;%;64,6;90,2;95,3;83,9;93;98,1;73,6;70,1;87,7;59,9;100;82,1
+2;SPESIFIK2;Persentase ibu hamil yang mengonsumsi Tablet Tambah Darah (TTD) minimal 90 tablet selama masa kehamilan.;80;%;87,1;75,5;68,5;85,4;76,3;92,9;86,3;89,1;84,6;95,9;87,7;85,4
+3;SPESIFIK3;Persentase remaja putri yang mengonsumsi Tablet Tambah Darah (TTD).;58;%;29,1;42,4;12,9;16,7;17,6;35,3;35,7;26,2;63,1;22,4;53,2;30,7
+4;SPESIFIK4;Persentase bayi usia kurang dari 6 bulan mendapat Air Susu Ibu (ASI) eksklusif.;80;%;90,3;71,7;75,8;84,6;98;73,1;63,4;81,2;74,8;62,1;84,5;75,5
+5;SPESIFIK5;Persentase anak usia 6-23 bulan yang mendapat Makanan Pendamping Air Susu Ibu (MP-ASI).;80;%;80,2;98,4;71,1;86,7;98,3;96,4;96,5;95,4;91,6;84,5;100;92,9
+6;SPESIFIK6;Persentase anak berusia di bawah lima tahun (balita) gizi buruk yang mendapat pelayanan tata laksana gizi buruk.;90;%;88,9;122,2;91,3;26,7;89,1;100;100;320;100;88,9;100;94,4
+7;SPESIFIK7;Persentase anak berusia di bawah lima tahun (balita) yang dipantau pertumbuhan dan perkembangannya.;90;%;79,1;64,4;73;46,2;72,4;54,6;67,9;55,3;73,6;54,8;80,4;64,2
+8;SPESIFIK8;Persentase anak berusia di bawah lima tahun (balita) gizi kurang yang mendapat tambahan asupan gizi.;90;%;54,9;78;72,8;76,4;86;100;96,7;81,7;95,2;21,3;100;79,1
+9;SPESIFIK9;Persentase anak berusia di bawah lima tahun (balita) yang memperoleh imunisasi dasar lengkap.;90;%;83,35;79,59;86,53;77,77;80,69;76,77;79,99;74,84;80,86;82,35;88,28;80,41
+10;SENSITIF1;Persentase pelayanan Keluarga Berencana (KB) pascapersalinan.;70;%;76,3;77,1;78,5;83,9;82,8;59;52,3;78,9;78;49,8;79,9;81,00181818
+11;SENSITIF2;Persentase kehamilan yang tidak diinginkan.;15,5;%;N/A;N/A;11,6;5,6;10,5;N/A;N/A;6,8;N/A;14,3;N/A;72,40909091
+12;SENSITIF3;Cakupan calon Pasangan Usia Subur (PUS) yang memperoleh pemeriksaan kesehatan sebagai bagian dari pelayanan nikah (persen).;90;%;57,4;93;100;80,8;76,9;83,1;60,4;87;51;80,8;94,9;78,53
+13;SENSITIF4;Persentase rumah tangga yang mendapatkan akses air minum layak di kabupaten/kota lokasi prioritas.;100;%;55,94;64,74;69,27;66,85;100;74,63;73,11;74,73;59,77;95,16;0;78,66363636
+14;SENSITIF5;Persentase rumah tangga yang mendapatkan akses sanitasi (air limbah domestik) layak di kabupaten/kota lokasi prioritas.;90;%;46,57;34,75;70,46;78,26;100;73,84;77,01;83,58;59,8;42,85;95,12;66,74545455
+15;SENSITIF6;Cakupan Bantuan Jaminan Nasional. Penerima Bantuan Iuran (PBI) Kesehatan (jiwa).;N/A;N/A;118.956;145.255;146.758;172.803;127.201;156.682;114.971;127.224;124.870;217.287;72.394;762
+16;SENSITIF7;Cakupan keluarga berisiko Stunting yang memperoleh pendampingan (persen).;90;%;47,1;41,6;63,92;87,09;38,41;34,98;51,22;38,34;40,9;39,92;29,93;138581,9091
+17;SENSITIF8;Jumlah keluarga miskin dan rentan yang memperoleh bantuan tunai bersyarat.;N/A;N/A;96,91;41,61;21,87;1,93;0;64,77;62,78;21,31;11,94;100;80;46,67363636
+18;SENSITIF9;Persentase target sasaran yang memiliki pemahaman yang baik tentang Stunting di lokasi prioritas.;70;%;82,9;82,9;82,9;82,9;82,9;82,9;82,9;82,9;82,9;82,9;82,9;45,73818182
+19;SENSITIF10;Jumlah keluarga miskin dan rentan yang menerima bantuan sosial pangan (juta).;N/A;N/A;99,88;40,04;38,24;10,69;N/A;100;33,32;47,8;37,95;1,61;50,52;82,9
+20;SENSITIF11;Persentase desa/kelurahan stop Buang Air Besar Sembarangan (BABS) atau Open Defecation Free (ODF).;90;%;55;48;100;84;86;26;44;100;100;100;100;41,82272727

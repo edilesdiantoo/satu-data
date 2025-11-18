@@ -1,0 +1,7 @@
+NO;kode_provinsi;nama_provinsi;kode_kabupaten;nama_kabupaten;komoditi;luas_tanaman_belum_menghasilkan;luas_tanaman_menghasilkan;luas_tanaman_tidak_menghasilkan_atau_tanaman_rusak;jumlah;satuan;tahun
+1;15;JAMBI;1509;TEBO;NILAM;19;36;16;71;HEKTAR;2022
+2;15;JAMBI;1502;MERANGIN;NILAM;377;787;0;1164;HEKTAR;2022
+3;15;JAMBI;1503;SAROLANGUN;NILAM;0;86;31;117;HEKTAR;2022
+4;15;JAMBI;1509;TEBO;NILAM;15;24;0;39;HEKTAR;2023
+5;15;JAMBI;1502;MERANGIN;NILAM;366;758;0;1124;HEKTAR;2023
+6;15;JAMBI;1503;SAROLANGUN;NILAM;34;0;0;34;HEKTAR;2023

@@ -1,0 +1,12 @@
+id;kode_provinsi;nama_provinsi;kode_kabupaten_kota;pneumonia;kelainan_kongenital;penyakit_saraf;demam_berdarah;kelainan_kongenital_jantung;kecelakaan_lalu_lintas;kelainan_kongenital_lainnya;tengelam;infeksi_parasit;lain-lain
+1;15;JAMBI;1501;0;0;0;0;2;0;0;0;0;1
+2;15;JAMBI;1502;0;1;0;0;0;0;0;0;0;0
+3;15;JAMBI;1503;0;0;0;0;0;0;0;0;0;0
+4;15;JAMBI;1504;0;0;0;0;0;0;0;0;0;0
+5;15;JAMBI;1505;0;0;0;0;0;0;0;0;0;0
+6;15;JAMBI;1507;0;0;0;0;0;0;0;0;0;0
+7;15;JAMBI;1506;0;0;0;0;0;0;0;0;0;0
+8;15;JAMBI;1509;1;0;0;0;0;1;0;1;0;1
+9;15;JAMBI;1508;0;0;0;0;0;0;0;0;0;0
+10;15;JAMBI;1571;0;0;0;3;0;0;0;0;0;1
+11;15;JAMBI;1572;0;0;0;0;0;0;0;0;0;0

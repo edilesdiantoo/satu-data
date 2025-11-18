@@ -1,0 +1,539 @@
+﻿no;kode_provinsi;provinsi;kode_kabupaten_kota;kode_kecamatan;nama_daya_tarik_wisata;jenis_daya_tarik_wisata
+1;15;JAMBI;1509;150902;Kebun Raya Bukit Sari;Alam
+2;15;JAMBI;1509;150902;Taman Nasional Bukit 30 (TNBT);Alam
+3;15;JAMBI;1509;150902;Taman Nasional Bukit 12;Alam
+4;15;JAMBI;1509;150902;Batu Menangis & Air Terjun Bulian Berdarah;Alam
+5;15;JAMBI;1509;150902;Air Terjun Gajah Mati;Alam
+6;15;JAMBI;1509;150902;Air Panas Sungai Bengkal;Alam
+7;15;JAMBI;1509;150901;Danau Tanduk;Alam
+8;15;JAMBI;1509;150907;Celosia Muna Garden;Buatan
+9;15;JAMBI;1509;150901;Wisata Lubuk Tembesu;Buatan
+10;15;JAMBI;1509;150901;Makam Sultan Tahta Syaifuddin;Sejarah/Budaya
+11;15;JAMBI;1509;150912;Istana Sultan Thaha Syaifuddin;Sejarah/ Budaya
+12;15;JAMBI;1509;150902;Mesjid Tua;Sejarah/ Budaya
+13;15;JAMBI;1509;150901;Benteng Peninggalan Jaman Belanda;Sejarah/ Budaya
+14;15;JAMBI;1509;150901;Makam Belanda ;Sejarah/ Budaya
+15;15;JAMBI;1509;150904;Taman Wisata Rivera Park;Buatan
+16;15;JAMBI;1572;157208;Taman Bunga Putih Senang;Buatan
+17;15;JAMBI;1572;157206;Masjid Agung ;Budaya
+18;15;JAMBI;1572;157205;Air Terjun Renah Betung;Alam 
+19;15;JAMBI;1572;157205;Air Terjun Tiga Beradik;Alam
+20;15;JAMBI;1572;157204;Jembatan Kerinduan;Buatan
+21;15;JAMBI;1572;157201;Lapangan Merdeka;Buatan
+22;15;JAMBI;1572;157203;Masjid Raya Rawang;Budaya
+23;15;JAMBI;1572;157205;Batu Gong;Budaya
+24;15;JAMBI;1572;157202;Batu Sorba ;Budaya
+25;15;JAMBI;1572;157208;Makam Nenek Siak Lengi;Budaya
+26;15;JAMBI;1572;157203;Museum Kota Sungai Penuh;Buatan
+27;15;JAMBI;1572;157201;Tanah Mendapo;Budaya
+28;15;JAMBI;1572;157206;Bukit Semancik;Alam
+29;15;JAMBI;1572;157208;Bukit Sentiong;Alam
+30;15;JAMBI;1572;157208;Bukit Sentiong/ Bukit Puti Mengurai;Alam
+31;15;JAMBI;1572;157208;Panorama Bukit Tapan;Alam
+32;15;JAMBI;1572;157201;Taman Nasional Kerinci Seblat;Alam
+33;15;JAMBI;1572;157203;Batu Sorban;Alam
+34;15;JAMBI;1572;157205;Bukit Renah Kayu Embun;Alam
+35;15;JAMBI;1572;157208;Taman Bunga Puti Senang;Buatan
+36;15;JAMBI;1572;157205;Batu Gong Nenek Betung;Buatan
+37;15;JAMBI;1572;157201;Wisata Alam New Bruna;Buatan
+38;15;JAMBI;1572;157201;Kolam Renang Air Panas;Buatan
+39;15;JAMBI;1572;157201;Taman Lapangan Merdeka;Buatan
+40;15;JAMBI;1572;157204;Danau Buatan;Buatan
+41;15;JAMBI;1572;157201;Kolam Renang Mutiara Indah;Buatan
+42;15;JAMBI;1572;157201;Jembatan Kerinduan;Buatan
+43;15;JAMBI;1572;157201;Masjid Agung Pondok Tinggi;Sejarah/ Budaya
+44;15;JAMBI;1572;157201;Rumah Larik;Sejarah/ Budaya
+45;15;JAMBI;1572;157201;Masjid Raya Sungai Penuh;Sejarah/ Budaya
+46;15;JAMBI;1572;157201;Makam Depati Payu;Sejarah/ Budaya
+47;15;JAMBI;1572;157201;Makam Siak Alam Koto Bingin;Sejarah/ Budaya
+48;15;JAMBI;1572;157201;Tulisan Incong;Sejarah/ Budaya
+49;15;JAMBI;1572;157201;Museum Iskandar Zakaria;Sejarah/ Budaya
+50;15;JAMBI;1572;157201;Sumur Pulai Gedang;Sejarah/ Budaya
+51;15;JAMBI;1572;157201;Depati VII Cofee ;Buatan 
+52;15;JAMBI;1572;157201;Aura Taman Bunga RKE;Buatan
+53;15;JAMBI;1507;150705;Cagar Alam Hutan Bakau Pantai Timur;Alam 
+54;15;JAMBI;1507;150705;Simpang Bungur ;Alam 
+55;15;JAMBI;1507;150710;Sumber Mata Air Panas;Alam 
+56;15;JAMBI;1507;150705;Crocodile Safari;Alam 
+57;15;JAMBI;1507;150705;Pulau Penyu ;Alam 
+58;15;JAMBI;1507;150705;Hutan Wisata Air Hitam ;Alam 
+59;15;JAMBI;1507;150707;Taman Bunga Matahari;Buatan 
+60;15;JAMBI;1507;150702;Pelabuhan Nipah Panjang;Buatan 
+61;15;JAMBI;1507;150708;Wisata Kampung Laut  ;Sejarah/Budaya 
+62;15;JAMBI;1507;150705;Desa Wisata Air Hitam Laut dan TradisiMandi Safar ;Sejarah/Budaya 
+63;15;JAMBI;1507;150707;Masjid Agung Nur Ad Drajat;Sejarah/Budaya 
+64;15;JAMBI;1507;150707;Rumah Adat Bukit Menderang;Sejarah/Budaya 
+65;15;JAMBI;1507;150705;Pantai Air Hitam;Alam
+66;15;JAMBI;1506;-;Taman Nasional Bukit 30 (TNBT);Alam 
+67;15;JAMBI;1506;150602;Pantai Pasir Putih & Hutan Mangrove;Alam 
+68;15;JAMBI;1506;150601;Air Terjun Pehlang;Alam 
+69;15;JAMBI;1506;150607;Air Terjun Pinang Bawah;Alam 
+70;15;JAMBI;1506;150605;Payo Lebar;Alam 
+71;15;JAMBI;1506;150607;Arung Jeram Sungai Tantang;Alam 
+72;15;JAMBI;1506;150607;Air Terjun Lingkis;Alam 
+73;15;JAMBI;1506;150607;Air Terjun Taman Raja;Alam 
+74;15;JAMBI;1506;150608;Air Terjun Seng;Alam 
+75;15;JAMBI;1506;150604;Pemandian Air Hangat ;Alam  
+76;15;JAMBI;1506;-;Pusat Pelatihan Gajah Sumatera;Buatan 
+77;15;JAMBI;1506;150602;Dermaga & Pasar Kuala Tungkal;Buatan 
+78;15;JAMBI;1506;150602;Taman Wisata Ancol Beach;Buatan 
+79;15;JAMBI;1506;150602;Pelabuhan Roro Kuala Tungkal;Buatan 
+80;15;JAMBI;1506;150602;Water Front City;Buatan 
+81;15;JAMBI;1506;150602;Taman Persitaj;Buatan 
+82;15;JAMBI;1506;150602;Taman Selaras Pinang Masak;Buatan 
+83;15;JAMBI;1506;150607;Taman Bukit Batu Suban;Buatan 
+84;15;JAMBI;1506;150604;Kebun Kopi ;Buatan 
+85;15;JAMBI;1506;150602;Taman Disparpora ;Buatan 
+86;15;JAMBI;1506;150604;Taman Wisata Lestari Indah;Buatan 
+87;15;JAMBI;1506;150601;Air Terjun Ratu Calista;Buatan 
+88;15;JAMBI;1506;150602;Taman PKK;Buatan 
+89;15;JAMBI;1506;150602;Taman Pondok Cinta;Buatan 
+90;15;JAMBI;1506;150607;Umo Cinto;Buatan 
+91;15;JAMBI;1506;150602;Alun-Alun Kota Kuala Tungkal;Buatan 
+92;15;JAMBI;1506;150605;Masjid Besar Surya Khairuddin;Sejarah/Budaya 
+93;15;JAMBI;1506;150611;Balai Adat Tanjung Jabung Barat;Sejarah/Budaya 
+94;15;JAMBI;1506;150602;Mangrove Pangkal Babu;Buatan
+95;15;JAMBI;1506;150604;Jembatan Karindangan;Buatan
+96;15;JAMBI;1506;150611;Desa Delima;Buatan
+97;15;JAMBI;1506;150602;Eko Wisata Suko Rejo;Buatan
+98;15;JAMBI;1506;150602;Titian Orang Kayo Mustiko Rajo Alam (WFC);Alam
+99;15;JAMBI;1501;150109;Danau Belibis ;Alam 
+100;15;JAMBI;1501;150109;Air Terjun Telun Berasap ;Alam 
+101;15;JAMBI;1501;150109;Aroma Pecco ;Alam 
+102;15;JAMBI;1501;150109;Kebun Teh Kayu Aro;Alam 
+103;15;JAMBI;1501;150109;Goa Kasah ;Alam 
+104;15;JAMBI;1501;150119;Rawa Ladeh Panjang ;Alam 
+105;15;JAMBI;1501;150109;Batu Tongkang ;Alam 
+106;15;JAMBI;1501;150115;Air Terjun Pauh Tinggi ;Alam 
+107;15;JAMBI;1501;150115;Air Terjun Panorama Tujuh;Alam 
+108;15;JAMBI;1501;150115;Goa Kapeh ;Alam 
+109;15;JAMBI;1501;150115;Air Terjun Lembah Mengurai;Alam 
+110;15;JAMBI;1501;150116;Air Terjun Siulak Kecil ;Alam 
+111;15;JAMBI;1501;150105;Air Panas Semurup ;Alam 
+112;15;JAMBI;1501;150102;Air Terjun 13 Tingkat ;Alam 
+113;15;JAMBI;1501;150101;Gunung Kaca ;Alam 
+114;15;JAMBI;1501;150105;Air Panas ;Alam 
+115;15;JAMBI;1501;150105;Air Terjun Pendung Mudik;Alam 
+116;15;JAMBI;1501;150109;Goa Batu ;Alam 
+117;15;JAMBI;1501;150111;Bukit Kutinggi;Alam 
+118;15;JAMBI;1501;150104;Serujung Angin ;Alam 
+119;15;JAMBI;1501;150120;Batu Megalitik ;Alam 
+120;15;JAMBI;1501;150108;Tanjung Pelita ;Alam 
+121;15;JAMBI;1501;150108;Hutan Adat Temedak ;Alam 
+122;15;JAMBI;1501;150108;Air Terjun Pancoran Rayo;Alam 
+123;15;JAMBI;1501;150108;Batu Raja ;Alam 
+124;15;JAMBI;1501;150108;Air Terjun Pancuran Gading;Alam 
+125;15;JAMBI;1501;150108;Sungai Buai;Alam 
+126;15;JAMBI;1501;150108;Hutan Adat Pulau Tengah;Alam 
+127;15;JAMBI;1501;150102;Hutan Pinus ;Alam 
+128;15;JAMBI;1501;150102;Goa Belang ;Alam 
+129;15;JAMBI;1501;150102;Goa Kelelawar ;Alam 
+130;15;JAMBI;1501;150102;Pantai Indah Koto Petai ;Alam 
+131;15;JAMBI;1501;150102;Air Terjun 12 Tingkat ;Alam 
+132;15;JAMBI;1501;150108;Hutan Adat Lekuk Lima Tumbi;Alam 
+133;15;JAMBI;1501;150108;Danau Lingkat ;Alam 
+134;15;JAMBI;1501;150120;Gunung Kunyit ;Alam 
+135;15;JAMBI;1501;150108;Air Terjun Selung Bersisik ;Alam 
+136;15;JAMBI;1501;150120;Danau Padang ;Alam 
+137;15;JAMBI;1501;150101;Batu Silindrik ;Alam 
+138;15;JAMBI;1501;150120;Batu Silindrik ;Alam 
+139;15;JAMBI;1501;150120;Garau Rasau ;Alam 
+140;15;JAMBI;1501;150101;Danau Kecik ;Alam 
+141;15;JAMBI;1501;150101;Gerau Nguak ;Alam 
+142;15;JAMBI;1501;150101;Gunung Batuah ;Alam 
+143;15;JAMBI;1501;150101;Air Terjun Telun ;Alam 
+144;15;JAMBI;1501;150120;Gunung Raya ;Alam 
+145;15;JAMBI;1501;150120;Gerai Sikai ;Alam 
+146;15;JAMBI;1501;150120;Hutan Salak ;Alam 
+147;15;JAMBI;1501;150120;Taman Dewa ;Alam 
+148;15;JAMBI;1501;150107;Air Terjun Goa ;Alam 
+149;15;JAMBI;1501;150120;Sungai Batang Merangin;Alam 
+150;15;JAMBI;1501;150107;Lembah Mengurai ;Alam 
+151;15;JAMBI;1501;150119;Air Terjun/Air Panas ;Alam 
+152;15;JAMBI;1501;150107;Danau Aikab ;Alam 
+153;15;JAMBI;1501;150105;Goa Akar ;Alam 
+154;15;JAMBI;1501;150120;Danau Padeang ;Alam 
+155;15;JAMBI;1501;150101;Gerau Rasau ;Alam 
+156;15;JAMBI;1501;150101;Air Terjun Kesn ;Alam 
+157;15;JAMBI;1501;150120;Hutan Salak ;Alam 
+158;15;JAMBI;1501;150101;Air Terjun Mata Kucing ;Alam 
+159;15;JAMBI;1501;150108;Perkebunan Manggis ;Alam 
+160;15;JAMBI;1501;150105;Hutan Adat ;Alam 
+161;15;JAMBI;1501;150102;Pantai Pasir Panjang ;Alam 
+162;15;JAMBI;1501;150102;Pulau Kelelawar Cangkat;Alam 
+163;15;JAMBI;1501;150116;Air Terjun Ranah Pemetik ;Alam 
+164;15;JAMBI;1501;150108;Bukit Tebing;Alam 
+165;15;JAMBI;1501;150107;Air Terjun Pauh Sago;Alam 
+166;15;JAMBI;1501;150107;Air Terjun Bedeng IV;Alam 
+167;15;JAMBI;1501;150108;Panorama Tanjung Pelita ;Alam 
+168;15;JAMBI;1501;157202;Taman Nasional Kerinci Seblat;Alam 
+169;15;JAMBI;1501;150106;Bukit Sembahyang;Alam 
+170;15;JAMBI;1501;150106;Bukit Sembahyang;Alam 
+171;15;JAMBI;1501;150120;Perkebunan Kayu Manis ;Alam 
+172;15;JAMBI;1501;150108;Bukit Ampera;Alam 
+173;15;JAMBI;1501;150101;Danau Inai ;Alam 
+174;15;JAMBI;1501;150101;Danau Nasi Kering;Alam 
+175;15;JAMBI;1501;150101;Air Terjun Siluang Bersisik Emas;Alam 
+176;15;JAMBI;1501;150101;Air Terjun Nyi Maeh Kupak;Alam 
+177;15;JAMBI;1501;150104;Bukit Sumur Tujuh;Alam 
+178;15;JAMBI;1501;150104;Bukit Kursi;Alam 
+179;15;JAMBI;1501;150118;Air Terjun Pancuran Minyak Lubuk Tambun;Alam 
+180;15;JAMBI;1501;150107;Goa Sago ;Alam  
+181;15;JAMBI;1501;150120;Lubuk Larangan ;Alam  
+182;15;JAMBI;1501;150120;Lubuk Larangan ;Alam  
+183;15;JAMBI;1501;150108;Bukit Tanjung Hatta ;Alam  
+184;15;JAMBI;1501;150104;Anjung Banio ;Alam  
+185;15;JAMBI;1501;150111;Panorama Bukit Filla ;Alam  
+186;15;JAMBI;1501;150111;Air Terjun Puti Mayang ;Alam  
+187;15;JAMBI;1501;150111;Gunung Terasih ;Alam  
+188;15;JAMBI;1501;150117;Danau Cinto ;Alam  
+189;15;JAMBI;1501;150108;Telago Paradise;Buatan 
+190;15;JAMBI;1501;150101;Batu Meriam ;Buatan 
+191;15;JAMBI;1501;150101;Batu Kursi ;Buatan 
+192;15;JAMBI;1501;150101;Batu Besurat ;Buatan 
+193;15;JAMBI;1501;150120;Batu Gong ;Buatan 
+194;15;JAMBI;1501;150120;Batu Pantai ;Buatan 
+195;15;JAMBI;1501;150108;Batu Bergambar ;Buatan 
+196;15;JAMBI;1501;150108;Batu Gong ;Buatan 
+197;15;JAMBI;1501;150108;Batu Biduk ;Buatan 
+198;15;JAMBI;1501;150111;Batu Lumang ;Buatan 
+199;15;JAMBI;1501;150111;Kerajinan Bambu ;Buatan 
+200;15;JAMBI;1501;150111;Kerajinan Rotan ;Buatan 
+201;15;JAMBI;1501;150102;Taman Husein ;Buatan 
+202;15;JAMBI;1501;150105;Taman Pertiwi ;Buatan 
+203;15;JAMBI;1501;150116;T.R Air Terjun Putri Dian Surya;Buatan 
+204;15;JAMBI;1501;150120;Taman Rekreasi Bustan Fish;Buatan 
+205;15;JAMBI;1501;150109;Taman Rekreasi Puncak Rindu;Buatan 
+206;15;JAMBI;1501;150116;Taman Bunga ;Buatan 
+207;15;JAMBI;1501;150109;Taman Rekreasi Mekar Sari;Buatan 
+208;15;JAMBI;1501;150102;Taman Rekreasi Patagen;Buatan 
+209;15;JAMBI;1501;150117;Taman Putri Tunggal ;Buatan 
+210;15;JAMBI;1501;150116;Taman Rekreasi Pancuran Tujuh ;Buatan 
+211;15;JAMBI;1501;150107;Taman Wisata Sisik Melik;Buatan
+212;15;JAMBI;1501;150107;Gemuruh Malgan Sakti;Buatan 
+213;15;JAMBI;1501;150108;Family Garden;Buatan 
+214;15;JAMBI;1501;150109;Panorama Puncak ;Buatan 
+215;15;JAMBI;1501;150102;Jembatan Pelangi;Buatan 
+216;15;JAMBI;1501;150102;Pesanggrahan Agung Danau Kerinci;Buatan 
+217;15;JAMBI;1501;150108;Mesjid Keramat ;Sejarah/Budaya
+218;15;JAMBI;1501;150108;Kuburan Nenek Teragea;Sejarah/Budaya
+219;15;JAMBI;1501;150108;Kolam Patimah;Sejarah/Budaya
+220;15;JAMBI;1501;150102;Monumen Gempa ;Sejarah/Budaya
+221;15;JAMBI;1501;150120;Benteng Depati Parbo ;Sejarah/Budaya
+222;15;JAMBI;1501;150102;Museum Kerinci;Sejarah/Budaya
+223;15;JAMBI;1501;150120;Situs Guci ;Sejarah/Budaya
+224;15;JAMBI;1501;150120;Batu Patah;Sejarah/Budaya
+225;15;JAMBI;1501;150120;Situs Masjid Nurul Iman;Sejarah/Budaya
+226;15;JAMBI;1501;150102;Masjid Kuno Desa Tanjung Pauh Hilir;Sejarah/Budaya
+227;15;JAMBI;1501;150102;Masjid Nurul Jalal;Sejarah/Budaya
+228;15;JAMBI;1501;150101;Batu Bersurat;Sejarah/Budaya
+229;15;JAMBI;1501;150108;Situs Megalitik Benik ;Sejarah/Budaya
+230;15;JAMBI;1501;150108;Jembatan Merah;Sejarah/Budaya
+231;15;JAMBI;1501;150116;Situs Tembikar;Sejarah/Budaya
+232;15;JAMBI;1501;150108;Air Terjun Pencuran Rayo;Alam
+233;15;JAMBI;1501;150102;Taman Pertiwi Desa Pentagen;Buatan
+234;15;JAMBI;1503;150304;Cagar Biosfir Bukit Dua Belas;Alam
+235;15;JAMBI;1503;150304;Taman Nasional Bukit 12 (TNBD);Alam
+236;15;JAMBI;1503;150301;Sungai Batang Asai;Alam
+237;15;JAMBI;1503;150303;Danau Biaro;Alam
+238;15;JAMBI;1503;150301;Air Terjun Simpang Narso;Alam
+239;15;JAMBI;1503;150301;Panorama Alam Bukit Rayo;Alam
+240;15;JAMBI;1503;150301;Bukit Paradun Sulah;Alam
+241;15;JAMBI;1503;150303;Panorama diantara dua jembatan;Alam
+242;15;JAMBI;1503;150303;Panorama Jembatan Beatrix;Alam
+243;15;JAMBI;1503;150303;Danau Ladang Panjang;Alam
+244;15;JAMBI;1503;150301;Danau Kaco;Alam
+245;15;JAMBI;1503;150302;Bukit Tempurung;Alam
+246;15;JAMBI;1503;150302;Dam Muaro Kutur;Alam
+247;15;JAMBI;1503;150302;Karst Bukit Bulan;Alam
+248;15;JAMBI;1503;150301;Batu Empang;Alam
+249;15;JAMBI;1503;150301;Arung Jeram Muara Talang;Alam
+250;15;JAMBI;1503;150303;Taman Perkantoran Gunung Kembang;Buatan
+251;15;JAMBI;1503;150303;Taman Tepian Cik Minah;Buatan
+252;15;JAMBI;1503;150303;Taman Laman Basamo;Buatan
+253;15;JAMBI;1503;150301;Bukit Tempurung Garden;Buatan
+254;15;JAMBI;1503;150309;Water Boom Khalisah;Buatan
+255;15;JAMBI;1503;150305;Aqua Splash Water Boom;Buatan
+256;15;JAMBI;1503;150305;Celosia Sarolangun Indah;Buatan
+257;15;JAMBI;1503;150309;Water Park ABC;Buatan
+258;15;JAMBI;1503;150303;Lapangan Sriwijaya;Buatan
+259;15;JAMBI;1503;150303;Dam Ayik Muap;Buatan
+260;15;JAMBI;1503;150303;Taman Tepian Ancol Sarolangun;Buatan
+261;15;JAMBI;1503;150303;Taman Komplek KONI;Buatan
+262;15;JAMBI;1503;150307;Kawasan SAD;Sejarah/Budaya
+263;15;JAMBI;1503;150301;Makam Para Sultan;Sejarah/Budaya
+264;15;JAMBI;1503;150303;Masjid Agung Sarolangun;Sejarah/Budaya
+265;15;JAMBI;1503;150303;Rumah Contreleur / Rumah Dinas Bupati;Sejarah/Budaya
+266;15;JAMBI;1503;150306;Batu Putri Dahak Putri;Sejarah/Budaya
+267;15;JAMBI;1503;150303;Ancol Sarolangon;Buatan
+268;15;JAMBI;1503;150303;Telun Mombung Desa Muara Cuban;Alam
+269;15;JAMBI;1504;150403;Taman Hutan Raya Senam;Alam
+270;15;JAMBI;1504;150403;Danau Letang;Alam
+271;15;JAMBI;1504;150405;Danau Bangko;Alam
+272;15;JAMBI;1504;150402;Goa Tengkorak;Alam
+273;15;JAMBI;1504;150403;Taman Rekreasi Rengas Condong;Alam
+274;15;JAMBI;1504;150407;Hamparan Padang Ilalang;Alam
+275;15;JAMBI;1504;150403;Danau Puri Indah;Alam
+276;15;JAMBI;1504;150406;Air Terjun Bukit Bakar;Alam
+277;15;JAMBI;1504;150405;Danau Semangkat;Alam
+278;15;JAMBI;1504;150402;Danau Kehidupan;Alam
+279;15;JAMBI;1504;150406;Konservasi Pagar Bulian;Alam
+280;15;JAMBI;1504;150403;Taman Hutan Raya Sultan Thaha Syaifuddin ;Alam
+281;15;JAMBI;1504;150406;Hutan Bukit 12;Alam
+282;15;JAMBI;1504;150407;Taman Wisata Mugi Rahayu;Buatan
+283;15;JAMBI;1504;150403;Taman Talang Bukit Berbunga;Buatan
+284;15;JAMBI;1504;150402;Taman Remaja Muara Tembesi;Buatan
+285;15;JAMBI;1504;150402;Puri Rimbo Bulian;Buatan
+286;15;JAMBI;1504;150403;Lapangan Garuda;Buatan
+287;15;JAMBI;1504;150402;Panorama Danau Biru;Buatan
+288;15;JAMBI;1504;150403;Waterboom;Buatan
+289;15;JAMBI;1504;150404;Bendungan Pall Batu;Buatan
+290;15;JAMBI;1504;150407;Lapangan Golf;Buatan
+291;15;JAMBI;1504;150402;Danau Biru;Buatan
+292;15;JAMBI;1504;150403;Taman Agro Wisata Buah Naga ;Buatan
+293;15;JAMBI;1504;150403;Taman Mumtaz;Buatan
+294;15;JAMBI;1504;150403;Taman Talang Bukit Berbunga;Buatan
+295;15;JAMBI;1504;150403;Taman Pematang Umo Tinggal;Buatan
+296;15;JAMBI;1504;150402;Taman Sungai Bulian ;Buatan
+297;15;JAMBI;1504;150403;Rumah Adat Batanghari;Sejarah/Budaya
+298;15;JAMBI;1504;150406;Seni Budaya Suku Anak Dalam;Sejarah/Budaya
+299;15;JAMBI;1504;150405;Gugus Candi;Sejarah/Budaya
+300;15;JAMBI;1504;150405;Kerajinan Ukiran Kayu;Sejarah/Budaya
+301;15;JAMBI;1504;150402;Kerajinan Rotan;Sejarah/Budaya
+302;15;JAMBI;1504;150403;Benteng Penyerahan Kedaulatan Tembesi;Sejarah/Budaya
+303;15;JAMBI;1504;150403;Pasar Muara Tembesi;Sejarah/Budaya
+304;15;JAMBI;1504;150405;Candi Pematang Saung;Sejarah/Budaya
+305;15;JAMBI;1504;150403;Candi Rambahan ;Sejarah/Budaya
+306;15;JAMBI;1504;150408;Mesjid Desa Terusan;Sejarah/Budaya
+307;15;JAMBI;1504;150403;Candi Teratai Duren Ijo;Sejarah/Budaya
+308;15;JAMBI;1504;150406;Candi Danau Bangko ;Sejarah/Budaya
+309;15;JAMBI;1504;150407;Goa Jepang ;Sejarah/Budaya
+310;15;JAMBI;1571;157104;Sungai Batanghari;Alam
+311;15;JAMBI;1571;157106;Danau Teluk;Alam
+312;15;JAMBI;1571;157107;Taman Arena Remaja;Buatan
+313;15;JAMBI;1571;157107;Taman Pendestrian Jomblo;Buatan
+314;15;JAMBI;1571;157107;Taman Perumnas Kota Baru;Buatan
+315;15;JAMBI;1571;157108;Taman Simpang Pulai;Buatan
+316;15;JAMBI;1571;157104;Taman Makalam;Buatan
+317;15;JAMBI;1571;157110;Taman Jaksa;Buatan
+318;15;JAMBI;1571;157101;Taman Tugu Juang;Buatan
+319;15;JAMBI;1571;157107;Taman Kongkow;Buatan
+320;15;JAMBI;1571;157101;Taman Adipura;Buatan
+321;15;JAMBI;1571;157102;Taman Tugu Pkk;Buatan
+322;15;JAMBI;1571;157105;Taman Sanggar Batik;Buatan
+323;15;JAMBI;1571;157107;Taman Hutan Kota Muhammat Sabki;Buatan
+324;15;JAMBI;1571;157101;Taman Anggrek Sri Sudewi Maschun Sofwan;Buatan
+325;15;JAMBI;1571;157111;Taman Mini Rumah Adat Jambi;Buatan
+326;15;JAMBI;1571;157107;Kampung Radja;Buatan
+327;15;JAMBI;1571;157111;Kebun Binatang Taman Rimba;Buatan
+328;15;JAMBI;1571;157107;Taman Hutan Pinus;Buatan
+329;15;JAMBI;1571;157111;Kampung Organik;Buatan
+330;15;JAMBI;1571;157103;Jembatan Batanghari II;Buatan
+331;15;JAMBI;1571;157107;Jembatan Makalam;Buatan
+332;15;JAMBI;1571;157103;Jembatan Pedestarian Gentala Arasy;Buatan
+333;15;JAMBI;1571;157101;Jembatan Batanghari I;Buatan
+334;15;JAMBI;1571;157104;Pasar Keramik Sitimang;Buatan
+335;15;JAMBI;1571;157104;Pasar Angso Duo;Buatan
+336;15;JAMBI;1571;157107;Tugu Keris Siginjai ;Buatan
+337;15;JAMBI;1571;157111;Tugu Adipura;Buatan
+338;15;JAMBI;1571;157102;Tugu Pkk Thehook Jambi Selatan ;Buatan
+339;15;JAMBI;1571;157110;Tugu Juang;Buatan
+340;15;JAMBI;1571;157101;Tugu Pers;Buatan
+341;15;JAMBI;1571;157102;Tugu Tari Sikapursirih ( Tugu Selamnat Datang );Buatan
+342;15;JAMBI;1571;157104;Tugu Simpang Makalam ;Buatan
+343;15;JAMBI;1571;157101;Tugu Pencinta Tanaman ;Buatan
+344;15;JAMBI;1571;157111;Reagen Futsal;Buatan
+345;15;JAMBI;1571;157108;Gelanggang Olah Raga (Gor) Kota Baru;Buatan
+346;15;JAMBI;1571;157102;Stadion Persatuan Sepak Bola Jambi (Persijam);Buatan
+347;15;JAMBI;1571;157104;Stadion Tri Lomba Juang (Koni) ;Buatan
+348;15;JAMBI;1571;157107;Kolam Renang Tepian Rajo ;Buatan
+349;15;JAMBI;1571;157104;Waterboom Abadi ;Buatan
+350;15;JAMBI;1571;157107;Kolam Renang Mayang Club ;Buatan
+351;15;JAMBI;1571;157101;Lapangan Golf Karya Telanaipura ;Buatan
+352;15;JAMBI;1571;157101;Balairung Sari Propinsi Jambi;Buatan
+353;15;JAMBI;1571;157107;Lembaga Ada Melayu Tanah Pilih Pusako Bentuh;Buatan
+354;15;JAMBI;1571;157105;Sanggar Batik Selaras Pinang Masak;Budaya
+355;15;JAMBI;1571;157101;Rumah Tenun Dan Songket;Budaya
+356;15;JAMBI;1571;157106;Batik Azmiah;Budaya
+357;15;JAMBI;1571;157108;Asrama Haji;Budaya/Religi
+358;15;JAMBI;1571;157101;Masjid Agung Alfalah;Budaya/Religi
+359;15;JAMBI;1571;157104;Masjid Raya Nagat Sari;Budaya/Religi
+360;15;JAMBI;1571;157106;Masjid Olak Kemang ( Masjid Al lhsaniyah);Budaya/Religi
+361;15;JAMBI;1571;157101;Masjid Nurdin Nurdin;Budaya/Religi
+362;15;JAMBI;1571;157105;Masjid Ba'alawy;Budaya/Religi
+363;15;JAMBI;1571;157104;Gereja Katolik St. Theresia;Budaya/Religi
+364;15;JAMBI;1571;157107;Gereja HKBP Kota Baru Jambi;Budaya/Religi
+365;15;JAMBI;1571;157103;Wihara Sakyakirti;Budaya/Religi
+366;15;JAMBI;1571;157107;Pura Giri Indra Lokha;Budaya/Religi
+367;15;JAMBI;1571;157106;Haul Al Habib Idrus Bin Al Jufri Atau Pangeran Wiro Kusumo;Budaya/Religi
+368;15;JAMBI;1571;157102;Bangker Jepang;Sejarah
+369;15;JAMBI;1571;157101;Menara Air Pdam Benteng  ;Sejarah
+370;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda - Unja Telanai;Sejarah
+371;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda Kantor Residen Belanda ( Mako Brimbo);Sejarah
+372;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda Rumah Sakit Dkt;Sejarah
+373;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda Smp Negeri 1 Kota;Sejarah
+374;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda Rumah Dinas Gubernur Jambi;Sejarah
+375;15;JAMBI;1571;157103;Bangunan Peninggalan Belanda Rumah Pejabat Pertamina ;Sejarah
+376;15;JAMBI;1571;150406;Rumah Batu Olak Kemang;Sejarah / Budaya
+377;15;JAMBI;1571;157104;Makam Belanda (Kerkhof);Sejarah / Budaya
+378;15;JAMBI;1571;157101;Situs Candi Solok Sipin;Sejarah/Religi
+379;15;JAMBI;1571;157106;Makam Pangeran Wiro Kusumo;Sejarah/Religi
+380;15;JAMBI;1571;157105;Makam Bangsawan Melayu ;Sejarah/Religi
+381;15;JAMBI;1571;157101;Makam Raden Matthaher;Sejarah/Religi
+382;15;JAMBI;1571;157101;Makam Taman Raja-Raja Makam Sultan Mahmud Mahidin;Sejarah/Religi
+383;15;JAMBI;1571;157104;Kelenteng Hok Tek;Sejarah/Religi
+384;15;JAMBI;1571;157101;Makam Temenggung Merah Mato;Sejarah/Religi
+385;15;JAMBI;1571;157101;Makam Putri Ayu;Sejarah/Religi
+386;15;JAMBI;1571;157105;Madrasah Dan Pesantren Al-Jauharen Kelurahan Tanjung Johor;Sejarah/Religi
+387;15;JAMBI;1571;157105;Madrasah Nurul Iman;Sejarah/Religi
+388;15;JAMBI;1571;157105;Pondok Pesantren Sa'adatuddaren ;Sejarah/Religi
+389;15;JAMBI;1571;157106;Pondok  Al As'ad;Sejarah/Religi
+390;15;JAMBI;1571;157106;Langgar Putih;Sejarah/Religi
+391;15;JAMBI;1571;150610;Kawasan Cagar Budaya  Seberang;Sejarah/Religi
+392;15;JAMBI;1571;157101;Wisata Pulau Kembang ;Alam
+393;15;JAMBI;1571;157105;Gentala Arasy;Buatan
+394;15;JAMBI;1571;157102;Ex Arena MTQ;Buatan
+395;15;JAMBI;1502;150204;Gading Bertuah;Alam
+396;15;JAMBI;1502;150204;Goa Tiangko (Goa Bujang dan Goa Senggirng);Alam
+397;15;JAMBI;1502;150201;Grao Solar, Grao Nguak Grao Kunyit, & Grao Sakti;Alam
+398;15;JAMBI;1502;150209;Gunung Sumbing;Alam
+399;15;JAMBI;1502;150202;Air Terjun Sungai Piul;Alam
+400;15;JAMBI;1502;150206;Batu Bersurat Prasati Karang Berahi;Alam
+401;15;JAMBI;1502;150204;Goa Senggayau;Alam
+402;15;JAMBI;1502;150205;Dam Betuk;Alam
+403;15;JAMBI;1502;150201;Danau Kumbang;Alam
+404;15;JAMBI;1502;150204;Air Terjun Telun Perentak;Alam
+405;15;JAMBI;1502;150223;Air Terjun Telalang Jaya/Air Terjun 7 Bidadari;Alam
+406;15;JAMBI;1502;150216;Air Terjun Muara Karing;Alam
+407;15;JAMBI;1502;150210;Air Terjun Kolam Jodoh;Alam
+408;15;JAMBI;1502;150216;Geopark Merangin;Alam
+409;15;JAMBI;1502;150202;Arboretum Rio Alif;Alam
+410;15;JAMBI;1502;150210;Teluk Wang Sakti;Alam
+411;15;JAMBI;1502;150218;Telaga Biru;Alam
+412;15;JAMBI;1502;150201;Air Terjun Dukun Bertuah;Alam
+413;15;JAMBI;1502;150202;Wisata Pulau Karam Kungkai;Alam
+414;15;JAMBI;1502;150209;Air Terjun Serintik Hujan Paneh;Alam
+415;15;JAMBI;1502;150204;Air Terjun 7 Bertingkat;Alam
+416;15;JAMBI;1502;150201;Air Terjun Empenau;Alam
+417;15;JAMBI;1502;150201;Air Terjun Aek Hitam;Alam
+418;15;JAMBI;1502;150201;Air Terjun Belula;Alam
+419;15;JAMBI;1502;150209;Air Terjun Datuk Mudo;Alam
+420;15;JAMBI;1502;150216;Arung Jeram Geopark Merangin;Alam
+421;15;JAMBI;1502;150203;Air Terjun Puti Daber;Alam
+422;15;JAMBI;1502;150202;Telun Tung Tilaen;Alam
+423;15;JAMBI;1502;150201;Hesti’s Garden;Buatan
+424;15;JAMBI;1502;150202;Taman Pemuda;Buatan 
+425;15;JAMBI;1502;150202;Taman Wisata Bukit Impian;Buatan
+426;15;JAMBI;1502;150202;Family Abadi Waterboom;Buatan
+427;15;JAMBI;1502;150213;Kolam Renang;Buatan
+428;15;JAMBI;1502;150202;Taman Bunga Green Kandis;Buatan
+429;15;JAMBI;1502;150202;Taman Batu Dusun Mudo;Buatan
+430;15;JAMBI;1502;150202;Taman Tanjung Menanti;Buatan 
+431;15;JAMBI;1502;150212;Lubuk Pelayang;Buatan
+432;15;JAMBI;1502;150202;Jam Gento;Sejarah/Budaya
+433;15;JAMBI;1502;150205;Perumahan Kuno Rantau Panjang;Sejarah/Budaya
+434;15;JAMBI;1502;150209;Danau Mabuk;Alam
+435;15;JAMBI;1502;150201;Air Panas Graow ;Alam
+436;15;JAMBI;1502;150201;Hutan Adat Desa Rantau Kermas;Alam
+437;15;JAMBI;1502;150201;Goa Tirau;Alam
+438;15;JAMBI;1502;150209;Air Terjun Parang Jatuh;Alam
+439;15;JAMBI;1502;150209;Air Terjun Lang Pisang;Alam
+440;15;JAMBI;1502;150209;Air Terjun Penghabisan Ikan;Alam
+441;15;JAMBI;1502;150209;Air Terjun Telun Goa Kambing;Alam
+442;15;JAMBI;1502;150209;Air Terjun Pengimbangan;Alam
+443;15;JAMBI;1502;150209;Air Terjun Sungai Tiling;Alam
+444;15;JAMBI;1502;150209;Air Terjun Muaro Sungai Meling;Alam
+445;15;JAMBI;1502;150209;Air Terjun Muaro Sungai Alai;Alam
+446;15;JAMBI;1502;150209;Napal Layao;Alam
+447;15;JAMBI;1502;150209;Air Terjun Telun Mukus;Alam
+448;15;JAMBI;1502;150209;Kungkai Paradise;Alam
+449;15;JAMBI;1502;150209;Air terjun Penyuwang gagah Pangi Rabut;Alam
+450;15;JAMBI;1502;150209;Goa Kambing Hutan;Alam
+451;15;JAMBI;1502;150209;Bukit Sedingin;Alam
+452;15;JAMBI;1502;150209;Bukit Tongkat Bapuncak Tigo;Alam
+453;15;JAMBI;1502;150209;Air Terjun Acuan Batu;Alam
+454;15;JAMBI;1502;150209;Air Terjun Labuhan Paku;Alam
+455;15;JAMBI;1502;150209;Air Terjun Nilo Sungsang;Alam
+456;15;JAMBI;1502;150218;Air Terjun Dan Goa Lubuk Angit ;Alam
+457;15;JAMBI;1502;150218;Air Terjun Lematang;Alam
+458;15;JAMBI;1502;150218;Bukit Batu;Alam
+459;15;JAMBI;1502;150218;Hutan Adat Desa Tanjung Alam;Alam
+460;15;JAMBI;1502;150216;Hutan Adat Guguk ;Alam
+461;15;JAMBI;1502;150216;Air Terjun Talang ngah;Alam
+462;15;JAMBI;1502;150216;Air Terjun Nengnong;Alam
+463;15;JAMBI;1502;150210;Air Terjun Simpang Manggis;Alam
+464;15;JAMBI;1502;150210;Air Terjun Sejinjing;Alam
+465;15;JAMBI;1502;150202;Air Terjun Sikuang Kuning;Alam
+466;15;JAMBI;1502;150205;Air Terjun Sungai Pasir ;Alam 
+467;15;JAMBI;1502;150205;Air Terjun Cecai Siwai;Alam
+468;15;JAMBI;1502;150206;Danau Temalam;Alam
+469;15;JAMBI;1502;150207;Air Terjun Bukit Selebu;Alam
+470;15;JAMBI;1502;150207;Hutan Adat Bukit Selebu;Alam
+471;15;JAMBI;1502;150207;Puncak Ngarau;Alam
+472;15;JAMBI;1502;150203;Bukit Benteng;Alam
+473;15;JAMBI;1502;150203;Bukit Gajah;Alam
+474;15;JAMBI;1502;150224;Air Terjun Telun 14;Alam
+475;15;JAMBI;1502;150224;Goa Bujang;Alam
+476;15;JAMBI;1502;150224;Goa Petekun ;Alam
+477;15;JAMBI;1502;150201;Rumah Tuo Jangkat;Buatan
+478;15;JAMBI;1502;150201;Batu Larung Talang Jambu Abang;Alam
+479;15;JAMBI;1502;150201;Batu Larung Talang Alo;Alam
+480;15;JAMBI;1502;150201;Bukit Batu Larung;Alam
+481;15;JAMBI;1502;150209;Batu Larung Pratin Tuo;Alam
+482;15;JAMBI;1502;150209;Religi Batu Ampar;Alam
+483;15;JAMBI;1502;150209;Batu Larung Tanjung Putih;Alam
+484;15;JAMBI;1502;150209;Batu Larung Rimbo Tembang;Alam
+485;15;JAMBI;1502;150209;Batu Larung Renah Luas;Alam
+486;15;JAMBI;1502;150209;Batu Larung Sungai Nilo;Alam
+487;15;JAMBI;1502;150218;BatuBersusun/Kekar Kolom;Alam
+488;15;JAMBI;1502;150201;Batu  Larung Talang Alo;Alam
+489;15;JAMBI;1502;150218;Batu Larung Gedang I;Alam
+490;15;JAMBI;1502;150218;Batu Larung Gedang II;Alam
+491;15;JAMBI;1502;150107;Batu Larung Pematang Pauh;Alam
+492;15;JAMBI;1502;150209;Batu Larung Pematang Punti;Alam
+493;15;JAMBI;1502;150206;Batu Bertulis;Alam
+494;15;JAMBI;1502;150205;Rumah Tuo Tabir (jantan);Buatan
+495;15;JAMBI;1502;150205;Rumah Tuo Tabir (betino);Buatan
+496;15;JAMBI;1502;150219;Perkampungan Anak Dalam;Alam
+497;15;JAMBI;1502;150213;Water Boom Tanjung Lamin ;Buatan
+498;15;JAMBI;1502;150206;Embung Pinang Merah ;Alam
+499;15;JAMBI;1502;150202;Taman Bunga Trans Garden C2;Buatan
+500;15;JAMBI;1502;150202;Taman Indah Lestari ;Buatan
+501;15;JAMBI;1502;150221;Water Boom Sumber Agung ;Buatan
+502;15;JAMBI;1502;150202;Taman Batu Sungkai ;Buatan
+503;15;JAMBI;1502;150208;Water Boom Muara Delang ;Buatan
+504;15;JAMBI;1502;150205;Embung Desa Sungai Sahut;Alam
+505;15;JAMBI;1502;150216;Taman Talang Tirta Asri;Buatan
+506;15;JAMBI;1502;150206;Taman Agro Wisata Buah ;Buatan
+507;15;JAMBI;1502;150206;Raja A4;Alam
+508;15;JAMBI;1502;150212;Bukit Pelayang;Alam
+509;15;JAMBI;1502;150213;Waterboom Family Abadi;Buatan
+510;15;JAMBI;1502;150202;Taman Impian;Buatan
+511;15;JAMBI;1502;150218;Taman Edukasi  Tanjung Benuang ;Buatan
+512;15;JAMBI;1502;150216; Zona Inti Georpark;Buatan
+513;15;JAMBI;1502;150204;Goa Singering;Alam
+514;15;JAMBI;1502;150201;Objek Wisata Pulau Tengah Water Tour;Buatan
+515;15;JAMBI;1502;150210;Embung Rejosari;Alam
+516;15;JAMBI;1502;150216;Muara Karing;Alam
+517;15;JAMBI;1502;150116;Surti Terawang Lidah ;Alam
+518;15;JAMBI;1502;150204;Bukit Tirau;Alam
+519;15;JAMBI;1502;150209;Pulau Batu;Alam
+520;15;JAMBI;1505;150501;Simpur;Buatan
+521;15;JAMBI;1505;150501;Sungai Napal;Alam
+522;15;JAMBI;1505;150501;Hutan Pinus;Alam
+523;15;JAMBI;1505;150505;Lubuk Kapar;Alam
+524;15;JAMBI;1505;150506;Taman ACI;Buatan
+525;15;JAMBI;1505;150508;Penangkaran Buaya;Buatan
+526;15;JAMBI;1505;150508;Bumi Perkemahan;Buatan
+527;15;JAMBI;1505;150508;Jambi Paradise;Buatan
+528;15;JAMBI;1505;150507;Taman Mugi Rahayu;Buatan
+529;15;JAMBI;1505;150501;Lubuk Penyengat;Buatan
+530;15;JAMBI;1505;150504;Wisata Kanal Tuo;Buatan
+531;15;JAMBI;1505;150501;Waterpark Citra Raya City;Buatan
+532;15;JAMBI;1505;150505;Al Fursan Stables;Buatan
+533;15;JAMBI;1505;150508;Taman Oasis;Buatan
+534;15;JAMBI;1505;150502;Wisata Pematang Pula;Buatan
+535;15;JAMBI;1505;150506;Makam Putri Selaras Pinang Masak;Sejarah
+536;15;JAMBI;1505;150504;Komplek Percandian Muaro Jambi;Sejarah
+537;15;JAMBI;1505;150502;Danau Tangkas;Alam
+538;15;JAMBI;1505;150505;Alam Sebapo;Alam

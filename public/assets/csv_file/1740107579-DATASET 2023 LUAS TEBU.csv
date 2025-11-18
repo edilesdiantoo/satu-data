@@ -1,0 +1,5 @@
+NO;kode_provinsi;nama_provinsi;kode_kabupaten;nama_kabupaten;komoditi;luas_tanaman_belum_menghasilkan;luas_tanaman_menghasilkan;luas_tanaman_tidak_menghasilkan_atau_tanaman_rusak;jumlah;satuan;tahun
+1;15;JAMBI;1501;KERINCI;TEBU;200;1.689;-;1.889;HEKTAR;2022
+2;15;JAMBI;1572;SUNGAI PENUH;TEBU;-;3;-;3;HEKTAR;2022
+3;15;JAMBI;1501;KERINCI;TEBU;150;1.739;-;1.942;HEKTAR;2023
+4;15;JAMBI;1572;SUNGAI PENUH;TEBU;29;24;-;53;HEKTAR;2023

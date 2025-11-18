@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": { "type": "string" },
+        "response_code": { "type": "integer" },
+        "data": {
+            "type": "object",
+            "properties": {
+                "judul": { "type": "string" },
+                "nama_opd": { "type": "string" },
+                "id_opd": { "type": "integer" },
+                "diupload_oleh": { "type": "string" },
+                "tahun_datasets": { "type": "integer" },
+                "id_kategori": { "type": "integer" },
+                "status": { "type": "string" },
+                "deskripsi": { "type": "string" },
+                "tags": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "sifat_datasets": { "type": "string" }
+            },
+            "required": [
+                "judul",
+                "nama_opd",
+                "id_opd",
+                "diupload_oleh",
+                "tahun_datasets",
+                "id_kategori",
+                "status"
+            ]
+        },
+        "metadata": {
+            "type": "object",
+            "properties": {
+                "pengukuran_datasets": { "type": "string" },
+                "tingkat_penyajian_datasets": { "type": "string" },
+                "cakupan_datasets": { "type": "string" },
+                "bidang": { "type": "string" },
+                "penganggung_jawab": { "type": "string" },
+                "kontak_produsen": { "type": "string" },
+                "kode_indikator": { "type": "string" },
+                "bidang_urusan": { "type": "string" },
+                "satuan_datasets": { "type": "string" },
+                "frekuensi_datasets": { "type": "string" },
+                "dimensi_datasets": { "type": "string" },
+                "metadata": { "type": "string" }
+            }
+        },
+        "table": {
+            "type": "object",
+            "properties": {
+                "header": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "value": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": { "type": "string" }
+                    }
+                }
+            },
+            "required": ["header", "value"]
+        }
+    },
+    "required": ["status", "response_code", "data", "metadata", "table"]
+}

@@ -1,0 +1,890 @@
+﻿no;kode_provinsi;nama_provinsi;kode_kabupaten_kota;nama_kabupaten_kota;nama_perusahaan;nib;Day of tanggal_terbit_oss;status_penanaman_modal;flag_umk;uraian_jenis_perusahaan;alamat_perusahaan
+1;15;JAMBI;1571;KOTA JAMBI;PETABAR;0201230016855;01/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);jalan HMO Bafadhal
+2;15;JAMBI;1503;SAROLANGUN;KARISMA MEKAR JAYA;0201230021408;01/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Sekamis
+3;15;JAMBI;1505;MUARO JAMBI;RUMINDO SUKSES;0201230028035;01/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);" Desa Tangkit
+"
+4;15;JAMBI;1506;TANJUNG JABUNG BARAT;CANDI AGUNG MEDIKA;0301230002386;01/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Syarif Hidayatullah
+5;15;JAMBI;1571;KOTA JAMBI;PRIMA INDO TEKNIK;0301230022853;01/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Yunus Sanis No. 29
+6;15;JAMBI;1505;MUARO JAMBI;LINDISA FARM;0301230034755;01/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Bertam
+7;15;JAMBI;1504;BATANGHARI;HARTAKE SUKSES MANDIRI;0401230007067;01/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Jambi-Muara Bulian
+8;15;JAMBI;1571;KOTA JAMBI;ATHENA JAMBI;0501230012738;01/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kapt. Pattimura, Nomor 35
+9;15;JAMBI;1509;TEBO;JAYA MAMBO;0501230030503;01/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ki Hajar Dewantara
+10;15;JAMBI;1571;KOTA JAMBI;SARFARAZ PUTRA JAYA;0501230061259;01/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Pendidikan
+11;15;JAMBI;1571;KOTA JAMBI;TAUFIK MULYA AGUNG;0601230035761;01/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Swadaya Raya
+12;15;JAMBI;1502;MERANGIN;KETAWANG JAYA;0601230042792;01/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Tanah Abang
+13;15;JAMBI;1501;KERINCI;ANDALAS MANDIRI BERKARYA;0601230043837;01/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pondok Beringin
+14;15;JAMBI;1571;KOTA JAMBI;SUMATERA SINERGI PERSADA;0701230003246;01/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bangau Ii, Nomor 07 
+15;15;JAMBI;1571;KOTA JAMBI;NADIRA SAFIRA ABADI;0701230006894;01/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sinar Fajar
+16;15;JAMBI;1504;BATANGHARI;RATUTAMA SEJAHTERA;0701230011978;01/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Sudirman, Kelurahan Rengas Condong
+17;15;JAMBI;1571;KOTA JAMBI;FRENTO MINERALINDO;0901230039476;01/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Dara Petak Nomor : 125
+18;15;JAMBI;1571;KOTA JAMBI;ARMAGAN;0901230056802;01/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Poros Bougenvile Lr. Sejahtera Perum Simp. Rimbo 
+19;15;JAMBI;1504;BATANGHARI;YOLANDA LIMA UTAMA;0901230065104;01/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Kotoboyo
+20;15;JAMBI;1572;KOTA SUNGAI PENUH;CAHAYA FAJAR MANDIRI;1001230034479;01/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sandaran Galeh, Kecamatan Kumun Debai, Kota Sungai Penuh, Provinsi Jambi
+21;15;JAMBI;1507;TANJUNG JABUNG TIMUR;TAUSINCOCO;1101230000416;01/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Marga Mulya
+22;15;JAMBI;1501;KERINCI;HALO JARINGAN PRIORITAS;1101230000877;01/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Koto Majidin Diair, Koto Majidin Mudik, Kecamatan Air Hangat
+23;15;JAMBI;1571;KOTA JAMBI;BABATAN EMPAT LAWANG;1101230046689;01/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Darma Karya 2, No.25
+24;15;JAMBI;1505;MUARO JAMBI;ZIYAN JAYA MAKMUR;1101230053145;01/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Belimbing Sumber Agung
+25;15;JAMBI;1505;MUARO JAMBI;MUHI BERSAUDARA;1201230017497;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Valencia Blok. No 37
+26;15;JAMBI;1571;KOTA JAMBI;MAHARANI MUTIARA MANDIRI;1201230019488;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Pattimura Ir. Abdurrahman 2 No. 139
+27;15;JAMBI;1571;KOTA JAMBI;MULTI KONTRUKSI INDONESIA;1201230067842;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mayjen Soetoyo Nomor 32A 
+28;15;JAMBI;1508;BUNGO;RESTU BUMI ANUGERAH;1201230070369;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Kilometer 2 Arah Padang
+29;15;JAMBI;1506;TANJUNG JABUNG BARAT;HOKINDO KONTRUKSI MANDIRI;1201230078034;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Namirah Blok A, Kelurahan Sungai Nibung
+30;15;JAMBI;1571;KOTA JAMBI;RUANG BUMI INDONESIA;1201230079092;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Delima Mayang Blok Garuda No.1 Jl Lingkar Barat Ii
+31;15;JAMBI;1505;MUARO JAMBI;TRI PRIMA BUANA;1201230085706;01/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Seroja
+32;15;JAMBI;1509;TEBO;ARI AMRIL KARYA;1401230000228;01/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Patimura 
+33;15;JAMBI;1505;MUARO JAMBI;TITIAN TERAS TANGGO BATU;1401230010567;01/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rukun Tetangga 004, Rukun Warga 001, Kelurahan/ Desa Pijoan, Kecamatan Jambi Luar Kota, Kabupaten Muaro Jambi, Provinsi Jambi
+34;15;JAMBI;1571;KOTA JAMBI;BISA FOTO KREATIF;1601230018943;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Surya Negara
+35;15;JAMBI;1501;KERINCI;BERKAH FIQRI KERINCI;1601230021279;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Siulak Kecil Mudik, Kecamatan Siulak 
+36;15;JAMBI;1506;TANJUNG JABUNG BARAT;SAHARA PRATAMA MANDIRI;1601230055955;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Kapten Darham
+37;15;JAMBI;1507;TANJUNG JABUNG TIMUR;POETRA KURNIA;1601230060163;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Madrasah
+38;15;JAMBI;1509;TEBO;KALAENA DUTA KONSTRUKSI;1601230080165;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kalaena
+39;15;JAMBI;1571;KOTA JAMBI;EFATA PRO;1601230080299;01/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Serunai Malam Iii
+40;15;JAMBI;1571;KOTA JAMBI;ADHIKARI GLOBAL UTAMA;1701230008335;01/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Sumantri Brojonegoro
+41;15;JAMBI;1571;KOTA JAMBI;CHINOS DESIGN;1701230008559;01/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sersan Anwar Bay, Lr. Citra Perumahan Villa Delima Mayang Blok D Nomor 11
+42;15;JAMBI;1503;SAROLANGUN;RIFKI PUTRA PRATAMA;1701230011597;01/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Batu Emaoang
+43;15;JAMBI;1502;MERANGIN;AZME MANDIRI SEJAHTERA;1701230012846;01/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kel. Mampun
+44;15;JAMBI;1571;KOTA JAMBI;MAJU JAYA TRANPORTASI;1701230027393;01/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lrg. Pandoman
+45;15;JAMBI;1506;TANJUNG JABUNG BARAT;NANDA KURNIA MANDIRI;1801230045304;01/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Parit Lapis Tomo
+46;15;JAMBI;1571;KOTA JAMBI;AGEFI ALMAHYRA;1801230052662;01/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jenderal Sudirman, No. 68
+47;15;JAMBI;1571;KOTA JAMBI;WILDAN ALFATIH JAYA;1901230010892;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gajah Mada
+48;15;JAMBI;1571;KOTA JAMBI;TITIK BALIK BERSAMA;1901230017179;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Teguh Permai Iii No.8A
+49;15;JAMBI;1571;KOTA JAMBI;RAJO MUDO;1901230032207;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Griya Rukun Sentosa V, Blok B, No 19
+50;15;JAMBI;1506;TANJUNG JABUNG BARAT;IKHSAN ZAINETTI;1901230046475;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Tebing Tinggi Rt. 014
+51;15;JAMBI;1505;MUARO JAMBI;MARAWA MANAGEMENT;1901230047454;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Sumatera Dusun Kenali Kecil
+52;15;JAMBI;1571;KOTA JAMBI;TRI KARYA BERSAUDARA;1901230058502;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Poros Bougenvile Lr. Sejahtera Perum Simp. Rimbo
+53;15;JAMBI;1571;KOTA JAMBI;UBEID BERSAUDARA;1901230072893;01/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol. Pol. M. Thaher No.44
+54;15;JAMBI;1571;KOTA JAMBI;ILHAM PUTRA CONSULTANT;2001230025967;01/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Pesona Jambi Blok X Nomor 32
+55;15;JAMBI;1505;MUARO JAMBI;MUTIARA SEJAHTERA ABADI;2101230004647;01/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lopak Alai
+56;15;JAMBI;1571;KOTA JAMBI;NARAYA ARTHA JAYA;2201230006415;01/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Malik Ibrahim
+57;15;JAMBI;1504;BATANGHARI;JAYA MULYA EKA JAYA;2301230032202;01/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bajubang Laut
+58;15;JAMBI;1571;KOTA JAMBI;AUCHY WIJAYA;2401230028289;01/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Puri Mayang Cluster Cassablanca No. K19
+59;15;JAMBI;1508;BUNGO;BERSAMA GLAMINDO BUNGO;2401230046886;01/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatra, Pasar Batang Bungo, Muaro Bungo
+60;15;JAMBI;1571;KOTA JAMBI;SUMBER REZEKI KITA;2401230056178;01/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Serunai Malam 2.
+61;15;JAMBI;1571;KOTA JAMBI;PRAJNA SEJAHTERA;2401230064537;01/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof Dr Sumantri Brojonegoro
+62;15;JAMBI;1571;KOTA JAMBI;CIPTAWARNA;2401230076125;01/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Gajah Mada
+63;15;JAMBI;1508;BUNGO;JASMINE TUJUH KOTO;2501230024758;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Ramayani 4 Blok A No. 06
+64;15;JAMBI;1572;KOTA SUNGAI PENUH;KERINCI MULTI BANGUN UTAMA;2501230027515;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rukun Tetangga 001, Dusun Wirasakti, Desa Sandaran Galeh
+65;15;JAMBI;1571;KOTA JAMBI;KANG BANGUN SOBAT KONSTRUKSI;2501230050443;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Syailendra
+66;15;JAMBI;1571;KOTA JAMBI;HABI MULTI SOLUSI;2501230052658;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Guntur No. 119
+67;15;JAMBI;1508;BUNGO;RASAKI ANUGERAH SAMAA;2501230058543;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Batas Kampung Tukum Ii
+68;15;JAMBI;1571;KOTA JAMBI;ADILA SNACK;2501230077511;01/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. M.H. Thamrin No.49 Lebak Bandung Kota Jambi
+69;15;JAMBI;1506;TANJUNG JABUNG BARAT;GERHANA ANUGERAH MANDIRI;2601230020654;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Agus Nginot
+70;15;JAMBI;1505;MUARO JAMBI;LANGIT ADVERTISING;2601230026118;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Mendalo Indah
+71;15;JAMBI;1505;MUARO JAMBI;ELSHANUM PUTRI;2601230030247;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Gelam
+72;15;JAMBI;1505;MUARO JAMBI;TIFA MITRA NUSA;2601230032872;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Puri Masurai 2, Blok M No 09
+73;15;JAMBI;1571;KOTA JAMBI;ARKHON ENGINEERING SOLUTION;2601230046416;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Asparagus Iv No 151
+74;15;JAMBI;1508;BUNGO;MARIAM MAJU BERSAMA;2601230051408;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Arah Padang Km.17
+75;15;JAMBI;1503;SAROLANGUN;SUNGAI MERUNG ASRI;2601230067138;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun 1 Sri Mulyo
+76;15;JAMBI;1571;KOTA JAMBI;CITRA SARI MEDIATAMA;2601230067772;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kebun Daging, Komplek Sevilla Blok C 14
+77;15;JAMBI;1508;BUNGO;RADJA GROUP;2601230080006;01/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lrg. Rajawali
+78;15;JAMBI;1509;TEBO;LANTARAN JAMBI TRANSINDO;2701230023228;01/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Semambu
+79;15;JAMBI;1505;MUARO JAMBI;ROMEESA MANDIRI JAYA;2701230023265;01/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kota Kampus
+80;15;JAMBI;1571;KOTA JAMBI;PUTRA MINANG SEHATI;2701230032579;01/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kapt. Pattimura
+81;15;JAMBI;1571;KOTA JAMBI;SINAR TERANG PAGI;2701230050085;01/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol Pol M Taher No. 6 Rt. 24 
+82;15;JAMBI;1571;KOTA JAMBI;GOODFOOD SUKSES PERKASA;2701230062494;01/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kopral Ud Syaring 
+83;15;JAMBI;1571;KOTA JAMBI;SEBERANG SUNGAI BATANGHARI;2801230004884;01/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Arjuna Lrg. Marene No. 109
+84;15;JAMBI;1571;KOTA JAMBI;SENTOSA BATANGHARI MAKMUR;2801230012354;01/28/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sentot Alibasyah Lorong Masjid Taqwa Nomor  88
+85;15;JAMBI;1501;KERINCI;MEDINA ARIFA;2801230014319;01/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raya Pasar Semurup
+86;15;JAMBI;1571;KOTA JAMBI;AQIL SEJAHTERA MANDIRI;3001230058864;01/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Asparagus Iv Sanur Permai No. 88
+87;15;JAMBI;1571;KOTA JAMBI;HENDEBRO;3001230061246;01/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Premix Komplek Rifaza V Blok. D 08
+88;15;JAMBI;1571;KOTA JAMBI;TRIPUTRA ABADI MAKMUR;3001230066795;01/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bhayangkara Blok. E Nomor 11
+89;15;JAMBI;1571;KOTA JAMBI;ANDALAS JAYA PUTRA;3101230008544;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Orang Kayo Pingai
+90;15;JAMBI;1571;KOTA JAMBI;ZOYAN AL RAZAAK;3101230014664;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kimaja 4 
+91;15;JAMBI;1571;KOTA JAMBI;SUBUR BANGKIT JAYA;3101230025012;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Teluk Permai, Nomor 53
+92;15;JAMBI;1571;KOTA JAMBI;GRACINDO JAYA MULIA;3101230037737;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ar. Saleh, Perum Liverpool F, No: 4
+93;15;JAMBI;1571;KOTA JAMBI;VISHAKA RAKHA MANDIRI;3101230048638;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Gunung Manahan City V, Nomor D6
+94;15;JAMBI;1571;KOTA JAMBI;PERDANA NUSANTARA JAMBI;3101230065942;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ko Perum Parma Residence No.15, Rt .024, The Hok, Jambi Selatan, Kota Jambi
+95;15;JAMBI;1571;KOTA JAMBI;SUGA AGUS KOMPUTER;3101230067303;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jenderal A Thalib
+96;15;JAMBI;1571;KOTA JAMBI;GRAND PROSPERINDO ANUGRAH;3101230068754;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ar. Saleh Perum. Liverpool F No. 4
+97;15;JAMBI;1571;KOTA JAMBI;TEGUH MAKMUR MANDIRI;3101230079914;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Ar.Saleh, Perum Liverpool F No. 4,   Kel. Paal Merah, Kec. Jambi Selatan
+98;15;JAMBI;1571;KOTA JAMBI;MULIA MAKMUR JAYA;3101230080518;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ar. Saleh Perum. Liverpool F No. 4
+99;15;JAMBI;1571;KOTA JAMBI;BERKAT UTAMA MANDIRI;3101230081205;01/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ar. Saleh Perum Liverpool F No. 4
+100;15;JAMBI;1571;KOTA JAMBI;ASKARI UTAMA SEJAHTERA;0102230010033;02/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Barat
+101;15;JAMBI;1571;KOTA JAMBI;KARYA GRAHA JAYA SENTOSA;0102230044235;02/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Letkol Yunus Sanis No. A-12
+102;15;JAMBI;1571;KOTA JAMBI;MAJU JAYA BERSAMA;0102230055972;02/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raden Fatah
+103;15;JAMBI;1571;KOTA JAMBI;SIDDHA KARYA;0102230066489;02/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Makalam Nomor : 63
+104;15;JAMBI;1506;TANJUNG JABUNG BARAT;MOWRA INDAH;0202230003826;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Beringin
+105;15;JAMBI;1506;TANJUNG JABUNG BARAT;SUMBER AMANAH KELUARGA;0202230025823;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H. M. Nur Nurdin
+106;15;JAMBI;1571;KOTA JAMBI;TRITUNGGAL CAHAYA MANDIRI;0202230029726;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Barat Iii
+107;15;JAMBI;1571;KOTA JAMBI;PESONA ELANG;0202230041854;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sultan Hasanuddin 
+108;15;JAMBI;1571;KOTA JAMBI;JETRO HARAZAKI FUTURE;0202230047333;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Perum. Grand Namura Indah B.14
+109;15;JAMBI;1571;KOTA JAMBI;FIDYRY MAKMUR JAYA;0202230062598;02/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Abdul Muis
+110;15;JAMBI;1571;KOTA JAMBI;INCESS EKA;0302230009962;02/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sersan Zuraida Gg. Buntu Ruko A No. 20
+111;15;JAMBI;1509;TEBO;MEDIA SEPTIA MANDIRI;0302230022584;02/03/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Teluk Kuali
+112;15;JAMBI;1571;KOTA JAMBI;ANUGERAH ROYAL MAHKOTA;0302230051924;02/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H.M.O Bafadhal Nomor : 11
+113;15;JAMBI;1571;KOTA JAMBI;MUGHNII;0502230017647;02/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H. Samsoe Bahrun
+114;15;JAMBI;1506;TANJUNG JABUNG BARAT;ABC KARYA GROUP;0602230014724;02/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Manunggal Ii
+115;15;JAMBI;1509;TEBO;DUTA KARYA ABADI TEBO;0602230020469;02/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jujuhan
+116;15;JAMBI;1507;TANJUNG JABUNG TIMUR;ABDIL JAYA;0602230024589;02/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Jaya Indah
+117;15;JAMBI;1571;KOTA JAMBI;RADJO BETUAH JAMBI;0702230002628;02/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Nusa Indah I No. 17
+118;15;JAMBI;1503;SAROLANGUN;RIMBO BULIAN RAYA;0702230027981;02/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Gurun Tuo Simpang
+119;15;JAMBI;1571;KOTA JAMBI;DIANA ALFRIYANDO;0702230059624;02/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Btn Karya Indah Blok G 02
+120;15;JAMBI;1507;TANJUNG JABUNG TIMUR;SARI CAHAYA JAYA;0702230073282;02/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Margoyoso Desa Pandan Lagan 
+121;15;JAMBI;1571;KOTA JAMBI;ARCHIS VISTA PRAMA;0702230075306;02/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bintan
+122;15;JAMBI;1506;TANJUNG JABUNG BARAT;MERAKI KONSULTAN;0802230026933;02/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Kesejahteraan
+123;15;JAMBI;1506;TANJUNG JABUNG BARAT;TIGA SAUDARA MINERAL;0902230053372;02/09/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Lintas Merlung-Simpang Niam 
+124;15;JAMBI;1571;KOTA JAMBI;ANANG FAHMY JAYA;0902230064644;02/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kiayi Haji Saleh
+125;15;JAMBI;1503;SAROLANGUN;TUNAS MANDIRI SMKM;0902230065217;02/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Singkut 7 Blok B
+126;15;JAMBI;1571;KOTA JAMBI;BARRA KARYA MANDIRI;0902230069888;02/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Adam Malik Lorong Beringin Utama Nomor 120
+127;15;JAMBI;1571;KOTA JAMBI;ALAM GUNA SEJAHTERA;0902230077121;02/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rt.23, Kelurahan Legok, Kecamatan Danau Sipin , Kota Jambi, Provinsi Jambi.
+128;15;JAMBI;1503;SAROLANGUN;EKA SUNARYO MANCER;0902230079246;02/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pasar Singkut
+129;15;JAMBI;1503;SAROLANGUN;PAUH RIMBA ABADI;1002230002677;02/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Raya Simpang Pitco Km.02
+130;15;JAMBI;1502;MERANGIN;CENTRAL BATU TABIR RAYA;1002230003783;02/10/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Koto Baru 
+131;15;JAMBI;1505;MUARO JAMBI;HIDAYAH SAWIT UTAMA;1002230019948;02/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Petaling 
+132;15;JAMBI;1504;BATANGHARI;MUTIARA CAHAYA VALINA;1002230040863;02/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Poros, Desa Jangga Baru
+133;15;JAMBI;1571;KOTA JAMBI;SUMBER DAMAI SEJAHTERA CORP;1002230066838;02/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ir H Juanda Lorong Bersama Perumahan Pamalayu Asri Nomor 10
+134;15;JAMBI;1571;KOTA JAMBI;AKAR LANGIT MAHATECH;1102230028317;02/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Gajah Mada
+135;15;JAMBI;1502;MERANGIN;DAFFA MERANGIN KONSTRUKSI;1202230003546;02/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bangko Tinggi
+136;15;JAMBI;1571;KOTA JAMBI;DAKARA JAYA SANTOSHA;1302230017736;02/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Dharma Karya Perumaha Edelweis Regency
+137;15;JAMBI;1571;KOTA JAMBI;UNIVERSAL MULTI DESAIN;1302230031743;02/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kaca Piring Ii No. 20
+138;15;JAMBI;1507;TANJUNG JABUNG TIMUR;BERKAH REZEKI NAURAH;1402230089412;02/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);"Perum Edelweis Regency 3, Jalan Wr	 Supratman Blok I Nomor 13"
+139;15;JAMBI;1571;KOTA JAMBI;DANAU SIPIN AUTO SERVICE;1402230108409;02/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kamboja Iii
+140;15;JAMBI;1571;KOTA JAMBI;EKO;1502230090403;02/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Hayam Wuruk No 29
+141;15;JAMBI;1571;KOTA JAMBI;INTAN BERKAH;1502230117638;02/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Majapahit
+142;15;JAMBI;1571;KOTA JAMBI;KANAYYA PUTRI BONE;1602230004544;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Abdul Muis
+143;15;JAMBI;1571;KOTA JAMBI;GENCHAR BARAKATUNA JAYA;1602230007593;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kapt Dirhan, Lrg Widuri I, No 81
+144;15;JAMBI;1571;KOTA JAMBI;GALAKSI BAROKAH ABADI;1602230027404;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Alam Citra 1 No. 06
+145;15;JAMBI;1571;KOTA JAMBI;TUJUH ANGSANA SAMUDRA;1602230038046;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Bumi Mayang Mangurai Blok Widuri 03
+146;15;JAMBI;1571;KOTA JAMBI;DEAN ZAHIRA;1602230063461;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lrg. Perjuangan
+147;15;JAMBI;1503;SAROLANGUN;ABINAYA KHAIRA BARA PERKASA;1602230068163;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rangkiling Simpang
+148;15;JAMBI;1571;KOTA JAMBI;NUSANTARA PRODUCTION;1602230074046;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Depati Purbo
+149;15;JAMBI;1501;KERINCI;SEMIOTIKA DC;1602230113556;02/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Koto Baru, Kecamatan Air Hangat, Kabupaten Kerinci, Provinsi Jambi
+150;15;JAMBI;1571;KOTA JAMBI;BERKAH AMINAH;1702230009629;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Puri Mayang Casablanca Blok A.79
+151;15;JAMBI;1507;TANJUNG JABUNG TIMUR;PERMANA TEKNIK CONSULTANT;1702230046114;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Teuku Umar
+152;15;JAMBI;1508;BUNGO;PESONA WANITA INDONESIA;1702230048061;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Diponegoro Nomor 7
+153;15;JAMBI;1505;MUARO JAMBI;MAHAPATIH JAYA GRUP;1702230051672;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Javana Cozy Corner Blok Jr 15
+154;15;JAMBI;1506;TANJUNG JABUNG BARAT;SAWERIGADING UTAMA SAKTI;1702230063168;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bawal
+155;15;JAMBI;1571;KOTA JAMBI;ANUGERAH PERMAI MANDIRI;1702230064182;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Muhammad Husni Thamrin Nomor 12B
+156;15;JAMBI;1505;MUARO JAMBI;CAHAYO NEGRI CONSULTANT;1702230071382;02/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Javana Cozy Corner Blok Jr 15
+157;15;JAMBI;1571;KOTA JAMBI;LAKSANA KIKATRA;1802230000283;02/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Tp Sriwijaya, Gg Pabean , No 49
+158;15;JAMBI;1572;KOTA SUNGAI PENUH;ZHIORY;1802230009114;02/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ade Irma Suryani, Desa Sumur Anyir, Kecamatan Sungai Bungkal, Kota Sungai Penuh, Provinsi Jambi
+159;15;JAMBI;1504;BATANGHARI;LANGIT BUMI BERJAYA;2002230024495;02/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Mersam
+160;15;JAMBI;1571;KOTA JAMBI;INDO GRIN PERSADA;2002230068652;02/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Kolonel Abunjani Lrg. Cemara Iii
+161;15;JAMBI;1571;KOTA JAMBI;PULPEN JAYA ABADI;2002230109826;02/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Karya Maju, Lorong Kayu Manis 2 Nomor 48 Rt 014
+162;15;JAMBI;1571;KOTA JAMBI;ZADIR HIJAB COLLECTION;2102230054848;02/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.H.Agus Salim
+163;15;JAMBI;1571;KOTA JAMBI;ZAFIRAH AGUNG PERDANA;2202230036491;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ko. Perum Alamanda Asri 2 F/11 
+164;15;JAMBI;1503;SAROLANGUN;MAJU KARYA BERSAMA;2202230041654;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Bukit
+165;15;JAMBI;1507;TANJUNG JABUNG TIMUR;AL UTRA KENCANA MAKMUR;2202230073907;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Talang Babat
+166;15;JAMBI;1504;BATANGHARI;ASHY BANGUN UTAMA;2202230074739;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Muara Tembesi-Sarolangun
+167;15;JAMBI;1571;KOTA JAMBI;LENTERA SIGINJAI BERSAMA;2202230086384;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Pangeran Hidayat Lrg Siswa
+168;15;JAMBI;1508;BUNGO;ALEABHI DZAHIN HARAHAP;2202230086871;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H. A. Manap
+169;15;JAMBI;1571;KOTA JAMBI;KOMPEJ JAYA KONSTRUKSI;2202230087093;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Sri Rezeki
+170;15;JAMBI;1571;KOTA JAMBI;MANDIRI GLOBAL SUKSES SEJAHTERA;2202230094993;02/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Bengkulu No.124
+171;15;JAMBI;1571;KOTA JAMBI;BASKARA TIRTA BENTALA;2302230071096;02/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Hayam Wuruk
+172;15;JAMBI;1501;KERINCI;PUSTAKA RIYADZ;2302230075109;02/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Pemancar Nomor 50
+173;15;JAMBI;1571;KOTA JAMBI;RANIA JAYA ABADI;2302230090885;02/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pertanian
+174;15;JAMBI;1571;KOTA JAMBI;FAMILY AMANAH TRANS;2302230113236;02/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sumberejo Perumahan Griya Assalam Blok H No. 04
+175;15;JAMBI;1507;TANJUNG JABUNG TIMUR;BARRACUDA JAYA ENERGI;2402230041678;02/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Parit Culum 1
+176;15;JAMBI;1505;MUARO JAMBI;TUNAS BARU UTAMA;2402230049554;02/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kemenyan Jaya
+177;15;JAMBI;1501;KERINCI;IFDHAL NAUFALDHI GROUP;2402230068206;02/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Wisata Air Panas, Rt. 003 Rw. 000
+178;15;JAMBI;1508;BUNGO;HIJRAH JAYA;2502230014036;02/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bukit Telogo
+179;15;JAMBI;1571;KOTA JAMBI;BERKAH DASAR USAHA;2702230025628;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Gardenia Asri Blok E 12
+180;15;JAMBI;1571;KOTA JAMBI;PERIGI LOKA;2702230039929;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Prabu Siliwangi Rt 23 No 40 B
+181;15;JAMBI;1505;MUARO JAMBI;KLINIK PRATAMA RIZKY;2702230043922;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jambi - Suak Kandis Km. 13
+182;15;JAMBI;1571;KOTA JAMBI;TRIS BERKAH JAYA;2702230048997;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ir. Juanda Lorong Sma 4
+183;15;JAMBI;1503;SAROLANGUN;KARLINA JAYA;2702230083974;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bangun Makmur
+184;15;JAMBI;1508;BUNGO;DEHA;2702230086424;02/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Ibrahim Syamsir
+185;15;JAMBI;1509;TEBO;RIMBO BERKAH SEJAHTERA;2802230018104;02/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bali, Rt 004, Rw 004, Desa Giri Purno, Kecamatan Rimbo Ilir
+186;15;JAMBI;1508;BUNGO;DZAKY CIPTA PRODUCTION;2802230035327;02/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap); Perantian Balai 
+187;15;JAMBI;1571;KOTA JAMBI;ANUGERAH MULIA KENCANA;0103230031423;03/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Layang Layang 
+188;15;JAMBI;1571;KOTA JAMBI;PURI ANGGREK;0103230054608;03/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Sumatra Lrg. Muria
+189;15;JAMBI;1571;KOTA JAMBI;DUO BERSAUDARA;0203230047694;03/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Teguh Permai V Blok C No. 9 Rt. 015
+190;15;JAMBI;1571;KOTA JAMBI;THIRAH ENGINEERING;0203230087882;03/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Raja Yamin No 80
+191;15;JAMBI;1571;KOTA JAMBI;JD PUTRA JAYA;0303230009895;03/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Timur
+192;15;JAMBI;1571;KOTA JAMBI;KITA GABE JAYA;0303230064672;03/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sunan Kali Jaga Lorong Delima No. 67
+193;15;JAMBI;1506;TANJUNG JABUNG BARAT;ANUGRAH BETARA;0403230018694;03/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Kampung Tengah
+194;15;JAMBI;1501;KERINCI;KIWA GROUP;0603230002485;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Pasar Kerman
+195;15;JAMBI;1509;TEBO;ALKA MANDIRI JAYA;0603230023433;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Padang Lamo Km. 11
+196;15;JAMBI;1502;MERANGIN;RUMAH KARYA MERANGIN;0603230029428;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kel. Dusun Baru
+197;15;JAMBI;1502;MERANGIN;KARYA ALAM SUMATERA;0603230080017;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Eks.Salestera
+198;15;JAMBI;1507;TANJUNG JABUNG TIMUR;GARUDA SAKTI PRATAMA;0603230082146;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Yogyakarta
+199;15;JAMBI;1505;MUARO JAMBI;AFSHE BINTANG CAKRAWALA;0603230098383;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Mutiara Zahra Iii Blok B No. 11
+200;15;JAMBI;1571;KOTA JAMBI;DS BERKAH ABADI;0603230104047;03/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Puri Berlian
+201;15;JAMBI;1571;KOTA JAMBI;PELITA MAJU MOTOR'S;0703230014509;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Abdul Chatab 
+202;15;JAMBI;1506;TANJUNG JABUNG BARAT;MUHAMMAD RIO;0703230022861;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Nusa Indah
+203;15;JAMBI;1571;KOTA JAMBI;CITRA MUDA NUSANTARA;0703230050153;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. A. Bakarudin No. 10
+204;15;JAMBI;1571;KOTA JAMBI;PASIR MUTIARA PERENTAK;0703230065861;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mayang Raya Komplek Puri Mayang Claster Raflesia Mr-137
+205;15;JAMBI;1507;TANJUNG JABUNG TIMUR;CORE TEKNOLOGI INDONESIA;0703230069244;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Imam Bonjol 
+206;15;JAMBI;1571;KOTA JAMBI;GILANG RAYA;0703230076815;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kutilang I, No 70
+207;15;JAMBI;1571;KOTA JAMBI;PERSADA JAYA PUTRA;0703230077943;03/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ko. Perum Alamanda Asri 2 F/11
+208;15;JAMBI;1571;KOTA JAMBI;MARGFIROH SUKSES BERSAMA;0803230064701;03/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kolonel Amir Hamzah, No. 02
+209;15;JAMBI;1571;KOTA JAMBI;SOEMPURNA JAYA ABADI;0803230086018;03/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Kh.Abu Bakar Olak Kemang
+210;15;JAMBI;1571;KOTA JAMBI;SHAMROCK ROVERS;0803230088516;03/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Hayam Wuruk No. 28
+211;15;JAMBI;1571;KOTA JAMBI;NUSANTARA EDUKASI ZD;0803230091872;03/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Pesona Kenali Asri
+212;15;JAMBI;1508;BUNGO;GEMA INSANI PUSTAKA BUNGO;0803230093073;03/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H.A Manap Lorong Doa
+213;15;JAMBI;1571;KOTA JAMBI;CAHAYA ARAFAH MULIA;0903230051685;03/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Yulius Usman
+214;15;JAMBI;1508;BUNGO;NASAVA GRIYA MEDIKA;0903230079146;03/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Amarta, Nomor 223
+215;15;JAMBI;1506;TANJUNG JABUNG BARAT;BAMELL BROTHERS;0903230083391;03/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Ariyan 
+216;15;JAMBI;1571;KOTA JAMBI;SUMATRA BERKARYA BERSAMA;0903230091713;03/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Sunan Gunung Jati Peurm Splatur Blok K 5
+217;15;JAMBI;1507;TANJUNG JABUNG TIMUR;SATRIA MUDA GEMILANG;0903230104807;03/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Sabak Regency Blok F No. 13, Rt 013/001, Kel. Talang Babat, Kec. Muara Sabak Barat, Kab. Tanjung Jabung Timur, Jambi
+218;15;JAMBI;1571;KOTA JAMBI;JAMBI MARKA MANDIRI;1003230075218;03/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Letmud Sarniem, Komplek Ruko Perumahan Bukit Asri R.13
+219;15;JAMBI;1505;MUARO JAMBI;KARO TELU SEMBUYAK;1303230027964;03/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Yanto Unit I
+220;15;JAMBI;1505;MUARO JAMBI;TIANG BERKAH ABADI;1303230028245;03/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Mendalo Indah
+221;15;JAMBI;1571;KOTA JAMBI;ABAH TIGA PUTRI;1303230046076;03/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Selatan I No. 56
+222;15;JAMBI;1571;KOTA JAMBI;LENTERA KASIH ABADI;1303230064313;03/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ir. H. Juanda Lorong Harapan No. 86
+223;15;JAMBI;1505;MUARO JAMBI;BIMA KARYA KONSTRUKSI;1303230096149;03/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Anugrah Batara 1 Nomor 50
+224;15;JAMBI;1571;KOTA JAMBI;PUTRA MAHKOTA JAMBI;1403230058532;03/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Swadaya Raya
+225;15;JAMBI;1571;KOTA JAMBI;BINTANG CEMERLANG SELAMANYA;1403230091246;03/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abdul Muis Perumahan Vidia Indah 2 Blok F
+226;15;JAMBI;1502;MERANGIN;KIRANA CITRA LESTARI;1503230023591;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H.Maulana 
+227;15;JAMBI;1505;MUARO JAMBI;ARKENZIE RAFANDRA;1503230037192;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Tanjung Pauh Km.32
+228;15;JAMBI;1503;SAROLANGUN;JAYA PUTRA AEK BILA;1503230049421;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Hilir
+229;15;JAMBI;1571;KOTA JAMBI;ROMI JAYA ANUGRAH;1503230049682;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Matahari I
+230;15;JAMBI;1508;BUNGO;CINDY RAKEL MANDIRI;1503230053695;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pasar Rantau Keloyang
+231;15;JAMBI;1571;KOTA JAMBI;JAMBI ENERGI TRANSPORT;1503230071346;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Haji Kamil No.3
+232;15;JAMBI;1571;KOTA JAMBI;LAJA;1503230092272;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Fatahlaside No 031
+233;15;JAMBI;1571;KOTA JAMBI;RN GALERY;1503230094926;03/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Sumatera
+234;15;JAMBI;1571;KOTA JAMBI;SHINTIA BEAUTY CLINIC;1603230021024;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Pangeran Hidayat No. 28
+235;15;JAMBI;1571;KOTA JAMBI;SINAR BERSAUDARA;1603230022073;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Adam Malik, Perumahan Citra Beringin Regency Blok C Nomor 10
+236;15;JAMBI;1509;TEBO;XTRONIK DIGITAL;1603230056172;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pahlawan
+237;15;JAMBI;1571;KOTA JAMBI;DUTA MOTOR INDONESIA;1603230061368;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan D.I. Panjaitan Nomor 34 
+238;15;JAMBI;1502;MERANGIN;BERKAH SAHABAT KARYA MANDIRI;1603230082542;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Belakang Pasar Rakyat Bangko
+239;15;JAMBI;1571;KOTA JAMBI;MENDALO INDAH;1603230091946;03/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Kh.Wahid Hasyim
+240;15;JAMBI;1509;TEBO;RAYYAN PERKASA;1903230005246;03/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Teluk Kuali
+241;15;JAMBI;1508;BUNGO;NOCSH SEKAWAN;2003230074749;03/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Profesor Doktor Sri Soedewi Sarjana Hukum
+242;15;JAMBI;1571;KOTA JAMBI;ARUM LESTARI JAYA;2003230099916;03/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Hayam Wuruk No 29
+243;15;JAMBI;1571;KOTA JAMBI;ARTOSEN;2103230061713;03/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Bukit Beliung
+244;15;JAMBI;1571;KOTA JAMBI;REFTO AUTO;2103230078508;03/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Hos Cokro Aminoto Nomor 1D
+245;15;JAMBI;1504;BATANGHARI;RAFKA JAYA;2103230101276;03/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Jambi-Muara Bulian
+246;15;JAMBI;1571;KOTA JAMBI;ADREENA IRGI;2203230020007;03/22/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Depati Parbo No. 64
+247;15;JAMBI;1507;TANJUNG JABUNG TIMUR;FCZ AMNUR;2303230016419;03/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun I
+248;15;JAMBI;1508;BUNGO;TOP OTOMOTIF PARTS;2403230035381;03/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pinang Mas
+249;15;JAMBI;1572;KOTA SUNGAI PENUH;TUNDENG JAYA ABADI;2503230032318;03/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Mh.Thamrin, Rukun Tetangga 005
+250;15;JAMBI;1505;MUARO JAMBI;ASRI ANUGERAH MADANI;2803230002456;03/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Vila Garden 9
+251;15;JAMBI;1506;TANJUNG JABUNG BARAT;USAHA BERKAT GEMILANG JAYA;2803230012207;03/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Rambai
+252;15;JAMBI;1571;KOTA JAMBI;LOYAL KONSTRUKSI JAMBI;2803230042901;03/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gong 2000 
+253;15;JAMBI;1571;KOTA JAMBI;BERKAT ANUGRAH INDAH BERSAMA;2803230044962;03/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lr Sepakat
+254;15;JAMBI;1504;BATANGHARI;SINAR USAHA NYOLALA;2903230018062;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pramuka Perumnas
+255;15;JAMBI;1571;KOTA JAMBI;HALIA MULTI KONSTRUKSI;2903230030965;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Serma Husin Effendi, No 19
+256;15;JAMBI;1504;BATANGHARI;GEDUNG PUTIH BERLIAN;2903230059543;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gajah Mada Lorong Dua Putra
+257;15;JAMBI;1505;MUARO JAMBI;DUA PUTRI DI;2903230061519;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Muara Kumpe
+258;15;JAMBI;1571;KOTA JAMBI;LAZUARDI SENTOSA;2903230066089;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol. Abunjani No. 76
+259;15;JAMBI;1504;BATANGHARI;DAFIN SAKTI;2903230074705;03/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Sungai Rengas
+260;15;JAMBI;1571;KOTA JAMBI;RAYA CIPTA UTAMA;3003230002658;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Premix Perumahan Griya Sejahtera 3 Blok A Nomor 20
+261;15;JAMBI;1571;KOTA JAMBI;PUTRA PASIR PUTIH;3003230019481;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abd Chatab, Lorong Angkasa Puri
+262;15;JAMBI;1505;MUARO JAMBI;RANK KAYO HITAM;3003230042778;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Jambi Muara Bulian Km.13 
+263;15;JAMBI;1505;MUARO JAMBI;KEMBANG TANDJOENG;3003230043847;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Keramat Putri Gadis
+264;15;JAMBI;1506;TANJUNG JABUNG BARAT;BUMI LAWAS SEJAHTERA;3003230045761;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pemda Tanjung Bojo Lubuk Lawas
+265;15;JAMBI;1509;TEBO;SATU PUTRA MAKMUR;3003230056436;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ketalo Kecil
+266;15;JAMBI;1571;KOTA JAMBI;SAMUDRA MITRA LESTARI;3003230077406;03/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof. Dr. Sumantri Brojonegoro
+267;15;JAMBI;1571;KOTA JAMBI;AURDURI INDAH TRAVEL;3103230009749;03/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Hos Cokroaminoto Simpang Kawat Lrg Puskesmas
+268;15;JAMBI;1571;KOTA JAMBI;GIAT UTAMA;3103230012188;03/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Hayam Wuruk
+269;15;JAMBI;1502;MERANGIN;MUDA KARYA MAJU;3103230024226;03/31/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Lantak Seribu
+270;15;JAMBI;1505;MUARO JAMBI;ANUGERAH BERKAH AZZAHRA;3103230033746;03/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Permindo Asro, Blok F
+271;15;JAMBI;1571;KOTA JAMBI;WIRA KARYA;3103230035366;03/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jend. Sudirman
+272;15;JAMBI;1507;TANJUNG JABUNG TIMUR;YAZID RIZKI BAROKAH;3103230043058;03/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Mekar Jaya
+273;15;JAMBI;1571;KOTA JAMBI;AZKA CIPTA KONSTRUKSI;0104230002229;04/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kopral Kahar Nomor Blok C 08
+274;15;JAMBI;1503;SAROLANGUN;OSMAN JAYA MINERAL;0204230009138;04/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Gedang
+275;15;JAMBI;1571;KOTA JAMBI;GEMILANG BERSAMA UTAMA PLANTATION;0304230062669;04/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mayor A Marzuki 
+276;15;JAMBI;1504;BATANGHARI;SULTAN KASEM MUDO;0404230007366;04/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sengkati Baru
+277;15;JAMBI;1571;KOTA JAMBI;ZIZI CAHAYA ANUGRAH;0404230008907;04/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Multatuli Lorong Sejahtera Family
+278;15;JAMBI;1508;BUNGO;ARION TORUS MAKMUR;0404230053683;04/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gotong Royong 
+279;15;JAMBI;1502;MERANGIN;YUARBI TRANS JAYA;0604230020427;04/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Yudistira
+280;15;JAMBI;1571;KOTA JAMBI;REZKI FA;0604230052076;04/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Halim Perdana Kusuma No 02
+281;15;JAMBI;1571;KOTA JAMBI;GEMILANG BERSAMA UTAMA FARM;0604230079032;04/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mayor A Marzuki
+282;15;JAMBI;1571;KOTA JAMBI;BAHTERA SELARAS PEMBANGUNAN;0604230080718;04/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Brigjen Katamso
+283;15;JAMBI;1571;KOTA JAMBI;PLAZA DEKOR;0604230082283;04/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. M. Husni Thamrin No. 24
+284;15;JAMBI;1505;MUARO JAMBI;WIBI KARYA USAHA;0704230004579;04/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kilo Meter 13 Purwodadi
+285;15;JAMBI;1509;TEBO;MITRA TRANS;0904230017813;04/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Dahlia
+286;15;JAMBI;1571;KOTA JAMBI;USAHA KITA SEJAHTERA;1004230031222;04/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Raden Ajeng Kartini No. 2-032
+287;15;JAMBI;1501;KERINCI;GEMILANG CAHAYA PERMATA;1004230032888;04/10/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kelurahan Lempur Tengah, Kecamatan Gunung Raya, Kabupaten Kerinci, Provinsi Jambi
+288;15;JAMBI;1571;KOTA JAMBI;PERMATA AMALIA SARI;1004230033913;04/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof. Dr. Yamin,Sh,
+289;15;JAMBI;1572;KOTA SUNGAI PENUH;SINAR ABADI DISTRIBUTORINDO;1004230040738;04/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Koto Keras
+290;15;JAMBI;1504;BATANGHARI;GRAHA PUTRA KONSTRUKSI;1004230041787;04/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Sudirman
+291;15;JAMBI;1571;KOTA JAMBI;BOSTON'S INTI PERKASA;1004230044825;04/10/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jend. Sudirman 
+292;15;JAMBI;1571;KOTA JAMBI;ANGGREK;1104230035905;04/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Timur
+293;15;JAMBI;1571;KOTA JAMBI;PERMATA MULIA JAMBI;1204230017952;04/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Villa Sejahtera Nomor A-8
+294;15;JAMBI;1502;MERANGIN;NY EXPRES;1204230044917;04/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pulau Rengas Ulu
+295;15;JAMBI;1504;BATANGHARI;ANAK BUJANG TRANSPORT;1304230049532;04/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Talang Inuman, Perumahan Bulian Baru Nomor B4, Regency 1
+296;15;JAMBI;1571;KOTA JAMBI;BENGKEL MAJUGO;1304230057349;04/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Selatan No 18
+297;15;JAMBI;1571;KOTA JAMBI;MITRA PANGAN JAMBI;1304230067756;04/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Marsda Surya Dharma
+298;15;JAMBI;1571;KOTA JAMBI;AGRO PANORAMA ASRI;1404230017309;04/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mr. Moh Roem No. 41
+299;15;JAMBI;1571;KOTA JAMBI;ALFATHUR PROPERTINDO;1404230028473;04/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Griya Mayang Asri Blok B
+300;15;JAMBI;1502;MERANGIN;MUARA PANGI BERSINAR;1404230035695;04/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Parit
+301;15;JAMBI;1503;SAROLANGUN;MANDIANGIN PERKASA;1404230041126;04/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pembangunan Rt. 007 Rw. 002
+302;15;JAMBI;1508;BUNGO;JIFA SUKSES DANANJAYA;1404230054156;04/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jaya Setia
+303;15;JAMBI;1503;SAROLANGUN;FITRA MANDIRI;1504230011102;04/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kampung Mesjid
+304;15;JAMBI;1505;MUARO JAMBI;DUA SAHABAT MANDIRI SUKSES;1604230006875;04/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Haji Sidik
+305;15;JAMBI;1505;MUARO JAMBI;JAYA ASHARI ABADI;1604230016461;04/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Timur
+306;15;JAMBI;1501;KERINCI;TIGO RAJOWALI DUTA;1704230001147;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Puskesmas Semurup
+307;15;JAMBI;1504;BATANGHARI;BERUMBUNG KUNING;1704230009894;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Selat
+308;15;JAMBI;1503;SAROLANGUN;ZIFA BERSAUDARA;1704230012579;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Villa Gading Blok G 18
+309;15;JAMBI;1571;KOTA JAMBI;BINTANG SENJA PRATAMA;1704230015393;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sultan Taha Nomor 65
+310;15;JAMBI;1571;KOTA JAMBI;LEO PUTRA;1704230029319;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Serunai Malam Ii
+311;15;JAMBI;1571;KOTA JAMBI;TIRTA SYNERGI UTAMA;1704230047635;04/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Skrd. Syahbudin Gg. Alamanda I No. 79
+312;15;JAMBI;1503;SAROLANGUN;CAHAYA INDAH KARYA;1804230040526;04/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Limau Kapas
+313;15;JAMBI;1509;TEBO;JAYA ROBI MANDIRI;1804230066233;04/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Betung Bedarah Timur
+314;15;JAMBI;1571;KOTA JAMBI;LETARE FARMA;1904230005258;04/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sumatera No 134
+315;15;JAMBI;1571;KOTA JAMBI;KAWI TEHNIK;2704230039099;04/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sultan Taha
+316;15;JAMBI;1571;KOTA JAMBI;IZORA JAYA MANDIRI;2804230000444;04/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pal 8 Depan Smp 18, Lorong Pertamina 3, Perumahan Kedaton Asri Blok E Nomor 4
+317;15;JAMBI;1571;KOTA JAMBI;RAJO PANEL BETON;2804230056551;04/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Barat Iii, Perum Inezia Blok A 2
+318;15;JAMBI;1571;KOTA JAMBI;CAHAYA PADU BERSAMA;2804230085619;04/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Surya Dharma .Rt.006
+319;15;JAMBI;1571;KOTA JAMBI;CIPTA KARYA PRAKASA;0305230049262;05/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bangau 3 Nomor 58
+320;15;JAMBI;1504;BATANGHARI;KARYA BARU FURNITURE;0405230006228;05/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol. Pol. M Thaher
+321;15;JAMBI;1571;KOTA JAMBI;GLOBAL JAMBI DISTRIBUSI;0505230073103;05/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Erlangga Gang Lama Nomor 8A-1
+322;15;JAMBI;1506;TANJUNG JABUNG BARAT;SYAUQINA MANDALA WANGI;0605230014334;05/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Harapan Jaya Jl. Lintas Kuala Tungkal-Jambi Rt. 01
+323;15;JAMBI;1508;BUNGO;CEMIRA CERIA FAMILI;0605230026019;05/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Teuku Umar
+324;15;JAMBI;1508;BUNGO;ZAHARA PUTRI MANDIRI;0705230006358;05/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Punti Luhur
+325;15;JAMBI;1506;TANJUNG JABUNG BARAT;KARONA BIAK JAYA;0805230037444;05/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lintas Sumatera
+326;15;JAMBI;1504;BATANGHARI;EMLY MAJU SEJAHTERA;0805230048121;05/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raden Mat Taher Nomor 03, Kelurahan Rengas Condong
+327;15;JAMBI;1571;KOTA JAMBI;REZEKI ANUGRAH MULIA;0905230017162;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Depati Purbo
+328;15;JAMBI;1507;TANJUNG JABUNG TIMUR;AR RAYYAN KONSTRUKSI MUARA SABAK;0905230041675;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Paduka Berhala
+329;15;JAMBI;1571;KOTA JAMBI;SURYA KAMI YASHKA;0905230049156;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sk Rd Syahbudin Lorong Teratai Nomor 08
+330;15;JAMBI;1571;KOTA JAMBI;CAHAYA LINTAS SEJAHTERA;0905230056898;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Selatan Ii
+331;15;JAMBI;1571;KOTA JAMBI;PUTRA BUNGSU MAKMUR;0905230069487;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Aurduri 1 Blok D 03, Rt 14
+332;15;JAMBI;1508;BUNGO;KILAU INDAH NUSANTARA GROUP;0905230087274;05/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lrg. Hikmah
+333;15;JAMBI;1571;KOTA JAMBI;GEZ MOTORS;1005230022245;05/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln Ternate, No 38
+334;15;JAMBI;1571;KOTA JAMBI;SENJA PESONA PAAL MERAH;1005230026951;05/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Artauli Ii, No 39, Blok F
+335;15;JAMBI;1506;TANJUNG JABUNG BARAT;SAH ABADI JAYA;1005230064064;05/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Tungkal - Jambi
+336;15;JAMBI;1571;KOTA JAMBI;MAULIDIA CONVENTION CENTRE;1005230066729;05/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln Depati Parbo
+337;15;JAMBI;1571;KOTA JAMBI;INDO MITRA SUKSES;1005230095755;05/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jalak Raya
+338;15;JAMBI;1506;TANJUNG JABUNG BARAT;KURNIA GUDANG;1105230014565;05/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Kuala Tungkal - Jambi 
+339;15;JAMBI;1505;MUARO JAMBI;WINDU ANUGERAH GEMILANG;1105230070556;05/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Talang Belido, No. 88, Dusun Iv
+340;15;JAMBI;1571;KOTA JAMBI;DANAKIRTI NUSA CONTRACTOR;1105230073379;05/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Hutan Kota 
+341;15;JAMBI;1501;KERINCI;SYAUQINA ALMAHYRA;1105230096138;05/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rt 001, Desa Kubang Gedang, Kecamatan Depati Tujuh, Kabupaten Kerinci, Provinsi Jambi
+342;15;JAMBI;1571;KOTA JAMBI;LIBERTY STORE;1105230105169;05/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol Abunjani
+343;15;JAMBI;1505;MUARO JAMBI;GEMILANG KREATIF;1205230048792;05/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Muhajirin
+344;15;JAMBI;1571;KOTA JAMBI;PUTRI DECORATION DAN CATERING;1205230054537;05/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kol. Amir Hamzah
+345;15;JAMBI;1508;BUNGO;VANESSA KATHLEEN;1305230020055;05/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Sumatera
+346;15;JAMBI;1506;TANJUNG JABUNG BARAT;RIZKY KARUNIA MAJU;1605230000879;05/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Panglima H. Saman Rt. 01
+347;15;JAMBI;1504;BATANGHARI;RADIB GRAHA;1605230094731;05/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Lingkar
+348;15;JAMBI;1505;MUARO JAMBI;DSD SUKSES MANDIRI;1705230089747;05/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Bumi Mendalo Asri
+349;15;JAMBI;1571;KOTA JAMBI;PURNAMA JAYA MANDIRI;1705230094631;05/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan Ii
+350;15;JAMBI;1571;KOTA JAMBI;RODA SUKSES BERSATU;1805230016374;05/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ko. Perum Puri Selincah
+351;15;JAMBI;1502;MERANGIN;PUTRA MANDIRI;2005230036569;05/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan A.Rahman Syukur
+352;15;JAMBI;1571;KOTA JAMBI;PUTRA SEBERANG JAMBI;2105230004337;05/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap); Jalan Mayor Jenderal Hm. J.Singedekane No. 12 
+353;15;JAMBI;1508;BUNGO;SOBAT LINTAS TRAVELINDO;2105230038225;05/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abdullah Umar
+354;15;JAMBI;1508;BUNGO;SINAR SENTOSA UTAMA;2205230025547;05/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Kerjan
+355;15;JAMBI;1571;KOTA JAMBI;YUVA CORP;2205230076162;05/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kolonel Abunjani Nomor 10
+356;15;JAMBI;1571;KOTA JAMBI;BERKAH BUMI PASUNDAN;2205230081821;05/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sentot Ali Basa Komplek Taman Pasar Baru Blok. B 27
+357;15;JAMBI;1571;KOTA JAMBI;AKA CIPTA JAYA;2205230082359;05/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Kh Ahmad Samad
+358;15;JAMBI;1501;KERINCI;PURNA JAYA SAKTI;2305230057794;05/23/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Balai
+359;15;JAMBI;1505;MUARO JAMBI;ALPA PHOENIK;2305230109439;05/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum. Bangun Raya Kenali Blok B 14
+360;15;JAMBI;1571;KOTA JAMBI;DEWA RUCCI PERKASA;2305230112343;05/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ismail Malik
+361;15;JAMBI;1571;KOTA JAMBI;ANUGRAH HASIL KARYA SEJATI;2405230040149;05/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H.O.S Cokroaminoto, Nomor 170, Rt.007
+362;15;JAMBI;1571;KOTA JAMBI;ARKA BERKAH MULIA;2405230054691;05/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pelangi I Nomor 26
+363;15;JAMBI;1571;KOTA JAMBI;BATU ALAM MULIA SEMESTA;2405230097009;05/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Komisaris Polisi Zainal Abidin No. 95, Rt. 014
+364;15;JAMBI;1506;TANJUNG JABUNG BARAT;OMERA KARYA ABADI;2405230107618;05/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Perumnas 
+365;15;JAMBI;1571;KOTA JAMBI;YUDERA UTAMA;2405230117781;05/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Villa Kenali Permai
+366;15;JAMBI;1508;BUNGO;QOBAR JAYA MANDIRI;2505230034743;05/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sirih Sekapur
+367;15;JAMBI;1505;MUARO JAMBI;MUSTOFA MARUF GROUP;2505230042911;05/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rejo Mulyo Lrg Bangsal
+368;15;JAMBI;1571;KOTA JAMBI;BETUNG DUA RIBU;2505230046772;05/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Guru Mucthar
+369;15;JAMBI;1572;KOTA SUNGAI PENUH;CASIAVERA SUMBER BERKAH;2505230096981;05/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Depati Parbo
+370;15;JAMBI;1507;TANJUNG JABUNG TIMUR;AYCEL JAYA;2505230106539;05/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Parit Culum Ii
+371;15;JAMBI;1502;MERANGIN;MODAL KREATIF MEDIA;2605230059621;05/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Haji Imam Bonjol
+372;15;JAMBI;1571;KOTA JAMBI;PUTRI SOLEHA;2705230010149;05/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Utama
+373;15;JAMBI;1506;TANJUNG JABUNG BARAT;FIKHANZO;2905230006566;05/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sidodadi
+374;15;JAMBI;1505;MUARO JAMBI;LAPAN BINTANG;2905230035965;05/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Timur
+375;15;JAMBI;1508;BUNGO;BUNGO BERKAH JAYA;2905230070784;05/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Purwo Bakti
+376;15;JAMBI;1571;KOTA JAMBI;GARIS LIMA SORE;2905230081764;05/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kebun Daging
+377;15;JAMBI;1501;KERINCI;ANNAFI KARYA;2905230114318;05/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Siulak Deras Mudik, Kecamatan Gunung Kerinci, Kabupaten Kerinci, Provinsi Jambi
+378;15;JAMBI;1504;BATANGHARI;NABILA UTAMA BAROKAH;3005230050623;05/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pramuka Nomor 09 Perumnas
+379;15;JAMBI;1571;KOTA JAMBI;BAYU ADHI RAJASA;3005230067734;05/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Selatan Ii
+380;15;JAMBI;1571;KOTA JAMBI;JOSS JAMBI;3005230079482;05/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Syailendra Lrg Hidayat
+381;15;JAMBI;1505;MUARO JAMBI;KAYANA TOUR AND TRAVEL;3005230087128;05/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Villa Duren Mas
+382;15;JAMBI;1571;KOTA JAMBI;FATHAN UTAMA JAYA;3005230114815;05/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Di. Panjaitan Lorong Panduman No. 049
+383;15;JAMBI;1571;KOTA JAMBI;BINTANG JAYA EKSPEDISI;3105230011459;05/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Barat Lrg. Keluarga Kitek
+384;15;JAMBI;1571;KOTA JAMBI;TRIO PANGAN JAYA;3105230015026;05/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gr. Datuk Jamin Bagindo Nomor : 7 C
+385;15;JAMBI;1502;MERANGIN;PUTRA PERINTIS UTAMA;3105230017256;05/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Koto Indah
+386;15;JAMBI;1571;KOTA JAMBI;TRIO PANGAN BERSAMA;3105230023556;05/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Gr. Datuk Jamin Bagindo No. 7C
+387;15;JAMBI;1506;TANJUNG JABUNG BARAT;DI NUR MANDIRI;3105230056507;05/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kh Dewantara
+388;15;JAMBI;1508;BUNGO;JA KONSTRUKSI;0106230029494;06/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H.A Manap Lrg. Srikaya No. 063
+389;15;JAMBI;1504;BATANGHARI;NAZRIL ILHAM;0106230038685;06/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Sungai Rengas
+390;15;JAMBI;1506;TANJUNG JABUNG BARAT;INTAN MAHKOTA BORNEO;0206230022881;06/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Pepadaan
+391;15;JAMBI;1571;KOTA JAMBI;JAMBI PATRA TAMA;0306230017098;06/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Sersan Darpin
+392;15;JAMBI;1502;MERANGIN;BUDIDAYA GAHARU UTAMA SEJAHTERA;0406230005197;06/04/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Manau
+393;15;JAMBI;1571;KOTA JAMBI;NUSA INDOTAMA;0506230083974;06/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Gajah Mada No 89
+394;15;JAMBI;1571;KOTA JAMBI;BANGUN PUTRI TORANG;0506230095933;06/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral A. Thalib Nomor 14
+395;15;JAMBI;1571;KOTA JAMBI;JAYA BERSAMA ENERGI;0606230045554;06/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Haji Muhammad Yusuf Nasri No. 39
+396;15;JAMBI;1502;MERANGIN;BATANG TABIR;0606230052844;06/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kelurahan Mampun
+397;15;JAMBI;1571;KOTA JAMBI;PANEN LESTARI MULIA;0606230057291;06/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Pakis 3, No 10
+398;15;JAMBI;1571;KOTA JAMBI;PAVAMI GEMILANG ABADI;0606230094292;06/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sumantri Brojonegoro No. 04
+399;15;JAMBI;1571;KOTA JAMBI;SENTRAL USAHA LINTAS ANAK NEGERI JAMBI;0606230133473;06/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kebon Daging
+400;15;JAMBI;1508;BUNGO;MAJU MAKMUR RAYA;0706230023819;06/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lebai Hasan
+401;15;JAMBI;1571;KOTA JAMBI;KLIK ANUGERAH CIPTAREKA;0706230089556;06/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raden Wijaya Nomor 50
+402;15;JAMBI;1571;KOTA JAMBI;WIRATAMA KARYA MANDIRI;0806230012989;06/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Raden Bachsan Siagian
+403;15;JAMBI;1503;SAROLANGUN;SUNDA SADULUR JAYA;0806230025339;06/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Km 2
+404;15;JAMBI;1571;KOTA JAMBI;AGRO SENANG SEJAHTERA;0806230044915;06/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sentot Ali Basa Nomor 45
+405;15;JAMBI;1571;KOTA JAMBI;ANUGERAH SAMUDRA NUSANTARA;0806230094777;06/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H. Badar 
+406;15;JAMBI;1502;MERANGIN;SIMBERS JAYA PRATAMA;0906230013607;06/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Kapas, Rt 004, Rw 002, Bangko, Merangin, Jambi
+407;15;JAMBI;1505;MUARO JAMBI;LOMBOK JAYA ABADI;0906230080571;06/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bukit Baling
+408;15;JAMBI;1502;MERANGIN;PUTRA RADEN;0906230094363;06/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Btn Mutiara Land, Blok N, Nomor  01
+409;15;JAMBI;1571;KOTA JAMBI;RAKA BEAUTY CARE;0906230114069;06/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ir. H. Juanda
+410;15;JAMBI;1571;KOTA JAMBI;PANDAWA MEDIA SOLUSINDO;1106230002087;06/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Dr Purwadi ,Lrg Pandawa, No:19
+411;15;JAMBI;1507;TANJUNG JABUNG TIMUR;IMAN JAYA SABAK;1106230036392;06/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pasar Rano
+412;15;JAMBI;1571;KOTA JAMBI;MUARA JAMBI CORPORATION;1206230012517;06/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Tarmizi Kadir No. 01
+413;15;JAMBI;1506;TANJUNG JABUNG BARAT;AUDY N CO;1206230021868;06/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Btn Permata Biru
+414;15;JAMBI;1571;KOTA JAMBI;SEMAR WIBAWA;1206230068523;06/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan 
+415;15;JAMBI;1571;KOTA JAMBI;CAKRAWALA BERSAUDARA MANDIRI;1306230030678;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Barau-Barau 1 Thehock, Nomor 47
+416;15;JAMBI;1571;KOTA JAMBI;DANISH PERKASA KONSTRUKSI;1306230060863;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kompol A Bastari Nomor 48
+417;15;JAMBI;1505;MUARO JAMBI;FORTUNA URUG UTAMA;1306230063394;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari 3, Blok U2, No. 3
+418;15;JAMBI;1571;KOTA JAMBI;YUMNA GELATO AND SNACKS;1306230113186;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jend. A. Thalib Nomor 14
+419;15;JAMBI;1571;KOTA JAMBI;ARRA JAYA;1306230119194;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Lirik Perumahan Mutiara Residence No. D 4
+420;15;JAMBI;1501;KERINCI;SANUM JAYA;1306230120215;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Belui Tinggi
+421;15;JAMBI;1501;KERINCI;ABBIYU BANGUN KONSTRUKSI;1306230147048;06/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Pasar Senin (Dahulu Senimpik)
+422;15;JAMBI;1571;KOTA JAMBI;CAKRAWALA JAMBI;1406230098295;06/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Patimura, Lrg. Rd. Abdurahman
+423;15;JAMBI;1571;KOTA JAMBI;ALJABBAR MENTARI;1406230108946;06/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Pattimura, N0 33, Lrg Mesjid
+424;15;JAMBI;1503;SAROLANGUN;PURNAMA PERSADA UTAMA;1406230129571;06/14/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raya Simpang Pitko Km 2
+425;15;JAMBI;1571;KOTA JAMBI;TUNAS ORBIT PRATAMA;1506230090352;06/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan Nomor 138
+426;15;JAMBI;1571;KOTA JAMBI;BAYU MOTOR GROUP;1606230041029;06/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sumatera Lrg. Muria No.01
+427;15;JAMBI;1572;KOTA SUNGAI PENUH;APDI AUTO GALLERY;1606230059856;06/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Depati Parbo, Desa Karya Bakti, Kecamatan Pondok Tinggi, Kota Sungai Penuh
+428;15;JAMBI;1571;KOTA JAMBI;ENERGY TRISULA CONSULTING;1606230104832;06/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap); Jalan Sunan Gunung Jati
+429;15;JAMBI;1508;BUNGO;DAPAT BERSAMA SAMA;1906230114342;06/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Diponegoro
+430;15;JAMBI;1508;BUNGO;SELISIH BERSAMA;1906230127324;06/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Diponegoro
+431;15;JAMBI;1571;KOTA JAMBI;BINAR BERKAH NUSANTARA;1906230137325;06/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Mustika
+432;15;JAMBI;1506;TANJUNG JABUNG BARAT;MUTIARA HITAM MH;1906230141825;06/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Kh,Dewantara Lorong Mangga
+433;15;JAMBI;1571;KOTA JAMBI;KARYA INDAH GRUP;2006230029708;06/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Damai Bersama
+434;15;JAMBI;1571;KOTA JAMBI;KEMBANG DESA NUSANTARA;2006230070491;06/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Hayam Wuruk
+435;15;JAMBI;1571;KOTA JAMBI;VICTORY GOLD;2006230101032;06/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Veteran Nomor 36
+436;15;JAMBI;1571;KOTA JAMBI;MITRA PERKASA BERSAMA;2006230116749;06/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kenari I Nomor 3 A
+437;15;JAMBI;1571;KOTA JAMBI;ARKHAN BERKAH SEJAHTERA;2006230122002;06/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Beringin Ii No. 101
+438;15;JAMBI;1508;BUNGO;DERMA ESTETIK GRUP;2206230080108;06/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Baharuddin Yahya Nomor 19
+439;15;JAMBI;1571;KOTA JAMBI;ANUGERAH DJAYA UTAMA;2206230135394;06/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Bhayangkara No. 20
+440;15;JAMBI;1571;KOTA JAMBI;BANJAR BARU TEKNIK RJ;2206230148582;06/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kh. Ahmad Madjid
+441;15;JAMBI;1571;KOTA JAMBI;BIBE CONDONG LESTARI;2206230164701;06/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Sumber Rejo
+442;15;JAMBI;1571;KOTA JAMBI;MALABISI INDONESIA;2306230090439;06/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);P26 Jalan Letmud Sarniem, Kenali Asam Bawah, Kota Baru, Suka Karya, Baru, Kec. Kota, Jambi City, Jambi 
+443;15;JAMBI;1572;KOTA SUNGAI PENUH;BARAMUDA NUSANTARA;2406230002747;06/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Besar Hamparan, Larik Ngalih
+444;15;JAMBI;1508;BUNGO;MILLER GLOBAL ENERGY;2606230083345;06/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kampung Tukum 2
+445;15;JAMBI;1508;BUNGO;USAHA KARTIKA MANDIRI;2606230090389;06/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bukit Sebelah
+446;15;JAMBI;1502;MERANGIN;MUTIARA SUNGAI;2606230123733;06/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Air Lago
+447;15;JAMBI;1571;KOTA JAMBI;OTAKA KARYA TEKNOLOGI;2606230141902;06/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kaswari
+448;15;JAMBI;1571;KOTA JAMBI;BUMIWANGI ALAMINDO;2606230173064;06/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Kimaja No.05
+449;15;JAMBI;1571;KOTA JAMBI;WOMEN INDEPENDENT CONSTRUCTION;2706230057845;06/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kol M Kukuh No 06
+450;15;JAMBI;1571;KOTA JAMBI;GARUDA SAKTI SUMATERA;2706230065109;06/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Soekarno-Hatta No. 07
+451;15;JAMBI;1571;KOTA JAMBI;RAJA GODANG JAMBI;2706230070509;06/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Gunung Manahan City V, Nomor D6
+452;15;JAMBI;1571;KOTA JAMBI;KEMILAU FOTOKOPI;2706230081535;06/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Rb. Siagian No. 14
+453;15;JAMBI;1506;TANJUNG JABUNG BARAT;MUTIARA RIZKY SENTOSA;2706230132861;06/27/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Kebun
+454;15;JAMBI;1571;KOTA JAMBI;PUTRI BERLIAN ANGKASA;2706230133061;06/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gajah Mada Nomor 252
+455;15;JAMBI;1571;KOTA JAMBI;WIRA ERA GLOBAL;2806230060592;06/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sari Bakti
+456;15;JAMBI;1506;TANJUNG JABUNG BARAT;JUNTAK BERSAUDARA GRUP;0307230078786;07/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.A.Majid Brangas
+457;15;JAMBI;1571;KOTA JAMBI;MUTIARA MANDIRI PERDANA;0307230082722;07/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Tri Jaya
+458;15;JAMBI;1571;KOTA JAMBI;YUSINA BASMALAH;0307230086673;07/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kiai Haji Husin Baragbah
+459;15;JAMBI;1502;MERANGIN;SEBAYANG INDAH MANDIRI;0307230099251;07/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bukit Keramat
+460;15;JAMBI;1571;KOTA JAMBI;JAMBI RIZKI BARAKAH;0407230000643;07/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kh. A. Bakar No. 08
+461;15;JAMBI;1506;TANJUNG JABUNG BARAT;BERKAH KURNIA;0407230054103;07/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kapten Piere Tendean
+462;15;JAMBI;1571;KOTA JAMBI;BERKAH MANDIRI LESTARI JAMBI;0407230085401;07/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Purnama Lorong Mandiri
+463;15;JAMBI;1506;TANJUNG JABUNG BARAT;PETANI SAWIT SEJAHTERA;0507230151214;07/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pelabuhan Dagang
+464;15;JAMBI;1502;MERANGIN;TIGA PUTRA MULTI BISNIS;0507230199592;07/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan R.A. Kartini
+465;15;JAMBI;1502;MERANGIN;RAFFA WIRA PRAWANA;0507230243227;07/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Muara Jernih
+466;15;JAMBI;1571;KOTA JAMBI;BUMI KARYA TANI;0507230247933;07/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sentot Ali Basa Lorong Masjid Taqwa Nomor : 63
+467;15;JAMBI;1571;KOTA JAMBI;KARYA PUTRA SADU;0507230248642;07/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jatayu Iii 
+468;15;JAMBI;1571;KOTA JAMBI;SWARNA MEGAH DWIPA;0607230404532;07/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H. Agus Salim
+469;15;JAMBI;1508;BUNGO;KUAMANG MEGA ABADI;0707230340984;07/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Anggur
+470;15;JAMBI;1571;KOTA JAMBI;BERKAT JAYA RAHMAN;1007230030819;07/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum. Griya Wijaya Blok. A No. 02 
+471;15;JAMBI;1501;KERINCI;SINAR ABADI;1107230100675;07/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sungai Batu Gantih, Kecamatan Gunung Kerinci, Kabupaten Kerinci, Provinsi Jambi
+472;15;JAMBI;1506;TANJUNG JABUNG BARAT;TRI PUTRA PRAKARSA;1207230041004;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kihajar Dewantara
+473;15;JAMBI;1571;KOTA JAMBI;CAHAYA METTA SEJAHTERA;1207230047058;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Soekarno Hatta No. 16 (Samping Pempek Selamat)
+474;15;JAMBI;1505;MUARO JAMBI;AZZIKRA WIYATA AKSARA;1207230069753;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Agrowisata Taman Aci
+475;15;JAMBI;1571;KOTA JAMBI;ALFARIZKY PERDANA KONSULTAN;1207230097563;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Puri Mayang Cluster Casablanca Blok G-22
+476;15;JAMBI;1503;SAROLANGUN;PERMATA CIPTA MAKMUR;1207230103894;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sukasari
+477;15;JAMBI;1505;MUARO JAMBI;APOLLO MEGA MAKMUR;1207230105409;07/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi - Muara Bulian Km 12
+478;15;JAMBI;1508;BUNGO;SUMBER ALAM BUNGO;1207230132716;07/12/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Telago Lama Kampung Sungai Aur Nomor 07
+479;15;JAMBI;1501;KERINCI;TEPIAN INDAH DANAU KINCAI;1307230038974;07/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Keluru
+480;15;JAMBI;1504;BATANGHARI;RANS UTAMA JAYA;1407230088497;07/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan  Orang  Kayo Hitam Kel.  Pasar Baru
+481;15;JAMBI;1504;BATANGHARI;KARMILA JAYA;1407230128073;07/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi Muaro Bungo Km. 121 
+482;15;JAMBI;1503;SAROLANGUN;PUTRA WIJAYA SINGKUT;1507230165909;07/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Benteng
+483;15;JAMBI;1571;KOTA JAMBI;BHUMI AGRA AFASINDO;1707230040791;07/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Aurduri 10 Blok B-329
+484;15;JAMBI;1509;TEBO;ANDI SAPUTRA CH;1707230048224;07/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan 32
+485;15;JAMBI;1502;MERANGIN;MERANGIN HOTEL;1707230074359;07/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sapta Marga
+486;15;JAMBI;1571;KOTA JAMBI;TRI KARYA ULTIMA;1707230091786;07/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Letkol.A.Tarmizi Kadir Lr. Anugrah
+487;15;JAMBI;1505;MUARO JAMBI;USAHA MANDIRI SEJAHTRA;1807230011007;07/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Muara Kumpeh
+488;15;JAMBI;1571;KOTA JAMBI;JAMBI ANARGYA EKSPOR;1807230089651;07/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan A. Chatib Lorong Rd Saman
+489;15;JAMBI;1571;KOTA JAMBI;MENARA MITRA KONSTRUKSI;1807230108121;07/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Perumahan Villa Kenali Permai Blok P2 No. 07
+490;15;JAMBI;1571;KOTA JAMBI;BINTANG ARJUNA JAMBI;2007230004397;07/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Marene Gg Serati
+491;15;JAMBI;1571;KOTA JAMBI;AMANDA SULTAN PROPERTY;2007230113771;07/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Perintis 
+492;15;JAMBI;1571;KOTA JAMBI;CAKRAWALA PANCA SAKTI;2007230125177;07/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ir. Haji Juanda, Komplek Perumahan Villa Gading, Block 3, No.7-8
+493;15;JAMBI;1571;KOTA JAMBI;WAKUDA BANGUN JAYA;2007230142064;07/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H Syamsoe Bahroen Nomor 34
+494;15;JAMBI;1571;KOTA JAMBI;COMINDO CITRA MEDIA;2007230158841;07/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Anggrek 
+495;15;JAMBI;1503;SAROLANGUN;GRUP REJEKI BERSAMA;2107230013036;07/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Sarolangun
+496;15;JAMBI;1571;KOTA JAMBI;PUAN TAMBANG BUMI LESTARI;2107230030263;07/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Padang Perum. Kota Baru Indah No. 04
+497;15;JAMBI;1571;KOTA JAMBI;ARTHA WILYANA GRAFIKA;2107230034989;07/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Buimin Hasan Nomor 17
+498;15;JAMBI;1571;KOTA JAMBI;ANDIRA JAYA KONSTRUKSI;2207230013805;07/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Florest Blok No. 28 Rt/Rw 007/007
+499;15;JAMBI;1571;KOTA JAMBI;MULYA SUKSES ABADI;2207230017945;07/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mister  Assa'At No. 23
+500;15;JAMBI;1571;KOTA JAMBI;CAHAYA SEJAHTERA;2307230018793;07/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Yos Sudarso
+501;15;JAMBI;1571;KOTA JAMBI;ZANOFA SUMATRA PASIFIK;2407230004256;07/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sumber Rejo
+502;15;JAMBI;1505;MUARO JAMBI;RAFAREZEL KONSTRUKSI;2407230035681;07/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Perum Anugrah Batara 1, Nomor 50
+503;15;JAMBI;1571;KOTA JAMBI;ANUGERAH ILHAMI;2407230080249;07/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Sunderland
+504;15;JAMBI;1507;TANJUNG JABUNG TIMUR;TRIJAYA ABADI SABAK;2407230122281;07/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Sabak Regency 
+505;15;JAMBI;1571;KOTA JAMBI;ANISA BERKAH JAMBI;2507230041653;07/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Paal Lima 
+506;15;JAMBI;1571;KOTA JAMBI;DEVI CIPTA KONSTRUKSI;2507230059339;07/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jatayu Iii
+507;15;JAMBI;1571;KOTA JAMBI;H O SINERGY;2507230165811;07/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan New Castle, Blok I, N0 19, Rt. 034, Kelurahan Kenali Asam Bawah, Kecamatan Kota Baru, Kota Jambi
+508;15;JAMBI;1503;SAROLANGUN;SHAUFA EKA PERKASA;2607230039044;07/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sultan Thaha Nomor 24
+509;15;JAMBI;1571;KOTA JAMBI;YADITHA INSURANCE CONSULTANT;2607230057676;07/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Orang Kayo Hitam 
+510;15;JAMBI;1502;MERANGIN;PILOT DRONE MERANGIN;2607230375591;07/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Gang Kedondong Lorong Kampar
+511;15;JAMBI;1571;KOTA JAMBI;ADAF TIGA PERKASA;2707230223571;07/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pattimura Nomor 31
+512;15;JAMBI;1571;KOTA JAMBI;MULTI THALEN SEJAHTERA;2707230256215;07/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sinar Fajar Nomor 24
+513;15;JAMBI;1571;KOTA JAMBI;SETYAWAN BERDJAJA;2807230087457;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Yulius Oesman, Perum Green Golf
+514;15;JAMBI;1505;MUARO JAMBI;BUMI MUDA SEDIA;2807230087863;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Tri Bata Perumahan Puri Angsa Sari 2 Blok A4, N0 020
+515;15;JAMBI;1504;BATANGHARI;USAHA MANDIRI BARU;2807230144563;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Sungai Rengas
+516;15;JAMBI;1571;KOTA JAMBI;BERKAH AMANAH PERSADA JANNAH;2807230167568;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Walisongo No. 133, 
+517;15;JAMBI;1505;MUARO JAMBI;CAHAYA MUTHIA CONTRUKSI;2807230243515;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Mengkuang Belayar
+518;15;JAMBI;1507;TANJUNG JABUNG TIMUR;RANTAU RASAU MANDIRI;2807230251281;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Mekar Sari Desa Rantau Rasau 
+519;15;JAMBI;1501;KERINCI;ELANG RAJAWALI UMAR;2807230340469;07/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);No. 28, Desa Koto Dua Lama
+520;15;JAMBI;1571;KOTA JAMBI;VIP REFLEXOLOGY AND FAMILY MASSAGE;3107230025246;07/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. M.H. Thamrin
+521;15;JAMBI;1571;KOTA JAMBI;MITRA SAHABAT SEJAHTERA;3107230030578;07/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Rb Siagian 
+522;15;JAMBI;1571;KOTA JAMBI;BINA SEJAHTERA STUDIO;3107230058309;07/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Serma Ishak Akhmad Nomor 63
+523;15;JAMBI;1508;BUNGO;OPTIK INTI;3107230084896;07/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jenderal Sudirman, Lintas Sumatera
+524;15;JAMBI;1571;KOTA JAMBI;BENGKEL KENALI;3107230100427;07/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Suka Karya
+525;15;JAMBI;1571;KOTA JAMBI;CIPTA KOBAR GALLERY;0108230030677;08/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Untung Suropati
+526;15;JAMBI;1502;MERANGIN;ARO TANI MANDIRI;0108230047171;08/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Tumbro Raya Simpang Empat Poros
+527;15;JAMBI;1571;KOTA JAMBI;RADHIKA CITRAPERSADA;0208230023366;08/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sumbawa No. 29 Rt 04 Kelurahan The Hok Kecamatan Jambi Selatan
+528;15;JAMBI;1508;BUNGO;KUNYA FAMILI TEKNOLOGI;0208230035606;08/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Alisudin Nomor 14
+529;15;JAMBI;1571;KOTA JAMBI;PUTRA MAHKOTA MANDIRI;0208230152955;08/02/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sultan Agung Nomor 63
+530;15;JAMBI;1508;BUNGO;SEJAGAD NUSANTARA;0308230056761;08/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Rangkayo Hitam
+531;15;JAMBI;1571;KOTA JAMBI;SHARON MULTI GEMILANG;0308230057545;08/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Timur Ii 0
+532;15;JAMBI;1505;MUARO JAMBI;RBN ENTERPRICE JAYA GROUP;0308230097496;08/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kemenyan Jaya
+533;15;JAMBI;1571;KOTA JAMBI;SATRIA BERKAH UTAMA;0308230106843;08/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Ko Perum Lazio Blok H/08
+534;15;JAMBI;1506;TANJUNG JABUNG BARAT;DUO SEKAWAN;0308230140198;08/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jenderal Gatot Subroto 
+535;15;JAMBI;1503;SAROLANGUN;REZTIAN KARYATAMA;0408230012509;08/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Rt. 03
+536;15;JAMBI;1571;KOTA JAMBI;ANUGRAH KOMPOS;0408230034574;08/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Teratai
+537;15;JAMBI;1505;MUARO JAMBI;AMAN JAYA MENSYUKURI;0408230075142;08/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Sungai Bayur 
+538;15;JAMBI;1571;KOTA JAMBI;HARLINDO PRIMA KARYA;0408230092185;08/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Radja Yamin No. 83
+539;15;JAMBI;1509;TEBO;ASYERA MAJU JAYA;0608230059146;08/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan 32
+540;15;JAMBI;1505;MUARO JAMBI;TRI KARTIKA SARI;0708230054502;08/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rt. 010, Rw. 004, Desa Tangkit, Kec. Sungai Gelam, Kab. Muaro Jambi
+541;15;JAMBI;1505;MUARO JAMBI;INDAH TUNGGAL BERSAMA;0708230057834;08/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Dusun Kota Graha Perumahan Aston Villa Blok S-12A
+542;15;JAMBI;1571;KOTA JAMBI;PRABU SURYA PRATAMA;0708230091764;08/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Permata Citra Ii Blok B No 4
+543;15;JAMBI;1571;KOTA JAMBI;SALSABILA USAHA BERSAMA;0808230026932;08/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kapten Muda Daud No.59
+544;15;JAMBI;1571;KOTA JAMBI;BAHTERA AGUNG ENGINEERING;0808230044649;08/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komp.Villa Kenali Permai Blok A.No.07
+545;15;JAMBI;1571;KOTA JAMBI;PUTRA INTI KARYA;0808230114713;08/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abadi No.A.10
+546;15;JAMBI;1505;MUARO JAMBI;LINTAS MAKMUR SEJAHTERA;0808230136346;08/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Kota Graha Perumahan Aston Villa Blok S-12A
+547;15;JAMBI;1571;KOTA JAMBI;WARNA WARNI SEMESTA;0908230080595;08/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Yeyes Lestari Iii No. F. 64
+548;15;JAMBI;1504;BATANGHARI;MAF MUHAMMAD ALIF AL PAQIH;0908230119339;08/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Mersam
+549;15;JAMBI;1505;MUARO JAMBI;JADEKA BERKAH JAYA;0908230132049;08/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Timur
+550;15;JAMBI;1508;BUNGO;KIAT USAHA MANDIRI;0908230160052;08/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Purwo Bakti
+551;15;JAMBI;1571;KOTA JAMBI;DUTA MULIA SUKSES;1008230064135;08/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Haji Adam Malik Lorong Beringin Vi Nomor 068
+552;15;JAMBI;1503;SAROLANGUN;DIANA MAHKOTA;1008230102936;08/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Dulang Mas
+553;15;JAMBI;1571;KOTA JAMBI;AL HANS JAYA;1108230034662;08/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Pratu Ahmad
+554;15;JAMBI;1571;KOTA JAMBI;TRENDS MUHARAM OTO NUGRAHA;1108230063113;08/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pemancar Tvri No. 109
+555;15;JAMBI;1571;KOTA JAMBI;PRADIPTA KONTRUKSI MANDIRI;1108230098156;08/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ar. Saleh Lorong Wijaya Kesuma No. 70
+556;15;JAMBI;1506;TANJUNG JABUNG BARAT;HUTAMA BINA LESTARI;1208230031579;08/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kampung Baru Rt. 01
+557;15;JAMBI;1507;TANJUNG JABUNG TIMUR;ANUGERAH KASIH PRATAMA TANGGANG JAYA;1208230067805;08/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pematang Rahim
+558;15;JAMBI;1506;TANJUNG JABUNG BARAT;SERNANDO PRODUCTION;1208230071743;08/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rantau Benar
+559;15;JAMBI;1506;TANJUNG JABUNG BARAT;HAQAZARS;1408230042078;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Thomas Cup
+560;15;JAMBI;1571;KOTA JAMBI;ERRA MANDIRI;1408230048402;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Perumnas Aurduri, Blok D,  No 126
+561;15;JAMBI;1502;MERANGIN;HARAPAN ELEKTRONIK GROSIR;1408230099041;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Sudirman
+562;15;JAMBI;1571;KOTA JAMBI;SINAR SUKSES SUMATERA;1408230102852;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Belitung No. 32
+563;15;JAMBI;1571;KOTA JAMBI;TANGGUH JAYA SENTOSA;1408230107429;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof. M. Yamin Sh No. 7 
+564;15;JAMBI;1571;KOTA JAMBI;BELITUNG BANGKIT BERSAMA;1408230109444;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sari Bakti No. 29 
+565;15;JAMBI;1571;KOTA JAMBI;NIAS NIAGA NYATA;1408230114484;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Nias No 6B
+566;15;JAMBI;1505;MUARO JAMBI;KARYA KONDANG KASANG;1408230116216;08/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raya Kasang Pudak 
+567;15;JAMBI;1507;TANJUNG JABUNG TIMUR;SUMBER BIBIT MAJU;1508230040854;08/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Kuta Kandis Dendang
+568;15;JAMBI;1501;KERINCI;DEPATI KARYA SARANA;1508230051103;08/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Kerinci - Padang Nomor :67, Desa Telago Biru
+569;15;JAMBI;1503;SAROLANGUN;TRANSPORTIR MUTIARA HITAM;1508230061872;08/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Tembok Rejo
+570;15;JAMBI;1571;KOTA JAMBI;BIDARA MULTI KARYA;1508230101661;08/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sanggodirajo
+571;15;JAMBI;1507;TANJUNG JABUNG TIMUR;PUTRA NAULI;1508230107151;08/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Sri Sedono
+572;15;JAMBI;1571;KOTA JAMBI;GRIYA CITRA MANDIRI;1608230023226;08/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Raden Abdurrahman No. 09
+573;15;JAMBI;1571;KOTA JAMBI;TELAGO RAJO CONSTRUCTION;1608230040473;08/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Raden Abdurahman No. 9
+574;15;JAMBI;1502;MERANGIN;BOWISES TIGA PUTRA;1608230053975;08/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pamenang
+575;15;JAMBI;1501;KERINCI;GENTING ROCK CONSTRUCTION;1608230064933;08/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Lempur Mudik
+576;15;JAMBI;1571;KOTA JAMBI;MALIK INDONESIAN TRANSPORT;1608230081987;08/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Brigjend Katamso
+577;15;JAMBI;1571;KOTA JAMBI;MITRA AMANAH GRUP;2008230018192;08/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Prof. M. Yamin, Sh
+578;15;JAMBI;1571;KOTA JAMBI;BHAGAWANTA SAMUDERA KONSTRUKSI;2108230062993;08/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Untung Suropati Rt. 24
+579;15;JAMBI;1504;BATANGHARI;ABIMANYU SUKSES PUTRA;2108230086821;08/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jambi Muara Bungo
+580;15;JAMBI;1571;KOTA JAMBI;KSMR DIAN PRATAMA TEKNIK;2108230091521;08/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ir. H. Juanda Lr. Palasari No. 09
+581;15;JAMBI;1571;KOTA JAMBI;JAYA MANDIRI PEPAYOSA;2108230133527;08/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Penerangan Iv
+582;15;JAMBI;1571;KOTA JAMBI;AL HUSEIN;2208230045692;08/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Bougenville Lestari, Blok Cd 06
+583;15;JAMBI;1505;MUARO JAMBI;BERSAMA AMANAH SENTOSA;2208230063431;08/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera 
+584;15;JAMBI;1507;TANJUNG JABUNG TIMUR;GLOBAL INDO PASIFIK;2208230187982;08/22/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Suko Rejo
+585;15;JAMBI;1505;MUARO JAMBI;SIGINJAI ARTA AMARTA;2308230030435;08/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raya Palembang – Jambi 
+586;15;JAMBI;1571;KOTA JAMBI;SANDI TRANSPORT;2308230066154;08/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Donorejo
+587;15;JAMBI;1571;KOTA JAMBI;FHADIL BERKAH UTAMA;2308230117533;08/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Simpang Acai
+588;15;JAMBI;1571;KOTA JAMBI;BIMBEL BIBUL NUSANTARA;2308230118308;08/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Kimaja Ii
+589;15;JAMBI;1571;KOTA JAMBI;MATARINDA;2408230146753;08/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kapten A. Hasan No. 066
+590;15;JAMBI;1505;MUARO JAMBI;BAHARI KARYA BERSAMA;2508230005507;08/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi - Palembang Km 28
+591;15;JAMBI;1505;MUARO JAMBI;ALAN JURAGAN;2508230019525;08/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sumber Mulya
+592;15;JAMBI;1502;MERANGIN;QONAAH BERKAH;2508230078466;08/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Ulak
+593;15;JAMBI;1571;KOTA JAMBI;TAN MALAKA;2808230032534;08/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kh. Wahid Hasyim No. 05
+594;15;JAMBI;1508;BUNGO;REZA;2808230034143;08/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Limbur Baru
+595;15;JAMBI;1504;BATANGHARI;FAEYZA FAIZ;2808230054081;08/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Sudirman Km.2, Kelurahan Rengas Condong
+596;15;JAMBI;1508;BUNGO;ANYA BERKAH MULIA;2808230067761;08/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sapat
+597;15;JAMBI;1505;MUARO JAMBI;BINTANG MAS MULIA;2808230172416;08/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Timur
+598;15;JAMBI;1571;KOTA JAMBI;RAYYAN KARYA UTAMA;2908230016901;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Walisongo Perum Arza Raya I Nomor B3
+599;15;JAMBI;1503;SAROLANGUN;TANI PERSADA;2908230023028;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Payo Lebar
+600;15;JAMBI;1504;BATANGHARI;MENARA KOMPUTER;2908230062597;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Bulian Bisnis Center (Bbc) Blok D.2
+601;15;JAMBI;1571;KOTA JAMBI;BINA MITRA ANDALAN;2908230089226;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Iswahyudi, Lrg Subur, Gg Tawakal, No 120
+602;15;JAMBI;1571;KOTA JAMBI;SBINAWIS KARUNIA PUTRA;2908230185458;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Permata Citra 4 B Blok L 12
+603;15;JAMBI;1571;KOTA JAMBI;DRIANDI JAKSI NUSA;2908230187958;08/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Permata Citra 4 Blok P13
+604;15;JAMBI;1508;BUNGO;SAWARGA MANDIRI WISATA;3008230049381;08/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Apel No 08
+605;15;JAMBI;1505;MUARO JAMBI;GOLDEN SENTRAL FOOD;3008230083048;08/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Jambi - Ma. Bulian Perumahan Citra Raya City - Ruko The Boulevard Blok A 10 No. 8
+606;15;JAMBI;1571;KOTA JAMBI;INDOLISTS;3008230111949;08/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sumatera Nomor 48
+607;15;JAMBI;1571;KOTA JAMBI;TRIASIH HARSA BUANA;3008230153935;08/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sari Bakti, Graha 16 Blok F.02
+608;15;JAMBI;1501;KERINCI;BUMI INDO NUSANTARA;3008230175107;08/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Siulak Deras Mudik, Kecamatan Gunung Kerinci, Kabupaten Kerinci, Provinsi Jambi
+609;15;JAMBI;1508;BUNGO;BUMDUS MART;3108230010577;08/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Batang Tebo
+610;15;JAMBI;1571;KOTA JAMBI;BAUMO;3108230046895;08/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kol Amir Hamzah
+611;15;JAMBI;1503;SAROLANGUN;ABID;0109230069716;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Padang Birau
+612;15;JAMBI;1571;KOTA JAMBI;AL FAZZA AUTO;0109230082744;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Barat Ii Perum. Griya Harjita
+613;15;JAMBI;1571;KOTA JAMBI;SENTRAL RAYA ELEKTRONIK;0109230096494;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sutan Syahrir Nomor 104
+614;15;JAMBI;1507;TANJUNG JABUNG TIMUR;ARJUNA MAKMUR;0109230100213;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Tanjung Sari 
+615;15;JAMBI;1504;BATANGHARI;DIAMON SEKAWAN;0109230133932;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi-Muara Bungo, Desa Pelayangan Bukit Berbunga
+616;15;JAMBI;1506;TANJUNG JABUNG BARAT;RAHMA BAYU UTAMA;0109230143551;09/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Melati
+617;15;JAMBI;1505;MUARO JAMBI;ACA JAYA MOTOR GROUP;0209230029138;09/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Tempino
+618;15;JAMBI;1571;KOTA JAMBI;ALIF BARU MANDIRI;0309230001184;09/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Griya Satrya Nomor 36
+619;15;JAMBI;1505;MUARO JAMBI;RADITYA AGUNG PERKASA;0309230048673;09/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Surabaya No. 97 Mendalo Darat
+620;15;JAMBI;1571;KOTA JAMBI;HELLO LANGUAGE CENTER;0409230005461;09/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sma 9
+621;15;JAMBI;1571;KOTA JAMBI;FARADYA BERKAH JAYA;0409230101513;09/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ahmad Hasyim
+622;15;JAMBI;1571;KOTA JAMBI;UTARA LAUTAN SEJAHTERA;0409230111918;09/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Gatot Subroto
+623;15;JAMBI;1504;BATANGHARI;ANDYRA;0409230125464;09/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Koni, Kelurahan Rengas Condong
+624;15;JAMBI;1506;TANJUNG JABUNG BARAT;TRIMAS JAYA MANDIRI;0409230130313;09/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Bahagia Lorong Sederhana
+625;15;JAMBI;1571;KOTA JAMBI;BIMANTARA CAKRA BUANA;0509230019381;09/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Hos Cokroaminoto No. 77
+626;15;JAMBI;1506;TANJUNG JABUNG BARAT;INDO UTAMA MANDIRI;0509230020784;09/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Manunggal Ii Rt 010
+627;15;JAMBI;1506;TANJUNG JABUNG BARAT;ARI JAYA KONSTRUKSI;0509230169725;09/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Syarif Hidayatullah
+628;15;JAMBI;1509;TEBO;BERKAH ALBADSIAH AGRINDO;0509230198143;09/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Suo Suo
+629;15;JAMBI;1505;MUARO JAMBI;PHANTOM AYAKA INDAH;0609230092473;09/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lorong Simpang Pete
+630;15;JAMBI;1507;TANJUNG JABUNG TIMUR;MUHESO JAYA BERKAH;0609230096905;09/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Kiri Rt. 007
+631;15;JAMBI;1502;MERANGIN;HAZA AGRA JAYA MANDIRI;0609230098446;09/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sutan Hasanuddin
+632;15;JAMBI;1571;KOTA JAMBI;NAGA WIJAYA ABADI;0709230006026;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abadi, Rt.19 No.A10, 
+633;15;JAMBI;1508;BUNGO;MEDIA TAMA GEMILANG;0709230039194;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Sapta Marga Nomor 99
+634;15;JAMBI;1571;KOTA JAMBI;AMANDA JAYA SUKSES REZEKI;0709230073721;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Marsda Surya Dharma
+635;15;JAMBI;1571;KOTA JAMBI;MAKMUR INDO SEJAHTERA;0709230098504;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl H Adam Malik
+636;15;JAMBI;1571;KOTA JAMBI;MANDALA NADEEM BERKARYA;0709230104069;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Erlangga
+637;15;JAMBI;1571;KOTA JAMBI;JEMU NUSA GLOBALINDO;0709230107221;09/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gurami Ii Blok - No. 62
+638;15;JAMBI;1571;KOTA JAMBI;BY CREATIVE PRODUCTION;0809230007392;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Brigjen Katamso Lr. Maluku
+639;15;JAMBI;1507;TANJUNG JABUNG TIMUR;BOEMI BERKAH ABADI;0809230016864;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Talang Asai
+640;15;JAMBI;1571;KOTA JAMBI;BUMI SRIWIJAYA PERSADA;0809230026562;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pal 8 Depan Smp 18. Lorong Pertamina 3, Perumahan Kedaton Asri Blok E Nomor 4
+641;15;JAMBI;1508;BUNGO;LENTERA MITRA MAKMUR ABADI;0809230051231;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Km.02 No. 185
+642;15;JAMBI;1571;KOTA JAMBI;BUNGA RAMPAI SEJAHTERA;0809230053595;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Berbah Dalam Lr. Bunga Rampai
+643;15;JAMBI;1571;KOTA JAMBI;SAKHA MITRA KELUARGA;0809230088278;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Yuka Lorong Wijaya Kusuma No.30
+644;15;JAMBI;1571;KOTA JAMBI;SAMOSIR JAYA ABADI;0809230095897;09/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sersan Anwar Bay
+645;15;JAMBI;1502;MERANGIN;YAKIN GROUP;0909230040353;09/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sungai Kapas
+646;15;JAMBI;1571;KOTA JAMBI;MANDIRI DELAPAN TUJUH;1109230023907;09/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kapt. A. Bakarudin No. 33
+647;15;JAMBI;1504;BATANGHARI;DARMA BANGSA;1109230074263;09/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi-Muara Bulian Km.27
+648;15;JAMBI;1506;TANJUNG JABUNG BARAT;OMAN JAYA GROUP;1109230102253;09/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Mt Facruddin
+649;15;JAMBI;1502;MERANGIN;ADAM JAYA MANDIRI;1109230104975;09/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Sapta Marga
+650;15;JAMBI;1571;KOTA JAMBI;NUSANTARA GAYATRI INDONESIA;1209230000146;09/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Dr. Wahidin Sudirohusodo No.115 Rt.004
+651;15;JAMBI;1505;MUARO JAMBI;NING TOFIK;1209230020861;09/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Arang-Arang
+652;15;JAMBI;1571;KOTA JAMBI;ADHI KARYA PERKASA;1209230049356;09/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kihajar Dewantara N0.08 Abc
+653;15;JAMBI;1505;MUARO JAMBI;PRASIDA TRI PUTRI;1209230076086;09/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi-Muara Bulian Dusun Kota Graha 
+654;15;JAMBI;1571;KOTA JAMBI;MUMTAZ JAYA PERKASA;1209230180532;09/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Taruma Negara No. 05
+655;15;JAMBI;1571;KOTA JAMBI;ASYIQAH LOGISTIK INDONESIA TRANSPORT;1309230032189;09/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kalimantan Lorong Manunggal Nomor 12
+656;15;JAMBI;1571;KOTA JAMBI;ANGING MAMIRIE;1309230109953;09/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Patimura Lr.Ibrahim 
+657;15;JAMBI;1571;KOTA JAMBI;MULTI BINTANG KENCANA;1409230013382;09/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ir. H. Juanda
+658;15;JAMBI;1506;TANJUNG JABUNG BARAT;IWAN VARIASI AUTO CAR;1409230023811;09/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl.Panglima
+659;15;JAMBI;1571;KOTA JAMBI;HAKIM KARYA MANDIRI;1409230061431;09/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sumatera Lorong Masjid Nomor B 10 
+660;15;JAMBI;1571;KOTA JAMBI;MELATI MAS JAYA;1409230136493;09/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Bandar Lrg. Koni I
+661;15;JAMBI;1571;KOTA JAMBI;GLOBAL JAMBI SERVICES;1509230040146;09/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof. M. Yamin, Sh 
+662;15;JAMBI;1571;KOTA JAMBI;NUSA BRILLIANT ENTERPRISE;1509230123519;09/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Villa Golf Abadi Blok D Nomor 04
+663;15;JAMBI;1571;KOTA JAMBI;REVIVA MANDIRI SEJAHTERA;1709230020664;09/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Rd Kolopaking No. 18 
+664;15;JAMBI;1506;TANJUNG JABUNG BARAT;AZILA NOERIZ BAROKAH;1809230002171;09/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Manggis
+665;15;JAMBI;1505;MUARO JAMBI;BAHAR MANDIRI;1809230065996;09/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Marga Mulya
+666;15;JAMBI;1505;MUARO JAMBI;BERKAH SUKSES BERSAMA MUARO JAMBI;1809230066556;09/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi - Petaling Km 10 Dusun Sesab Baru
+667;15;JAMBI;1508;BUNGO;MUAMALAH ENERGI BERSAMA;1809230084905;09/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof M. Yamin
+668;15;JAMBI;1571;KOTA JAMBI;JAIND KOMUNIKA UTAMA;1809230088281;09/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jend. Sudirman No 100 
+669;15;JAMBI;1571;KOTA JAMBI;SUMBER BERKAT MAKMUR WIJAYA;1909230010373;09/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Abdul Rahman Saleh 
+670;15;JAMBI;1571;KOTA JAMBI;BIMA ZIKWAN BENTALA;1909230056196;09/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Kayu Manis 2
+671;15;JAMBI;1571;KOTA JAMBI;NAZIIHAH;1909230081203;09/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Tp. Sriwijaya Lr. Mangga 2 Nomor 42
+672;15;JAMBI;1506;TANJUNG JABUNG BARAT;TAK TESEBUT;1909230102939;09/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kh. Dewantara Rt 015
+673;15;JAMBI;1506;TANJUNG JABUNG BARAT;ANALOG WINGS;1909230122561;09/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sabilal Huda Rt. 12
+674;15;JAMBI;1505;MUARO JAMBI;MADANI BAROKAH;2009230042638;09/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Arang Arang
+675;15;JAMBI;1571;KOTA JAMBI;SINAR MOTOR;2009230046273;09/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Mayor. Abd. Kartawirana
+676;15;JAMBI;1571;KOTA JAMBI;TUNAS ANTAR NUSA;2009230051818;09/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan 110, Nomor 14
+677;15;JAMBI;1571;KOTA JAMBI;MUTIARA SAHARA;2009230070966;09/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Citra Land Ngk B-23, Rt. 046
+678;15;JAMBI;1571;KOTA JAMBI;GEMILANG CAHAYA MULIA;2009230092162;09/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sari Bakti
+679;15;JAMBI;1571;KOTA JAMBI;ENVIROSSRIDA BRILIANT;2109230026882;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Poros Pinang Merah  Kpr Pinang Merah Indah Blok E4 Nomor 110
+680;15;JAMBI;1505;MUARO JAMBI;SARKO KUARSA BERJAYA;2109230061866;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+681;15;JAMBI;1505;MUARO JAMBI;TANTAN KUARSA BERJAYA;2109230068054;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+682;15;JAMBI;1505;MUARO JAMBI;NALO KUARSA BERJAYA;2109230078867;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+683;15;JAMBI;1504;BATANGHARI;BANOLI CENTER;2109230095436;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Jambi-Muara Tembesi, Kampung Baru
+684;15;JAMBI;1503;SAROLANGUN;HANI BERKAH MANDIRI;2109230203706;09/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Budi Utomo
+685;15;JAMBI;1571;KOTA JAMBI;GUNUNG MAS MULIA;2209230085234;09/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sunan Gunung Jati
+686;15;JAMBI;1571;KOTA JAMBI;JASAQU BERKAH ABADI;2209230120479;09/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ir. H. Juanda No. 19 
+687;15;JAMBI;1502;MERANGIN;MASURAI AGRO KAWA;2209230224284;09/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bangko Jangkat Nomor 21
+688;15;JAMBI;1505;MUARO JAMBI;MASURAI KUARSA BERJAYA;2509230035232;09/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+689;15;JAMBI;1505;MUARO JAMBI;MERANGIN PASIR BERJAYA;2509230043646;09/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+690;15;JAMBI;1504;BATANGHARI;PUTRA LANG MANDIRI;2509230066069;09/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Lingkar
+691;15;JAMBI;1571;KOTA JAMBI;LAJU OPTIMA GEMILANG;2609230013104;09/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Citra Land Ngk B-23
+692;15;JAMBI;1505;MUARO JAMBI;NISCALA ENGINEERING CONSULTANT;2609230041026;09/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Citra Raya City Komplek Bukit Cempaka No.A12/29
+693;15;JAMBI;1508;BUNGO;ANGKASA ADVERTISING;2609230064676;09/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Btn Permata Bungo Elok
+694;15;JAMBI;1505;MUARO JAMBI;MERANGIN BATU BERJAYA;2609230164124;09/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Kembar Lestari Blok U2
+695;15;JAMBI;1571;KOTA JAMBI;SURYA SENTOSA;2709230030205;09/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan Iii
+696;15;JAMBI;1571;KOTA JAMBI;ZAHRA PENAWAR BATUAH;2709230030295;09/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sri Rejeki Nomor 17, Rukun Tetangga 010
+697;15;JAMBI;1571;KOTA JAMBI;VICTORIA INTERASIA KOSMETIKA;2709230087877;09/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Adityawarman, Lorong Pacitan Nomor 89
+698;15;JAMBI;1505;MUARO JAMBI;FAJAR TRI MUTIARA;2809230015053;09/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ness
+699;15;JAMBI;1571;KOTA JAMBI;LANJARAN TUNGGAL PERKASA;2809230038736;09/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Griya Aur Duri Indah No 159
+700;15;JAMBI;1503;SAROLANGUN;THREE BROTHER ABADI;2909230031381;09/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lubuk Sepuh
+701;15;JAMBI;1505;MUARO JAMBI;MEDHA KARYA;2909230069629;09/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kenali Kecil
+702;15;JAMBI;1506;TANJUNG JABUNG BARAT;SAUDARA JAYA TEKNIK;3009230022931;09/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Pematang Tembesu 
+703;15;JAMBI;1506;TANJUNG JABUNG BARAT;DUA LUBUK JAYA;3009230028746;09/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Lubuk Kambing
+704;15;JAMBI;1505;MUARO JAMBI;ARUNI AGRO LESTARI;3009230032537;09/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kenali Kecil
+705;15;JAMBI;1502;MERANGIN;ADIB FATAN PERKASA;0210230059561;10/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Rejo Sari
+706;15;JAMBI;1572;KOTA SUNGAI PENUH;MITRA TANI SEJATI;0210230063453;10/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Tarandam I
+707;15;JAMBI;1571;KOTA JAMBI;TYO AUTO;0210230071463;10/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Swadaya Raya
+708;15;JAMBI;1571;KOTA JAMBI;RASIKLOPEDIA;0310230094357;10/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof Hamka Nomor 16
+709;15;JAMBI;1571;KOTA JAMBI;INTI KOMPUTER;0410230013108;10/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. M. Husni Thamrin
+710;15;JAMBI;1509;TEBO;ADAM BERKAH JAYA;0410230027003;10/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Balai Rajo
+711;15;JAMBI;1571;KOTA JAMBI;CIPTA TURBO MANDIRI;0410230069586;10/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Yos Sudarso
+712;15;JAMBI;1501;KERINCI;HAZIQA TRININDYA;0510230080014;10/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Semumu
+713;15;JAMBI;1571;KOTA JAMBI;GENTALA CAKRA ABADI;0510230084426;10/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Pangeran Hidayat 
+714;15;JAMBI;1571;KOTA JAMBI;BARI MEDIANTARA SEJAHTERA;0610230046572;10/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Citra Beringin Regency J.14
+715;15;JAMBI;1571;KOTA JAMBI;THRIVE FITNESS INDONESIA;0710230037731;10/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gr.Dt. Djamin Bagindo No. 18-19
+716;15;JAMBI;1571;KOTA JAMBI;DIMENSI;0910230013185;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Hmo Bafadhal
+717;15;JAMBI;1508;BUNGO;PUTRI TUNGGAL SETIA ABADI;0910230026865;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kampung Pasar 
+718;15;JAMBI;1508;BUNGO;LUBER MANDIRI JAYA;0910230028709;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lubuk Beringin
+719;15;JAMBI;1571;KOTA JAMBI;INTROMEDIA JAMBI;0910230038883;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. H. Ibrahim Lorong Damai Raya No. 29
+720;15;JAMBI;1506;TANJUNG JABUNG BARAT;RAM BERJAYA BERKAH;0910230047769;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Kenanga
+721;15;JAMBI;1503;SAROLANGUN;PULAU ARO JAYA BERSAMA;0910230066307;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Bukit Pulau Aro
+722;15;JAMBI;1508;BUNGO;HARUN MANDIRI SEJAHTERA;0910230369194;10/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Garuda Tuo Limbur
+723;15;JAMBI;1571;KOTA JAMBI;MUARA EMAS;1010230003723;10/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Matahari I No. 53
+724;15;JAMBI;1571;KOTA JAMBI;PRATAMA BERKAH MEDIA;1010230089721;10/10/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Perdabas, Perum Grand Namura Indah Blok H 05
+725;15;JAMBI;1509;TEBO;INDAH DAMAI SEJAHTERA;1110230064285;10/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kolidor
+726;15;JAMBI;1571;KOTA JAMBI;CELLULAR SOLUTION;1110230093974;10/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Ir.H.Juanda Mayang Mangurai No.118-119
+727;15;JAMBI;1571;KOTA JAMBI;SEMESTA ALAM RAYA JBI;1110230108056;10/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jatayu 3 No. 12A
+728;15;JAMBI;1571;KOTA JAMBI;ARIASHATYA EARLY;1210230152304;10/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Slamet Riyadi 
+729;15;JAMBI;1571;KOTA JAMBI;GIRAS ADIPA PRATAMA;1210230178801;10/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kebun Daging
+730;15;JAMBI;1505;MUARO JAMBI;ASTAGUNA KONSTRUKSI;1410230014654;10/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Crc C. Bukit Cempaka Blok A 17/20
+731;15;JAMBI;1571;KOTA JAMBI;DEVS AUTO;1410230018546;10/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof. M. Yamin Sh Nomor 62
+732;15;JAMBI;1507;TANJUNG JABUNG TIMUR;WITA HASIBUAN JAYA;1410230043871;10/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Jambi Sabak
+733;15;JAMBI;1505;MUARO JAMBI;PRATAMA DEWI KHOIRUN;1610230077634;10/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Taman Aci Nomor 09
+734;15;JAMBI;1571;KOTA JAMBI;TRIDENT UTAMA;1610230085407;10/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sunan Giri
+735;15;JAMBI;1505;MUARO JAMBI;TAQI AISYAH MANDIRI;1710230054191;10/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Naga Sari
+736;15;JAMBI;1503;SAROLANGUN;NUSO TARA MULYA;1710230133288;10/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Bukit
+737;15;JAMBI;1503;SAROLANGUN;MANBARA TRANSPORT;1710230138328;10/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sarolangun-Muara Tembesi
+738;15;JAMBI;1571;KOTA JAMBI;SAHABAT KOMPAK;1710230140984;10/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Masindah
+739;15;JAMBI;1571;KOTA JAMBI;CIPTA PRATAMA NUSANTARA;1810230052368;10/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Prof Hmo Bafadhal, Nomor 46
+740;15;JAMBI;1506;TANJUNG JABUNG BARAT;FARHSA;1810230062979;10/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Beringin
+741;15;JAMBI;1509;TEBO;HARVEY AGRO JAYA;1810230090675;10/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sumber Sari
+742;15;JAMBI;1571;KOTA JAMBI;SURYA BOGA LESTARI;1910230043505;10/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Berdikari
+743;15;JAMBI;1501;KERINCI;SHANUM PRADISTA KONSTRUKSI;1910230072691;10/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sungai Pegeh, Kecamatan Siulak, Kabupaten Kerinci, Provinsi Jambi
+744;15;JAMBI;1571;KOTA JAMBI;SUKA JAYA BERSINAR;1910230088246;10/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gotong Royong Nomor 20
+745;15;JAMBI;1571;KOTA JAMBI;SAMUDERA REZEKI OTOMOTIVE;1910230098429;10/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Singosari
+746;15;JAMBI;1505;MUARO JAMBI;EVIT SUKSES PERKASA;1910230114965;10/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lintas Petaling
+747;15;JAMBI;1503;SAROLANGUN;SUBUR INDAH MART;2010230015479;10/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Lintas Sumatera
+748;15;JAMBI;1503;SAROLANGUN;SUBUR INDAH GROCERY;2010230021566;10/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Lintas Sumatera
+749;15;JAMBI;1506;TANJUNG JABUNG BARAT;OLSANI GROUP;2010230080189;10/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pembengis
+750;15;JAMBI;1571;KOTA JAMBI;REVIANO BERJAYA;2310230041968;10/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kapten Pattimura No. 69
+751;15;JAMBI;1571;KOTA JAMBI;BUMI ARTHA TELEKOMUNIKASI;2310230086902;10/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Pangeran Hidayat Gang Irg Dinasti
+752;15;JAMBI;1506;TANJUNG JABUNG BARAT;TIGA PERMATA;2410230031597;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Jendral Sudirman 
+753;15;JAMBI;1571;KOTA JAMBI;SIDOMUKTI SOJA PERSADA;2410230031856;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sarolangun Bangko 
+754;15;JAMBI;1571;KOTA JAMBI;SELARAS PINANG MASAK;2410230037471;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kebun Daging, Perumahan Sevilla Blok B2
+755;15;JAMBI;1571;KOTA JAMBI;HARAPAN BERKAH SEJAHTERA;2410230040077;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kebun Daging, Perumahan Sevilla Blok B2
+756;15;JAMBI;1504;BATANGHARI;ADZIGRA ARSYA;2410230066653;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun 4
+757;15;JAMBI;1509;TEBO;SINAR NIARA JAYA;2410230111504;10/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Padang Lamo 
+758;15;JAMBI;1571;KOTA JAMBI;BUNTARA BERKAH KONSTRUKSI;2510230093586;10/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Aster Biru, Jl Mawar, No 117
+759;15;JAMBI;1501;KERINCI;ARTA MANDIRI SOLUSION;2610230021892;10/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Koto Majidin Mudik
+760;15;JAMBI;1571;KOTA JAMBI;ABDI GUNA RAKITO;2610230028618;10/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Tp. Sriwijaya No. 28 A
+761;15;JAMBI;1509;TEBO;TALANG SEJATRA;2610230031937;10/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumnas Griya Tebo Indah
+762;15;JAMBI;1504;BATANGHARI;PUTRA LOPAK AUR;2610230040858;10/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lopak Aur
+763;15;JAMBI;1571;KOTA JAMBI;JAMBI INDEPENDENT EVENT;2610230083362;10/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jendral Sudirman No 100
+764;15;JAMBI;1571;KOTA JAMBI;SUMBER USAHA KARYA;2610230094862;10/26/2023;PMDN;Non UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan M. Yamin Nomor 47
+765;15;JAMBI;1571;KOTA JAMBI;AQILA PUTRI JAMBI;2710230072372;10/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Slamet Riadi Lrg Flamboyan
+766;15;JAMBI;1508;BUNGO;TRANSPORINDO PRATAMA;2710230080843;10/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pal 7
+767;15;JAMBI;1505;MUARO JAMBI;CLEIMAHEERA MAKMUR GROUP;2710230082283;10/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Dusun Baru 
+768;15;JAMBI;1571;KOTA JAMBI;AR BUMI ANGSANA;2710230109553;10/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Empu Sendok Nomor 43
+769;15;JAMBI;1571;KOTA JAMBI;ARAFI MULTI UTAMA;2710230162912;10/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Dr. Mawardi
+770;15;JAMBI;1571;KOTA JAMBI;BUMI BAJA SELARAS;2810230013489;10/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan Ii Nomor 19
+771;15;JAMBI;1571;KOTA JAMBI;MEGA CIPTA KONSULTAN;3010230042289;10/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Garuda Tiga I/20
+772;15;JAMBI;1506;TANJUNG JABUNG BARAT;SWAKARYA INSANI;3010230120826;10/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Selempang Merah
+773;15;JAMBI;1571;KOTA JAMBI;BAROKAH BAHAGIA;3010230124597;10/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kenali Besar
+774;15;JAMBI;1509;TEBO;BERKAH CIPTA SEMABU;3010230268632;10/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Semabu
+775;15;JAMBI;1503;SAROLANGUN;HANI BERKAH SEJAHTERA;3110230262096;10/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Karang Mendapo
+776;15;JAMBI;1506;TANJUNG JABUNG BARAT;SRIKANDI KONSULTAN;0111230070223;11/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Sederhana, Rt.001, Kelurahan Sriwijaya, Kecamatan Tungkal Ilir, Kabupaten Tanjung Jabung Barat
+777;15;JAMBI;1505;MUARO JAMBI;ABIT ABIL GRUP;0111230110846;11/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lingkar Selatan
+778;15;JAMBI;1504;BATANGHARI;GEMPITA JAYA MAKMUR;0111230191624;11/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Tebing Tinggi
+779;15;JAMBI;1509;TEBO;REZEKI BAROKAH GROUP;0111230228917;11/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Batu Malau
+780;15;JAMBI;1509;TEBO;TEBO AGRO LESTARI;0211230107102;11/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ra. Kartini
+781;15;JAMBI;1509;TEBO;ZAKE MISHA BERSINAR;0211230119579;11/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sultan Thaha, Ruko Tanggo Rajo
+782;15;JAMBI;1508;BUNGO;PERSIL JAYA ABADI;0211230128037;11/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Pinang 2
+783;15;JAMBI;1572;KOTA SUNGAI PENUH;SIDIQ KARYA BERKAH;0211230164783;11/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Tanjung Muda
+784;15;JAMBI;1505;MUARO JAMBI;BERKAT ABADI SEJATERA;0211230176393;11/02/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Raya Kasang Pudak Nomor 88C - 88D
+785;15;JAMBI;1505;MUARO JAMBI;CAHAYA TEKNIK JAMBI;0311230048638;11/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Doli Jaya Nomor 06 
+786;15;JAMBI;1571;KOTA JAMBI;FAJAR MUDA JAYA;0311230056885;11/03/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Permata Land Safir J-20
+787;15;JAMBI;1509;TEBO;BERKAH CAHAYA NIRWANA;0411230006295;11/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Pulau Temiang
+788;15;JAMBI;1502;MERANGIN;JAYA PUTRA BATANG MERANGIN;0411230031956;11/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bangko Tinggi
+789;15;JAMBI;1571;KOTA JAMBI;YUSUF ALAWIYAH PRABU;0611230042429;11/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Seroja V Nomor 08
+790;15;JAMBI;1571;KOTA JAMBI;VERY SUGIANTO;0611230071005;11/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lorong Koni 1
+791;15;JAMBI;1571;KOTA JAMBI;SHAFA JAYA INTERIOR;0811230047973;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sultan Agung No.24
+792;15;JAMBI;1503;SAROLANGUN;MITRA PALUGADA NUSANTARA;0811230050895;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Sri Pelayang Ilir Km I,Lingkungan Sei Belati
+793;15;JAMBI;1571;KOTA JAMBI;MANGGALA PRATAMA MANDIRI;0811230056216;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Griya Talang Dulur Blok B12
+794;15;JAMBI;1571;KOTA JAMBI;SINAR BERLIAN ABADI;0811230078244;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Prof Hmo Bafadhal, No 12
+795;15;JAMBI;1504;BATANGHARI;MELCA GROUP;0811230079324;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gajah Mada
+796;15;JAMBI;1508;BUNGO;HALMART RETAIL SYARIAH;0811230082654;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kesuma No 88 
+797;15;JAMBI;1571;KOTA JAMBI;RENGGA TUNAS UTAMA;0811230094354;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kapten M Daud No 45
+798;15;JAMBI;1571;KOTA JAMBI;WIRA BUMI NUSANTARA;0811230101655;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Tp. Sriwijaya
+799;15;JAMBI;1571;KOTA JAMBI;RAHMAT GALERI INTERIOR;0811230103883;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Hoscokroaminoto Simpang Kawat Jambi No 33 
+800;15;JAMBI;1505;MUARO JAMBI;PUTRA TRANSPORT MANDIRI;0811230109586;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Bukit Mulya
+801;15;JAMBI;1504;BATANGHARI;LANCAR JAYA SAMSUL;0811230116213;11/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kampung Baru Tembesi
+802;15;JAMBI;1508;BUNGO;ONENG DABALANG ABADI;0911230042471;11/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Gedang
+803;15;JAMBI;1571;KOTA JAMBI;REFI JAYA;0911230076219;11/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Teuku Sulaiman 037B
+804;15;JAMBI;1571;KOTA JAMBI;DUTA AUTO MOBILINDO;1111230011555;11/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sari Bakti
+805;15;JAMBI;1505;MUARO JAMBI;PUTRA TANJUNG PAUH;1111230045248;11/11/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Tanjung Pauh Km 32
+806;15;JAMBI;1503;SAROLANGUN;PERMATA ALAM NGAI;1311230085462;11/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Puri Gunung Kembang
+807;15;JAMBI;1571;KOTA JAMBI;SHAGA CIPTA PERDANA;1711230065591;11/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H. Syamsu Bahrun, Nomor 01 E
+808;15;JAMBI;1571;KOTA JAMBI;KHARISMA MAKMUR SEJAHTERA;1711230069191;11/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Brigjen Katamso
+809;15;JAMBI;1501;KERINCI;PUTRA MAHKOTA KERINCI;1711230072168;11/17/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Siulak Deras Mudik
+810;15;JAMBI;1505;MUARO JAMBI;DARISAA BERJAYA;1811230008091;11/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Rt.010 Desa Markanding 
+811;15;JAMBI;1572;KOTA SUNGAI PENUH;BERKAH KONSTRUKSI;2011230031129;11/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kelurahan Dusun Baru, Kecamatan Sungai Bungkal, Kota Sungai Penuh, Provinsi Jambi
+812;15;JAMBI;1505;MUARO JAMBI;HAPPY PROJECT GROUP;2111230012129;11/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Anugerah Mandiri 16 Blok B No 7 
+813;15;JAMBI;1571;KOTA JAMBI;JAMBI MULIA;2111230016543;11/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Total Perum Bintang Ceria Asri No H. 8 Rt 36 Pal 5 Kotabaru , Kota Jambi
+814;15;JAMBI;1507;TANJUNG JABUNG TIMUR;JD MAKMUR JAYA;2111230043993;11/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jln. Jendral Sudirman 
+815;15;JAMBI;1503;SAROLANGUN;TIRTA UTAMA TRACTOR;2111230084572;11/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera Km. 01
+816;15;JAMBI;1507;TANJUNG JABUNG TIMUR;MUNTHE AGRO LESTARI;2211230077722;11/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Parit Culum I
+817;15;JAMBI;1508;BUNGO;AGRO BINA TANI;2211230112627;11/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Baharuddin Nomor 256
+818;15;JAMBI;1571;KOTA JAMBI;YAN OFFSET;2311230068611;11/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Sri Gunting, No: 15
+819;15;JAMBI;1502;MERANGIN;MERANGIN ANUGERAH CREATIVE;2311230073605;11/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ahmad Yani Nomor 30
+820;15;JAMBI;1571;KOTA JAMBI;DIAMOND MAJU BERSAMA;2311230093135;11/23/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Matahari Iii Nomor 44 
+821;15;JAMBI;1503;SAROLANGUN;CITRA MANDIRI SCALE;2411230042545;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Bukit Tigo
+822;15;JAMBI;1505;MUARO JAMBI;NAWASENA MAHARDIKA;2411230071604;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jambi Tulo
+823;15;JAMBI;1503;SAROLANGUN;SUKSES TUJUH BERSAUDARA;2411230074791;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera
+824;15;JAMBI;1506;TANJUNG JABUNG BARAT;MARMI YANA BERKAH;2411230090324;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Ternate
+825;15;JAMBI;1503;SAROLANGUN;TUJURAMA;2411230090436;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Bujang Ibrahim, Dusun Kayu Rimbun
+826;15;JAMBI;1508;BUNGO;BINA TANI GROUP;2411230092811;11/24/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lintas Sumatera
+827;15;JAMBI;1571;KOTA JAMBI;PUSUK NAULI;2511230004184;11/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Barat
+828;15;JAMBI;1505;MUARO JAMBI;BINA PUTRA JAYA;2511230020729;11/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Simpang Bejo
+829;15;JAMBI;1504;BATANGHARI;FARAZA BAROKAH;2711230260236;11/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Jambi-Muara Bungo
+830;15;JAMBI;1571;KOTA JAMBI;RAJO PUTRA JAMBI;2711230364943;11/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perum Monaco Residen I Blok D 11
+831;15;JAMBI;1506;TANJUNG JABUNG BARAT;JURAGAN MUDA SEJAHTERA;2711230369871;11/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Parit Gompong Lrg Baru
+832;15;JAMBI;1571;KOTA JAMBI;SRI KARYA PEMBANGUNAN;2811230032899;11/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kol Amir Hamzah
+833;15;JAMBI;1571;KOTA JAMBI;GOERU USAHA MEDIA;2911230013717;11/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Lingkar Selatan Iii
+834;15;JAMBI;1571;KOTA JAMBI;PHOENIX JAYA TRANSPORT;2911230023889;11/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Selincah Park Residence Blok B 8-9
+835;15;JAMBI;1571;KOTA JAMBI;MONEX JAYA BERSAMA;2911230064931;11/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Bumi Anggun, Jalan Sunan Giri Blok B No 01
+836;15;JAMBI;1503;SAROLANGUN;GESA KARUNIA UTAMA;2911230070147;11/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sungai Gedang
+837;15;JAMBI;1507;TANJUNG JABUNG TIMUR;FAZAR SUKSES BERSAMA;2911230074164;11/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Gontor 10
+838;15;JAMBI;1571;KOTA JAMBI;ARTA PRATAMA;3011230028625;11/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Letkol Hasan Efendi No. 51
+839;15;JAMBI;1503;SAROLANGUN;CITRA SAWIT WIJAYA;3011230052438;11/30/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Limbur Tembesi
+840;15;JAMBI;1501;KERINCI;NASIONAL KERINCI SPICE;0112230000766;12/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Dusun Baru, Kecamatan Siulak, Kabupaten Kerinci, Provinsi Jambi
+841;15;JAMBI;1572;KOTA SUNGAI PENUH;MEYRA TITIAN REZKY;0112230013579;12/01/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Depati Parbo
+842;15;JAMBI;1571;KOTA JAMBI;NELI MANDIRI PERKASA;0412230024983;12/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kompol M Taher, Asrama Polisi Talang Banjar Blok E 03
+843;15;JAMBI;1571;KOTA JAMBI;ALNARA BERKAH SEJAHTERA;0412230076009;12/04/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Sutan Baharudin, No. 23
+844;15;JAMBI;1571;KOTA JAMBI;BERKAH PAMMASE;0512230055088;12/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Abdul Muis
+845;15;JAMBI;1571;KOTA JAMBI;BINTANG BAAHIRAH;0512230080049;12/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Komplek Kehutanan Blok F Nomor 8
+846;15;JAMBI;1509;TEBO;BERKAH ZAMAHE WAPU;0512230098165;12/05/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan 7 
+847;15;JAMBI;1571;KOTA JAMBI;CAHAYA ABADI;0612230053357;12/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Brigjen Katamso Nomor 15
+848;15;JAMBI;1571;KOTA JAMBI;SERRE TOBA PERKASA;0612230083586;12/06/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Emprit Raya Iv No.7
+849;15;JAMBI;1508;BUNGO;BAROKAH ANUGERAH BERSAMA;0712230125639;12/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumnas Blok C Nomor 268
+850;15;JAMBI;1571;KOTA JAMBI;CAHAYA HARAPAN SUKSES;0712230172665;12/07/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Pertdabas Perumahan Griya Kenali Asam Asri Blok A No. 9
+851;15;JAMBI;1504;BATANGHARI;NAYFAEZ SEJAHTERA;0812230035214;12/08/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Puar
+852;15;JAMBI;1505;MUARO JAMBI;SINTONG PETALING PANCORAN;0912230012952;12/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Gelam
+853;15;JAMBI;1571;KOTA JAMBI;ARTOMORO SEMESTA ABADI;0912230035689;12/09/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pangeran Hidayat Nomor 17
+854;15;JAMBI;1503;SAROLANGUN;MIKHAELA MANDIRI;1212230038392;12/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Perintis Rt.04, Kelurahan Sukasari, Kecamatan Sarolangun
+855;15;JAMBI;1503;SAROLANGUN;PUTRI KEMBAR MF;1212230042903;12/12/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sukasari
+856;15;JAMBI;1571;KOTA JAMBI;MAKMUR ANUGERAH SANJAYA;1312230146955;12/13/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Orang Kayo Hitam Nomor 28
+857;15;JAMBI;1504;BATANGHARI;ZEETA ORGANIZER PLANNER;1412230083629;12/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Gajah Mada 
+858;15;JAMBI;1508;BUNGO;MANDIRI ABADI MULIA;1412230103045;12/14/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera, Pasar Atas
+859;15;JAMBI;1571;KOTA JAMBI;PANCUR SIWAH SIMALEM;1512230058533;12/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lingkar Selatan Ii
+860;15;JAMBI;1504;BATANGHARI;LUMBUNG EMAS;1512230059286;12/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Nusantara
+861;15;JAMBI;1505;MUARO JAMBI;DELTA POWER INDONESIA;1512230089166;12/15/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Kali Batas
+862;15;JAMBI;1508;BUNGO;DEDY PUTRA DUA;1612230005737;12/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Lorong Delima
+863;15;JAMBI;1509;TEBO;WIHANTRA RIZKY ANUGRAH;1612230020666;12/16/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Anggur I Blok C
+864;15;JAMBI;1571;KOTA JAMBI;BENTALA ENVIROMENTAL CONSULTANT;1812230149844;12/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Dr. Tazar No. 07
+865;15;JAMBI;1571;KOTA JAMBI;EA MULIA PERSADA;1812230174208;12/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Orang Kayo Pingai
+866;15;JAMBI;1509;TEBO;GAZA TRANS RIMBO BUJANG;1812230218613;12/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pahlawan 
+867;15;JAMBI;1507;TANJUNG JABUNG TIMUR;SOPAN RAJA PERSADA;1812230431619;12/18/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Paduka Berhala
+868;15;JAMBI;1503;SAROLANGUN;SAROHA TRANS;1912230171939;12/19/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Lintas Sumatera
+869;15;JAMBI;1506;TANJUNG JABUNG BARAT;AMANAHBILLAH;2012230030208;12/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Aroma Baru
+870;15;JAMBI;1504;BATANGHARI;SAWIT BRENAI BAROKAH;2012230327638;12/20/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Belanti Jaya
+871;15;JAMBI;1506;TANJUNG JABUNG BARAT;SYAHRUL SYAIRA JAYA;2112230023202;12/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Kuala Tungkal - Jambi
+872;15;JAMBI;1571;KOTA JAMBI;AL FATH MANDIRI;2112230030119;12/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Dharma Karya 2 No.07
+873;15;JAMBI;1508;BUNGO;MITRA SAKATO KONTRAKTOR;2112230065796;12/21/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Pasar Ii 
+874;15;JAMBI;1571;KOTA JAMBI;RADYA ALIYA REZEKI;2212230027751;12/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Eksekutif Perum Bukit Mayang Estate Blok A Nomor 7
+875;15;JAMBI;1571;KOTA JAMBI;GHANI BARRU ABADI;2212230049733;12/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Merabu 3
+876;15;JAMBI;1571;KOTA JAMBI;ENAM BERADIK;2212230067691;12/22/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan H. Yusuf Nasri
+877;15;JAMBI;1571;KOTA JAMBI;JINAN SANUM BATANGHARI JAYA;2512230020258;12/25/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Kh. A. Majid
+878;15;JAMBI;1506;TANJUNG JABUNG BARAT;ATUK LABU;2612230014828;12/26/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Manunggal Ii
+879;15;JAMBI;1503;SAROLANGUN;HEAGT STONE;2712230021138;12/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Sungai Benteng
+880;15;JAMBI;1502;MERANGIN;PENTOEL COREX API;2712230037926;12/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Desa Sungai Kapas
+881;15;JAMBI;1571;KOTA JAMBI;PARAMA JAYA;2712230041392;12/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl Kebun Daging
+882;15;JAMBI;1502;MERANGIN;EMPAT SAUDARA PERKASA;2712230054679;12/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Tengku Umar, Lingkungan Benteng
+883;15;JAMBI;1571;KOTA JAMBI;CATUR CEMEYKA;2712230068899;12/27/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Dr Tazar No 55B 
+884;15;JAMBI;1571;KOTA JAMBI;INDUSTRIAL MULTI PRODUCTION;2812230106428;12/28/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jalan Syailendra
+885;15;JAMBI;1571;KOTA JAMBI;ABADI BERSAMA GUNA;2912230138245;12/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Grand Kenali Blok G-19
+886;15;JAMBI;1571;KOTA JAMBI;INDO FAYYAD ENGINEERING;2912230262897;12/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Perumahan Puri Mayang Claster Raflesia Blok D2
+887;15;JAMBI;1571;KOTA JAMBI;ASIA NAFOUR SEJAHTERA;2912230337145;12/29/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Jl. Bayangkara Perum Talang Banjar Permai Blok E 15
+888;15;JAMBI;1571;KOTA JAMBI;NIKO ARUNIKA DIGITAL;3112230004213;12/31/2023;PMDN;UMK;Persekutuan Komanditer (CV / Commanditaire Vennootschap);Puri Mayang Cluster Casablanca Blok H 23

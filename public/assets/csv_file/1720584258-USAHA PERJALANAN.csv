@@ -1,0 +1,297 @@
+﻿no;kode_provinsi;nama_provinsi;kode_kabupaten_kota;nama_perusahaan;alamat;jenis;fasilitas
+1;15;JAMBI;1572;Selatour;Jl. Sriwijaya Kota Sungai Penuh;Tour & Travel;1,3,4,5
+2;15;JAMBI;1572;CV. PO. Duta Kerinci;Jl. Angkasa Pura - Hiang Kerinci Kec. Sitinjau Laut;Usaha Transportasi;1,3,5
+3;15;JAMBI;1572;CV. PO. Surya Kerinci;Jl. Pancasila Kec. Tanah Kampung;Usaha Transportasi;1,3,5
+4;15;JAMBI;1572;CV. Bungo Kincai;Jl. Pancasila Kec. Tanah Kampung;Usaha Transportasi;1,3,5
+5;15;JAMBI;1572;CV. PO. Penawar Rindu;Jl. Pancasila Komplek Arafah Centre;Usaha Transportasi;1,3,5
+6;15;JAMBI;1572;Aqobah;Jl. Sriwijaya No. 86 Kota Sungai Penuh;Tour & Travel;1,3,4,5
+7;15;JAMBI;1572;CV. PO. Sinar Gunung;Jl. Sriwijaya Kota Sungai Penuh;Usaha Transportasi;1,3,5
+8;15;JAMBI;1572;PT. Arifa Travelindo Utama;Jl. Yos Sudarso Kota Sungai Penuh;Tour & Travel;1,3,4,5
+9;15;JAMBI;1572;CV. PO. Delta Kerinci Indah;Jl. Depati Parbo RT. 6 No. 1;Usaha Transportasi;1,3,5
+10;15;JAMBI;1572;CV. PO. Gunung Kerinci;Jl. Muradi No. 12 Kota Sungai Penuh;Usaha Transportasi;1,3,5
+11;15;JAMBI;1572;CV. PO. Punai Indah;Jl. Muradi No. 31 Kota Sungai Penuh;Usaha Transportasi;1,3,5
+12;15;JAMBI;1572;CV. PO. Sahabat Kerinci Wisata;Jl. Komarudin No. 1 RT. 2 Koto Tinggi Sungai Penuh;Usaha Transportasi;1,3,5
+13;15;JAMBI;1572;CV. PO. Rinai Transport;Jl. Komarudin RT. 2 Koto Tinggi Sungai Penuh;Usaha Transportasi;1,3,5
+14;15;JAMBI;1572;CV. PO. OKI;Jl. Pancasila No. 07 Kota Sungai Penuh;Usaha Transportasi;1,3,5
+15;15;JAMBI;1572;Malika Tour and Travel;Jl. Muradi Koto Renah Kota Sungai Penuh;Tour & Travel;1,3,5
+16;15;JAMBI;1572;PT. Mubina Fifa Mandiri;Jl. A. Bakarudin No. 59 Kota Sungai Penuh;Tour & Travel;1,3,5
+17;15;JAMBI;1572;CV. PO. Big Family Kerinci;Jl. A. Bakarudin No. 58 Kota Sungai Penuh;Usaha Transportasi;1,3,5
+18;15;JAMBI;1572;CV. PO. Bintang Mutiara Kerinci;Jl. A. Bakarudin Kota Sungai Penuh;Usaha Transportasi;1,3,5
+19;15;JAMBI;1572;CV. PO. Alam Kerinci;Jl. Jend. H.A. Thalib Kota Sungai Penuh;Usaha Transportasi;1,3,5
+20;15;JAMBI;1572;CV. PO. Bunga Laurenzia;Jl. Jend. H.A. Thalib Kota Sungai Penuh;Usaha Transportasi;1,3,5
+21;15;JAMBI;1572;Ajwa Tour and Travel;Jl. M. H. Thamrin No. 15 Kota Sungai Penuh;Tour & Travel;1,3,5
+22;15;JAMBI;1572;CV. PO. Ayu Transport;Jl. Yos Sudarso Kota Sungai Penuh;Usaha Transportasi;1,3,5
+23;15;JAMBI;1572;PT. Anak Gunung Wisata Indah;Jl. Yos Sudarso Desa Gedang Kota Sungai Penuh;Usaha Transportasi;1,3,5
+24;15;JAMBI;1572;Al-Azhar;Jl. Yos Sudarso Desa Gedang Kota Sungai Penuh;Tour & Travel;1,3,5
+25;15;JAMBI;1572;PT. Kerinci Utama Ceria;Jl. Yos Sudarso Desa Gedang Kota Sungai Penuh;Usaha Transportasi;1,3,5
+26;15;JAMBI;1572;PT. Safa Marwa;Jl. Yos Sudarso Desa Gedang Kota Sungai Penuh;Usaha Transportasi;1,3,5
+27;15;JAMBI;1572;PT. Kerinci Wisata Express;Jl. Yos Sudarso Desa Gedang Kota Sungai Penuh;Usaha Transportasi;1,3,5
+28;15;JAMBI;1572;PT. Anak Anum Kerinci;Jl. Sriwijaya Belakang Hotel Masgo;Usaha Transportasi;1,3,5
+29;15;JAMBI;1572;CV. PO. Ratu Kerinci;Jl. Depati Parbo RT. 8 Desa Lawang Agung;Usaha Transportasi;1,3,5
+30;15;JAMBI;1572;PT. Penjuru Wisata Negeri;Jl. Sultan Hasanudin No. 4 Kota Sungai Penuh;Tour & Travel;1,3,5
+31;15;JAMBI;1572;Hannas Tour and Travel;Jl. M. Koekoeh Kec. Pondok Tinggi Sungai Penuh;Tour & Travel;1,3,5
+32;15;JAMBI;1572;Permata Jambi;Jl. Prof. M. Yamin, SH Sungai Penuh;Tour & Travel;1,3,5
+33;15;JAMBI;1572;Loket Kerinci;Jl. Prof. M. Yamin, SH Sungai Penuh;Tour & Travel;1,3,5
+34;15;JAMBI;1572;PT. Armindo Jaya Tur;Jl. H. Bakri No. 10 Kelurahan Dusun Baru;Tour & Travel;1,3,5
+35;15;JAMBI;1572;Kantor Umroh Dan Haji;Jl. Basuki Rahmat Kota Sungai Penuh;Tour & Travel;1,3,5
+36;15;JAMBI;1572;CV. PO. Palindo Wisata;Jl. Muradi No. 20;Usaha Transportasi;1,3,5
+37;15;JAMBI;1572;CV.PO. Latersia Wisata;Jl. Muradi;Usaha Transportasi;1,3,5
+38;15;JAMBI;1572;CV. Cahaya Kerinci;-;Usaha Transportasi;1,3,5
+39;15;JAMBI;1572;CV.PO. Masgo Wisa Pelopo;Jl Wahid Hasyim;Usaha Transportasi;1,3,5
+40;15;JAMBI;1572;CV.PO. Kerinci Permata;-;Usaha Transportasi;1,3,5
+41;15;JAMBI;1572;CV.PO. Anak Kerinci;Jl Jend Sudirman;Usaha Transportasi;1,3,5
+42;15;JAMBI;1572;CV.PO. Abadi Kerinci;Jl Tanjung Pauh Hilir;Usaha Transportasi;1,3,5
+43;15;JAMBI;1572;CV.PO. SKW;Jl Pasar Seberang;Usaha Transportasi;1,3,5
+44;15;JAMBI;1572;CV.PO . Famili Kerinci;Jl Pancasila;Usaha Transportasi;1,3,5
+45;15;JAMBI;1572;CV.PO. Kerinci Mulya;Jl Kotobaru Semurup;Usaha Transportasi;1,3,5
+46;15;JAMBI;1572;CV.PO. Panca Transport;Jl Pancasila;Usaha Transportasi;1,3,5
+47;15;JAMBI;1501;PT. Hannas;Jl. Raya No. 3 Tambak Tinggi Sekungkung;Usaha Transportasi;1,3,5
+48;15;JAMBI;1501;PO. Megis Indah;Jl. Raya Sawahan Jaya Semurup No. 53;Usaha Transportasi;1,3,5
+49;15;JAMBI;1501;CV. PO. Amanah Aqifa;Jl. Raya Sawahan Jaya Semurup No. 53;Usaha Transportasi;1,3,5
+50;15;JAMBI;1501;No Name;Jl, Muradi-Semurup No. 12 Desa Pugu;Usaha Transportasi;1,3,5
+51;15;JAMBI;1501;CV. PO. Andesta Kerinci;Jl. Raya Pasar Siulak Gedang;Usaha Transportasi;1,3,5
+52;15;JAMBI;1501;CV. Restu;Pasar Siulak Gedang;Usaha Transportasi;1,3,5
+53;15;JAMBI;1501;CV. PO. Armada;Jl. Raya Pasar Siulak Gedang;Usaha Transportasi;1,3,5
+54;15;JAMBI;1501;CV. PO. Rere;Jl. Raya Pasar Siulak Gedang;Usaha Transportasi;1,3,5
+55;15;JAMBI;1501;CV. PO. Kerinci;Jl. Lintas Kayu Aro KM.17 Kerinci Siulak Sungai Pegeh;Usaha Transportasi;1,3,5
+56;15;JAMBI;1501;CV. PO. Raja Transport;Jl. Lintas Kayu Aro Sungai Pegeh-Siulak;Usaha Transportasi;1,3,5
+57;15;JAMBI;1501;CV. Fathan Pariwisata;Jl. Lintas Kayu Aro Sungai Pegeh-Siulak;Usaha Transportasi;1,3,5
+58;15;JAMBI;1501;CV. Fathan Group;Jl. Raya Siulak-Sungai Lebuh;Usaha Transportasi;1,3,5
+59;15;JAMBI;1501;Bip Pratama;Sungai Lebuh-kec. Siulak;Tour & Travel;1,3,5
+60;15;JAMBI;1501;Tour And Travel II Bule;Jl. Muradi KM. 37 Kayu Aro-Sungai Penuh;Tour & Travel;1,3,5
+61;15;JAMBI;1501;Arfa Rental Excutive;Belui;Usaha Transportasi;1,3,5
+62;15;JAMBI;1501;Oki Travel;Belui;Usaha Transportasi;1,3,5
+63;15;JAMBI;1501;Arjuna Travel;Belui;Usaha Transportasi;1,3,5
+64;15;JAMBI;1501;Komala Sari;Psr Senin Siulak;Usaha Transportasi;1,3,5
+65;15;JAMBI;1501;Gunung Kerinci;Siulak Gedang;Usaha Transportasi;1,3,5
+66;15;JAMBI;1501;Kerinci Mulya;Psr.Semurup;Usaha Transportasi;1,3,5
+67;15;JAMBI;1501;Ceria Travel;Tanjung Pauh Hilir;Usaha Transportasi;1,3,5
+68;15;JAMBI;1501;Kerinci Permata;Pulau Tengah;Usaha Transportasi;1,3,5
+69;15;JAMBI;1501;Ratu Kerinci;Semerap;Usaha Transportasi;1,3,5
+70;15;JAMBI;1501;Safa Marwa;Lolo;Usaha Transportasi;1,3,5
+71;15;JAMBI;1507;PT. Chairul Umam Addauli;Jl. Imam Bonjol, Talang Babat;Usaha Transportasi;1,3,5
+72;15;JAMBI;1506;Dunia;Jl. Lintas Sumatra;Usaha Transportasi;1,3,5
+73;15;JAMBI;1506;PO. Indonesia Mulia Sakti (IMI);Jl. Palembang No. 10 Kuala Tungkal;Usaha Transportasi;1,3,5
+74;15;JAMBI;1506;KBIH Nurul Haramain;Jl. Panglima Kuala Tungkal;Usaha Perjalanan;1,3,5
+75;15;JAMBI;1506;PT.Bilqis Anugrah Karya Wisata;Jl Asia, 074221785;Usaha Perjalanan;1,3,4,5
+76;15;JAMBI;1506;PT. Rawana Tour;Jl Melati, 081367778544;Usaha Perjalanan;1,3,4,5
+77;15;JAMBI;1506;PT.Nur Ilahi Wisata;Jl Pelabuhan,085383775789;Usaha Perjalanan;1,3,4,5
+78;15;JAMBI;1506;PT. Al-Aqsha;Jl Parit Gompong;Usaha Perjalanan;1,3,4,5
+79;15;JAMBI;1503;PO. Karya Bersama Travel;Jl. Lintas Sumatera KM. 1 Sri Pelayang;Usaha Transportasi;1,3,5
+80;15;JAMBI;1503;PO. Ratu Intan;Jl. Lintas Sumatera KM. 1 Sri Pelayang;Usaha Transportasi;1,3,5
+81;15;JAMBI;1503;PO. Jasa Guna Travel;Jl. Lintas Sumatera KM. 11  Simpang;Usaha Transportasi;1,3,5
+82;15;JAMBI;1503;CV. Aisyah;Pelawan Jl. Lintas Sumatera KM. 25  Ds. Bukit Tigo;Usaha Transportasi;1,3,5
+83;15;JAMBI;1503;PO. BHI;Jl. Lintas Sumatera KM. 25  Ds. Bukit Tigo;Usaha Transportasi;1,3,5
+84;15;JAMBI;1503;Mandiri Travel;Jl. Sarolangun - Jambi Sungai Belati Sri Pelayang Ilir Kelurahan Sarkam;Usaha Transportasi;1,3,5
+85;15;JAMBI;1503;JSP Travel;Jl. Sarolangun - Jambi Sungai Belati Sri;Usaha Transportasi;1,3,5
+86;15;JAMBI;1503;Family Raya Travel;Jl. Lintas Sumatera Km. 1 Kel. Pasar Sarolangun Telp. 08127475406;Usaha Transportasi;1,3,5
+87;15;JAMBI;1503;Perdana Indah Travel;Jl. Sarolangun - Jambi Sungai Belati Sri;Usaha Transportasi;1,3,5
+88;15;JAMBI;1503;Top Travel;Jl. Lintas Sumatera Km. 1 Kel. Pasar Sarolangun  Telp. 0745-91675;Usaha Transportasi;1,3,5
+89;15;JAMBI;1503;Rani Trans;Jl. Sarolangun - Jambi Sungai Belati Sri Pelayang Ilir Kelurahan Sarkam ;Usaha Transportasi;1,3,6
+90;15;JAMBI;1503;Armaja Jaya;Jl. Sarolangun - Jambi Sungai Belati Sri Pelayang Ilir Kelurahan Sarkam;Usaha Transportasi;1,3,7
+91;15;JAMBI;1503;PT. Penjuru Wisata Negeri;Jl. Lintas Sumatera KM. 2 Aur Gading;Tour & Travel;1,2,3,4,5
+92;15;JAMBI;1504;PO. Karya Bersama Travel;Jl. Simpang 3 Jalan Baru Kampung Baru Muara Bulian;Usaha Transportasi;1,3,5
+93;15;JAMBI;1504;Sriwijaya Air;Jl. Gajah Mada Muara Bulian Kab. Batanghari;Usaha Transportasi;1,3,5
+94;15;JAMBI;1504;PT. Abyan Prima sentosa;Jl. Gajah Mada Muara Bulian Kab. Batanghari;Usaha Transportasi;1,3,5
+95;15;JAMBI;1504;Lion Air Group;Jl. Gajah Mada Muara Bulian Kab. Batanghari;Usaha Transportasi;1,3,5
+96;15;JAMBI;1504;Malika;Rantau Kapas Rt/Rw 001/001 Kel. Rantau Kapas Mudo;Usaha Transportasi;1,3,5
+97;15;JAMBI;1505;Dunia;Jl. Lintas Sumatra;Usaha Transportasi;1,3,5
+98;15;JAMBI;1505;PT. Pbn;Jl. Lintas Sumatra Muaro Jambi;Usaha Transportasi;1,3,5
+99;15;JAMBI;1505;Garuda Indonesia;Jl. Lintas Sumatra, Mendalo Muaro Jambi;Usaha Transportasi;1,3,5
+100;15;JAMBI;1505;Sriwijaya Air;Jl. Jambi Muara Bulian-Muaro Jambi;Usaha Transportasi;1,3,5
+101;15;JAMBI;1505;PT. Sinar Tapanuli Jaya;Jl. Jambi Sungai Gelam;Usaha Transportasi;1,3,5
+102;15;JAMBI;1505;Paw Travel;Jl. Jambi Palembang;Usaha Transportasi;1,3,5
+103;15;JAMBI;1505;PT. Labbaika Tour;Jl. Jambi Palembang Sebapo Muaro Jambi;Usaha Perjalanan;1,3,5
+104;15;JAMBI;1505;Tiket Pesawat;Marga Mulya Sungai Bahar;Usaha Transportasi;1,3,5
+105;15;JAMBI;1505;PT. Grand Darussalam;Jl. Poros Unit 1 Sungai Bahar;Usaha Perjalanan;1,3,5
+106;15;JAMBI;1505;Mega Lame Tour & Travel;Jl Lintas Jambi-Ma.Bulian, Jaluko;Usaha Perjalanan;1,3,5
+107;15;JAMBI;1505;Raudah Madina Wiata;Jl Lintas Jambi-Ma.Bulian, Jaluko;Usaha Perjalanan;1,3,5
+108;15;JAMBI;1509;PO. Medan jaya;Jl. 24 Poros Unit 1 Rimbo Bujang Kab.Tebo;Usaha Transportasi;1,3,5
+109;15;JAMBI;1509;PO. Panji;Jl. Sultan Thaha Saifuddin Tebo;Usaha Transportasi;1,3,5
+110;15;JAMBI;1509;PO. Zada Tour Dan Travel;Jl. Lintas Tebo-Bungo Kab Tebo;Usaha Perjalanan;1,3,5
+111;15;JAMBI;1509;PO. CV. Tebo Mandiri;Jl. Lintas Tebo-Jambi KM 1;Usaha Transportasi;1,3,5
+112;15;JAMBI;1509;CV. PO. Putra Tebo Mandiri;Jl. Lintas Bungo-Tebo KM 0;Usaha Transportasi;1,3,5
+113;15;JAMBI;1509;CV. Yossy Mandiri Travel;Jl. Pahlawan Rimbo Bujang Kab. Tebo;Usaha Transportasi;1,3,5
+114;15;JAMBI;1509;PO. CV. Teluk Kembang;Jl. Rimbo Bujang Kab. Tebo;Usaha Transportasi;1,3,5
+115;15;JAMBI;1509;PO. Sari Mustika;Jl. Pahlawan Rimbo Bujang Kab. Tebo;Usaha Transportasi;1,3,5
+116;15;JAMBI;1509;Travel Bungo Tebo Trans;Jl Lintas Tebo-Jambi Km 1 Muara Tebo;Usaha Transportasi;1,3,5
+117;15;JAMBI;1509;Travel Samudra Trans;Jl Lintas Tebo-Jambi Km 1 Muara Tebo;Usaha Transportasi;1,3,5
+118;15;JAMBI;1508;PT. BPJ Travel;Jl. Prof . M, Yamin No.50 Pasar Bawah Muaro Bungo;Usaha Transportasi;1,3,5
+119;15;JAMBI;1508;PT. Bungo Indah Group;Jl. Km.0 Pasar Atas;Usaha Transportasi;1,3,5
+120;15;JAMBI;1508;PT. Samudera Indah Berkah;Jl. Lintas Sumatra Simpang PU, Muaro Bungo                              ;Usaha Transportasi;1,3,5
+121;15;JAMBI;1508;CV. PO. Bungo Sehati;Bambu Kuning Jl. Rt Pandan     ;Usaha Transportasi;1,3,5
+122;15;JAMBI;1508;Ceria Travel                                    ; Jl. Lintas Sumatra Km. 0 No. 51 Ma Bungo                                     ;Usaha Transportasi;1,3,5
+123;15;JAMBI;1508;Malika Group                                ;Jl. Diponegoro No. 2 Simpang Drum, Pasar Muaro Bungo            ;Usaha Transportasi;1,2,3,4
+124;15;JAMBI;1508;PO.Top                                            ;Jend Sudirman No.53                                                                      ;Usaha Transportasi;1,3,5
+125;15;JAMBI;1508;PO.Bungo Permai                         ; Jl Mesjid No.33                                                                                     ;Usaha Transportasi;1,3,5
+126;15;JAMBI;1508;PO.Family Raya                             ;Jl Jend Sudirman                                                                                   ;Usaha Transportasi;1,3,5
+127;15;JAMBI;1508;Cv.Vadia Travel                             ;Jl Prof Sri Sudewi                                                                                 ;Usaha Transportasi;1,3,5
+128;15;JAMBI;1508;PT.Diva Travel                                ;Hotel Bungo Plaza                                                                               ;Usaha Transportasi;1,3,5
+129;15;JAMBI;1508;PO.Ratu Intan                                ;Jl Durian No.23                                                                                     ;Usaha Transportasi;1,3,5
+130;15;JAMBI;1508;PO.Restu Ibu                                  ;Jl Durian                                                                                                ;Usaha Transportasi;1,3,5
+131;15;JAMBI;1508;Cv.Mitra Mandiri                          ;Jl Seroja No.5                                                                                        ;Usaha Transportasi;1,3,5
+132;15;JAMBI;1508;PT. Saung Bulian;Jl Basaruddin No.17;Usaha Perjalanan;1,3,4,5
+133;15;JAMBI;1508;PT. Serena;Hotel Semagi;Usaha Perjalanan;1,3,4,5
+134;15;JAMBI;1571;PT. Asia Wisata Nusantara;Jl. Kompol Ahmad No. 97 Kel. Talang Banjar;Usaha Perjalanan Wisata;1,3,4,5
+135;15;JAMBI;1571;PT. Solata Mitra Usaha;Jl. Jendral Sudirman No. 63 Kel. Thehok;Usaha Perjalanan Wisata;1,3,4,5
+136;15;JAMBI;1571;PT. Eka Wira Swadaya Abadi;Jl. Jendral Sudirman Rt. 21 Kel. Thehok;Usaha Perjalanan Wisata;1,3,4,5
+137;15;JAMBI;1571;PT. Koperasi Serba Usaha Guna;Jl. Prof.Dr. M. Yamin Sh Rt 13 Payo Lebar;Usaha Perjalanan Wisata;1,3,4,5
+138;15;JAMBI;1571;PT. Navalindo;Jl. Jend. Sudirman No. 84 Rt. 1 Kel Thehok;Usaha Perjalanan Wisata;1,3,4,5
+139;15;JAMBI;1571;PT. Diva Lintas Airling;Jl.Jend Sudirman No 34 Rt 1 Kel. Thehok;Usaha Perjalanan Wisata;1,3,4,5
+140;15;JAMBI;1571;PT. Antarika;Jl. Kayo Orang Hitam No.10 Rt. 6;Usaha Perjalanan Wisata;1,3,4,5
+141;15;JAMBI;1571;PT. Hasan;Jl. H. Husni Thamrin No. 26 Kel. Beringin;Usaha Perjalanan Wisata;1,3,4,5
+142;15;JAMBI;1571;PT. Angkasa Indah;Jl. Orang Kayo No. 28 Rt. 14 Kel. Budiman;Usaha Perjalanan Wisata;1,3,4,5
+143;15;JAMBI;1571;PT. Saling Bulian;Jl. H. P Kusuma No 19 Rt. 15 Kel. Sei Asam;Usaha Perjalanan Wisata;1,3,4,5
+144;15;JAMBI;1571;PT. Gajah Mada Persada Gemilang;Jl. Hayam Wuruk Rt. 3 Kel. Cempaka Putih;Usaha Perjalanan Wisata;1,3,4,5
+145;15;JAMBI;1571;PT.Mitra Redisa Jaya;Jl. M. Thamrin Rt. 2 Kel. Beringin;Usaha Perjalanan Wisata;1,3,4,5
+146;15;JAMBI;1571;PT. Muaz Barakat Safari;Jl. Sultan Thahano 132 Rt 02 Kel Sei Asam;Usaha Perjalanan Wisata;1,3,4,5
+147;15;JAMBI;1571;PT. Alysia;Jl. Jend Gatot Subroto No 132 Rt 2;Usaha Perjalanan Wisata;1,3,4,5
+148;15;JAMBI;1571;PT. Jambi Express Holiday;Jl.Patimura No. 71 Rt 19 Simp Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+149;15;JAMBI;1571;PT. Jambore Kencana;Jl. Gatot Subroto No. 33 Kel Sei Asam No. 33;Usaha Perjalanan Wisata;1,3,4,5
+150;15;JAMBI;1571;PT. Aini Almanar;Jl. Sumbawa Simpang Surya No. 28;Usaha Perjalanan Wisata;1,3,4,5
+151;15;JAMBI;1571;PT. Nara Buana;Jl. Dr. Djamin PT.Bagindo No.16;Usaha Perjalanan Wisata;1,3,4,5
+152;15;JAMBI;1571;PT. Blue Horizon;Jl. Letkol.M.Insya Rt.6 No 31 Kel. Rajawali;Usaha Perjalanan Wisata;1,3,4,5
+153;15;JAMBI;1571;PT. Nusantara Alam Sejahtera;Jl.Ir. Djuanda Rt 29 Kel.Simp Iii Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+154;15;JAMBI;1571;PT. Mega Star Harmoni;Jlm. Yamin No 31 Kel. Lebak Bandung;Usaha Perjalanan Wisata;1,3,4,5
+155;15;JAMBI;1571;PT. Ceria Abadi;Jl.Gatot Subroto No. 92 Kec.Pasar Jambi;Usaha Perjalanan Wisata;1,3,4,5
+156;15;JAMBI;1571;PT. Bilhaq Salamah Jaya;Jl.Soekarno Hatta No.41 Rt 3 Kel.Pasir Putih;Usaha Perjalanan Wisata;1,3,4,5
+157;15;JAMBI;1571;PT. Iztana Pesona Jambi;Jl.Jend.Gatot Subroto Rt. 6 No 23;Usaha Perjalanan Wisata;1,3,4,5
+158;15;JAMBI;1571;PT. Angkasa Nusantara Global;Jl.Hr. Siagian No 112 Rt 23 Kel.Pasir Putih;Usaha Perjalanan Wisata;1,3,4,5
+159;15;JAMBI;1571;PT. Titian Rizky Mandiri;Jl.Prof. Dr. M.Yamin Sh Rt 19 No. 17;Usaha Perjalanan Wisata;1,3,4,5
+160;15;JAMBI;1571;PT. Angkasa Indah;Jl.Sultan Agung No.8 Kel. Murni;Usaha Perjalanan Wisata;1,3,4,5
+161;15;JAMBI;1571;PO. Indonesia Mulia Indah;Jl.Lingkar Barat Iii No.9 Kel. Kenali Besar;Usaha Perjalanan Wisata;1,3,5
+162;15;JAMBI;1571;PT. Reky Utama;Jl. Sumantri Brojonegoro No. 42;Usaha Perjalanan Wisata;1,3,4,5
+163;15;JAMBI;1571;PT. Surya Graha Wisata;Jl. Sumantri Brojonegoro No. 13;Usaha Perjalanan Wisata;1,3,4,5
+164;15;JAMBI;1571;PT. Jasa Utama;Jl. Sultan Agung No. 8;Usaha Perjalanan Wisata;1,3,4,5
+165;15;JAMBI;1571;PT. Trans Global Tour Travel;Jl. Kolonel Abunjani No. 56;Usaha Perjalanan Wisata;1,3,4,5
+166;15;JAMBI;1571;PT. Sriwijaya Air;Jl. Hayam Wuruk No. 37;Usaha Perjalanan Wisata;1,3,4,5
+167;15;JAMBI;1571;PT. Wisata Lima Benua Tpur & Travel;Jl. Hayam Wuruk No. 35;Usaha Perjalanan Wisata;1,3,4,5
+168;15;JAMBI;1571;PT. Gajah Mada Tour & Travel;Jl. Jendral Sudirman No. 07;Usaha Perjalanan Wisata;1,3,4,5
+169;15;JAMBI;1571;PT. Eka Wira Swadaya Abadi;Jl Jendral Sudirman No. 07;Usaha Perjalanan Wisata;1,3,4,5
+170;15;JAMBI;1571;PT. Rianti Agung Tour & Travel;Jl. Jendral Sudirman No. 09;Usaha Perjalanan Wisata;1,3,4,5
+171;15;JAMBI;1571;PT. Bayu Persada;Jl.Jendral Sudirman Kel. Tambak Sari;Usaha Perjalanan Wisata;1,3,4,5
+172;15;JAMBI;1571;PT. Jambi Permata Travel;Jl. Jendral No. 41 Kel . Tambak Sari;Usaha Perjalanan Wisata;1,3,4,5
+173;15;JAMBI;1571;PT. Jambiexpress Tour & Travel;Jl. H. Adam Malik Rt. 23 Kel. Thehok;Usaha Perjalanan Wisata;1,3,4,5
+174;15;JAMBI;1571;PT. Sinar Sutra Bhakti;Jl. Raden Wijaya Rt. 23 Kel Thehok;Usaha Perjalanan Wisata;1,3,4,5
+175;15;JAMBI;1571;PT. Meranti Lintas Buana;Jl. Panjaitan No 17 Kel. Kebun Handil;Usaha Perjalanan Wisata;1,3,4,5
+176;15;JAMBI;1571;PT. Angkasa Lintas Buana;Jl. Agus Salim No. 05 Kel Handil Jaya;Usaha Perjalanan Wisata;1,3,4,5
+177;15;JAMBI;1571;PT. Almabrur Nadia Insani;Jl. Agus Salim No. 61 B. Rt. 009 Kel. Handil Jaya;Usaha Perjalanan Wisata;1,3,4,5
+178;15;JAMBI;1571;PT. Nusa Indah Angkasa;Jl.Patimura Nusa Indah Rt. 12 Kel. Rawasari;Usaha Perjalanan Wisata;1,3,4,5
+179;15;JAMBI;1571;PT. Angso Duo Lintas Buana;Jl.Gajah Mada No.4d Jelutung Jambi;Usaha Perjalanan Wisata;1,3,4,5
+180;15;JAMBI;1571;PT. Nata Buana;Jl. Gr.Djmainin Datuk Bagindo;Usaha Perjalanan Wisata;1,3,4,5
+181;15;JAMBI;1571;PT. Happy Lestari;Jl. A. Mangkurat Rt. 26 Kel. Tanjung Pinang;Usaha Perjalanan Wisata;1,3,4,5
+182;15;JAMBI;1571;PT. Planet Millenium;Jl. A. Mangkurat Rt. 26 Kel. Tanjung Pinang;Usaha Perjalanan Wisata;1,3,4,5
+183;15;JAMBI;1571;PT. Bintang Bali;Jl. H. Perdana Kusuma No 110 Kel. Pasar Jambi;Usaha Perjalanan Wisata;1,3,4,5
+184;15;JAMBI;1571;PO.Ratu Pelita Asia;Jl.Lingkar Barat Iii No.9 Kel. Kenali Besar;Usaha Transportasi;1,3,5
+185;15;JAMBI;1571;PO.Ratu Intan Permata;Jl.Prof.Ma Yamin ,Sh Kota Jambi;Usaha Transportasi;1,3,5
+186;15;JAMBI;1571;PO.PiPOss;Jl.Prof.M. Yamin ,Sh No.12 Kota Jambi;Usaha Transportasi;1,3,5
+187;15;JAMBI;1571;PO.Beringin;Jl.Maulana Malik Ibrahim;Usaha Transportasi;1,3,5
+188;15;JAMBI;1571;PO. Megis Indah;Jl.Hos Cokroaminoto No 10;Usaha Transportasi;1,3,5
+189;15;JAMBI;1571;PO.Intan Uffe;Jl. Hos Cokroaminoto Kel Simp Iii Sipin;Usaha Transportasi;1,3,5
+190;15;JAMBI;1571;PO.Sumber Rezeki;Jl.Hos Cokroaminoto Terminal Simpang Iv;Usaha Transportasi;1,3,5
+191;15;JAMBI;1571;PO.Putra Bungsu Trav;Jl.KaPTen Pattmura Rt.19 Simpang Iv Sipin;Usaha Transportasi;1,3,5
+192;15;JAMBI;1571;PO. Perwira Jaya;Jl.Hos Cokroaminnoto 10 Kota Jambi;Usaha Transportasi;1,3,5
+193;15;JAMBI;1571;PO.Permata Amelia Sari;Jl.Sunan Kalijaga No 7 Kota Jambi;Usaha Transportasi;1,3,5
+194;15;JAMBI;1571;PO. Tiara Otocham Permai;Jl.Hos Cokroaminoto No.30 Jambi;Usaha Transportasi;1,3,5
+195;15;JAMBI;1571;PO.Sahabat Setiawati;Jl.A Rahman Saleh No. 34 Thehok Kota Jambi;Usaha Transportasi;1,3,5
+196;15;JAMBI;1571;PO.Perum Damri Setasiun;Jl. KaPTen Pattmura 1 Km 8 Simp.Rimbo Jambi;Usaha Transportasi;1,3,5
+197;15;JAMBI;1571;PO.Perum Damri Setasiun;Jl.KaPTen Pattimura 1 Km 8 Simp. Rimbo Jambi;Usaha Transportasi;1,3,5
+198;15;JAMBI;1571;PO. Pasir Jaya;Jl.Patimura No 99 Rt 01 Kenali Besar;Usaha Transportasi;1,3,5
+199;15;JAMBI;1571;PO.Tebo Gemilang;Jl.KaPTen Patimura Rt 38 Kel. Kenali Besar;Usaha Transportasi;1,3,5
+200;15;JAMBI;1571;PO.Tebo Mandiri Baru;Jl.Raden Saman No 73 Telanai Pura;Usaha Transportasi;1,3,5
+201;15;JAMBI;1571;PO.Rani Prima;Jl.Hos Cokroaminoto Rt 10 Kel. Sukakarya;Usaha Transportasi;1,3,5
+202;15;JAMBI;1571;PO.Teluk Kembang Putra;Jl. M.Kukuh Rt 16 Kel. Pal.V Kec. Kota Baru;Usaha Transportasi;1,3,5
+203;15;JAMBI;1571;PO.Koperasi Taksi Jambi;Jl.Kol Abunjani Lr. Diamond;Usaha Transportasi;1,3,5
+204;15;JAMBI;1571;PO.Koperasi Taksi Jambi;Jl.Hos Cokroaminoto No. 03 Jambi;Usaha Transportasi;1,3,5
+205;15;JAMBI;1571;PO.Transtar;-;Usaha Transportasi;1,3,5
+206;15;JAMBI;1571;PO. Ratu Intan Permata;Jl.M.Yamin,Sh Rt 26 Kel. Lebak Bandung;Usaha Transportasi;1,3,5
+207;15;JAMBI;1571;Berkat Usaha Abadi;Jl.Jendral Gatot Subroto No. 32-38 Jambi;Usaha Transportasi;1,3,5
+208;15;JAMBI;1571;Lets Go Travel;;Usaha Perjalanan Wisata;1,3,4,5
+209;15;JAMBI;1571;Bintang Bali Travel;Jl. Lingkar Selatan II No. 16 Paal Merah Kec. Jambi Selatan Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+210;15;JAMBI;1571;Hasan Travel;Jl. Sumatera RT. 18 No. 51 Handil Jaya Kec. Jelutung Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+211;15;JAMBI;1571;Gentala Harmoni Wisata;Lorong Kayu Manis I No. 33 RT. 13 Simpang IV Sipin Kec. Telanaipura Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+212;15;JAMBI;1571;YEC Travel;Jl. Soekarno Hatta The Hok Kec. Jambi Selatan Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+213;15;JAMBI;1571;Puspa Travel;Jl. Jambi - Muara Bulian KM. 16 Mendalo Darat Jambi;Usaha Perjalanan Wisata;1,3,4,5
+214;15;JAMBI;1571;Rindu Haji;Jl. Lintas Sumatera Simpang IV Sipin Kec. Telanaipura Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+215;15;JAMBI;1571;Malika Travel;Jl. Lorong Langgar Kel. Tambak Sari Kec. Jambi Selatan Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+216;15;JAMBI;1571;Citra Travel;;Usaha Perjalanan Wisata;1,3,4,5
+217;15;JAMBI;1571;PT.  Aquavita Jaya;Jl. Pemancar Telanaipura Jambi;Usaha Perjalanan Wisata;1,3,4,5
+218;15;JAMBI;1571;PT.  Jambora Kencana;Jl. Gatot Subroto No 53 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+219;15;JAMBI;1571;PT.  Siwoon Travel;Jl. Abdul Kartawirana No 35a Talangbanjar;Usaha Perjalanan Wisata;1,3,4,5
+220;15;JAMBI;1571;PT.  Happy Lestari;Jl. Gatot Subroto No 224 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+221;15;JAMBI;1571;PT.  Saung Bulian;Jl. Halim Perdana Kusuma No 19 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+222;15;JAMBI;1571;PT.  Ceria Abadi;Pertokoan Hotel Abadi Jl Gatot Subroto;Usaha Perjalanan Wisata;1,3,4,5
+223;15;JAMBI;1571;PT.  Antartika;Jl. Rangkayo Hitam No 10 Jambi 36144;Usaha Perjalanan Wisata;1,3,4,5
+224;15;JAMBI;1571;PT.  Angso Duo Lintas Buana;Jl. Gajah Mada No. Jambi;Usaha Perjalanan Wisata;1,3,4,5
+225;15;JAMBI;1571;PT.  Mentari Lintas Buana;Jl. Di Panjaitan No 17 C Handil Jambi;Usaha Perjalanan Wisata;1,3,4,5
+226;15;JAMBI;1571;PT.  Trans Global;Jl. Kol Abun Jani No 56 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+227;15;JAMBI;1571;PT.  Putrada;Jl. Hos Cokro Aminoto No 4 Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+228;15;JAMBI;1571;PT.  Pradana Adi Nugraha;;Usaha Perjalanan Wisata;1,3,4,5
+229;15;JAMBI;1571;PT.  Diva Lintas Airling;Jl. Bhayangkara No.30e Talang Banjar Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+230;15;JAMBI;1571;PT.  Jasa Utama;Jl. Sultan Agung No 8a Murni Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+231;15;JAMBI;1571;PT.  Bintang Bali;Jl Lingkar Selatan Rt 23 Paal Merah Kota;Usaha Perjalanan Wisata;1,3,4,5
+232;15;JAMBI;1571;PT.  Planet Millenium;Jl. Jenderal Sudirman No 198 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+233;15;JAMBI;1571;PT.  Reky Utama;Jl. Sumantri Brojonegoro No 42 Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+234;15;JAMBI;1571;PT. Bilhaq Salamah Jaya;Jl. Sukarno Hatta No 4 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+235;15;JAMBI;1571;PT. Muaz Barakat Safari;Jl. Sultan Thaha No 16 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+236;15;JAMBI;1571;PT. Blue Horizon;Jl. M Insya No 31 Jambi 36143;Usaha Perjalanan Wisata;1,3,4,5
+237;15;JAMBI;1571;PT. Surya Global Pratama;Jl. Sukarno Hatta No 09 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+238;15;JAMBI;1571;PT. Nata Buana;Jl. Panglima Polim Lr Pendawa Rt 04 No.37 Tanjung Pinang Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+239;15;JAMBI;1571;PT. Eka Wira Swadaya Abadi;Jl. Jend Sudirman No 43 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+240;15;JAMBI;1571;PT. Bisalfa Matur;Jl. Hos Cokro Aminoto No 16 Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+241;15;JAMBI;1571;PT. Angkasa Nusantara Global;Jl. Rb Siagian No 112 Pair Putih Jambi 36139;Usaha Perjalanan Wisata;1,3,4,5
+242;15;JAMBI;1571;PT. Angkasa Indah;Jl. Mh Thamrin No 56 Jelutung Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+243;15;JAMBI;1571;PT. Nusantara Alam Sejahtera;Jl. Ir H Juanda No 2 Mayang Sipin Jambi;Usaha Perjalanan Wisata;1,3,4,5
+244;15;JAMBI;1571;PT. Angkasa Lintas Indonesia Indah;Jl. Gatot Subroto No 132 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+245;15;JAMBI;1571;PT. Hasan;Jk Kh Ahmad Dahlan No. 49 Makalam Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+246;15;JAMBI;1571;PT. Global Nusa;Jl Hm Yamin Sh No 08 Payo Lebar Jambi;Usaha Perjalanan Wisata;1,3,4,5
+247;15;JAMBI;1571;PT. Wisata Lima Benua;Jl. Gatot Subroto No 73 Ruko Abadi A15 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+248;15;JAMBI;1571;PT. Rajawali Prima Mulia;Jl. Kh Hasyim Asari No 85 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+249;15;JAMBI;1571;PT. Arifa Travelindo Utama;Jl. Raya Semurup Desa Koto Diair Sei Penuh Kerinci;Usaha Perjalanan Wisata;1,3,4,5
+250;15;JAMBI;1571;PT. Arben Putra Hidayah;Jl. Lintas Sumatera Pemalang Kandis Bangko;Usaha Perjalanan Wisata;1,3,4,5
+251;15;JAMBI;1571;PT. Mitta Perdana;Jl. KaPT. en Patimura No.13 Simp Iv Jambi;Usaha Perjalanan Wisata;1,3,4,5
+252;15;JAMBI;1571;PT. Sinar Surya Perdana;Jl. Sentot Ali Basyah No. Jambi 36134;Usaha Perjalanan Wisata;1,3,4,5
+253;15;JAMBI;1571;PT.  Alya Rizky Wisata                  ;Jl. Otto Iskandar Dinarta No 47 Kel. Sulanjana Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+254;15;JAMBI;1571;PT.  Nusa Indah Angkasa                    ;Jl. KaPT. . Patimura Rt 01 Nusa Indah Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+255;15;JAMBI;1571; PT.  Abdel Bima Pratama              ; Jl. Pratu Satir Rt.24 Kel. The Hok – Jambi Selatan Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+256;15;JAMBI;1571;PT.  Chairul Umam Addauli       ;Komp. Pertokoan Parma Residence No A 17-18 Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+257;15;JAMBI;1571;PT.  Winara Jaguar Angkasa      ;Jl. Sudirman Rt 01 No 10 Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+258;15;JAMBI;1571;PT.  Agung Dwi Wisata Tour & Travel;Jl.Abdul Rahman Saleh Rt 27 No 15 Kel. Pal Merah Kec. Jambi Selatan ,Jambi;Usaha Perjalanan Wisata;1,3,4,5
+259;15;JAMBI;1571;PT.  Angkasa Megah Pratama Mandiri;Jl. Lingkar Selatan Ii No 004 Rt 26 Kel. Pal Merah Kec Jambi Selatan Jambi;Usaha Perjalanan Wisata;1,3,4,5
+260;15;JAMBI;1571;PT.  Arjuna Prima Jaya                         ;Jl. Kh. Ahmad Dahlan Rt 01 Rw 08 Kel Wirotho Agung Kec. Rimbo Kab Tebo Jambi;Usaha Perjalanan Wisata;1,3,4,5
+261;15;JAMBI;1571;PT.  Asyla Fatimah Wisata                  ;Jl. Gatot Subroto Rt 09 Rw 02 Kel. Sungai Asam Kec. Pasar Jambi;Usaha Perjalanan Wisata;1,3,4,5
+262;15;JAMBI;1571;PT.  Citra Gemilang Angkasa             ;Jl. Teuku Sulaiman No 30 Rt 17 Kel. Pekanbaru Kec.Jambi;Usaha Perjalanan Wisata;1,3,4,5
+263;15;JAMBI;1571;PT.  Alamabrur Nadia Inssani             ;Jl. H. Agus Salim No. 61 B Kel. Handil Jaya Kec. Jelutung Jambi;Usaha Perjalanan Wisata;1,3,4,5
+264;15;JAMBI;1571;PT.  Haswi Salam Madani                   ;Jl. Dr. Purwadi No 47 Rt 13 Kel. Kenali Baru Kec Kota Baru Jambi;Usaha Perjalanan Wisata;1,3,4,5
+265;15;JAMBI;1571;PT.  Getsmir Global Indonesia;Jl. Gatot Subroto No 43 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+266;15;JAMBI;1571;PT.  Alfaqih Citra Jambi;Jl. Sentot Alibasa No 01 Jambi;Usaha Perjalanan Wisata;1,3,4,5
+267;15;JAMBI;1571;PT.  Cholis Tazakka;Jl. Soekarno Hatta No 08 Paal. Merah Kel.Pasir Putih Kec. Jambi Selatan Jambi;Usaha Perjalanan Wisata;1,3,4,5
+268;15;JAMBI;1571;PT.  Dhifa Cakrawala Nusantara;Jl. Lrg Hikamah Rt 14 Kenali Besar Jambi;Usaha Perjalanan Wisata;1,3,4,5
+269;15;JAMBI;1571;PT.  Annur Persad Angkasa;Jl Sumatra, Rt 24, Handil Jaya, Jelutung, Jambi, Jambi.;Usaha Perjalanan Wisata;1,3,4,5
+270;15;JAMBI;1571;PT.  Lanina Maju Abadi;Jl. Kol Amir Hamzah No 33 Sei Kambang];Usaha Perjalanan Wisata;1,3,4,5
+271;15;JAMBI;1571;PT.  Sahabat Jaya Angkasa;Jl. Rangkayo Hitam No 08 Rt 15 Rw 04;Usaha Perjalanan Wisata;1,3,4,5
+272;15;JAMBI;1571;PT.  Dongan Group Natama;Jl Jend Sudirman Pasar Lama Rt.01/Rw.01 Ma. Bulian Jambi;Usaha Perjalanan Wisata;1,3,4,5
+273;15;JAMBI;1571;PT.  Abyan Prima Sentosa;Muara Bulian Rt 03 Rw 03 Kab. Muara Bulian Jambi;Usaha Perjalanan Wisata;1,3,4,5
+274;15;JAMBI;1571;PT.  Sanjaya Indo Wisata;Jl. Aur Duri Raya Iii Blok No 266 Telanaipura Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+275;15;JAMBI;1571;PT.  Iba Puisi Tour & Travel;Jl. Gajah Mada No. 90 Kel. Lebak Bandung Kec. Jeluntung Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+276;15;JAMBI;1571;PT.  Sultan Salahudin Jaya;Jl.. Dr. Thazar Rt 12 Kel Buluran Kenali Kec.Telanai Pura - Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+277;15;JAMBI;1571;PT.  Anugerah Zafara Indah;Jl. Sumatera No 74 Kel. Jelutung Kec. Jelutung Jambi;Usaha Perjalanan Wisata;1,3,4,5
+278;15;JAMBI;1571;PT.  Delapan Benua Nusantara;Jl. Yunus Sanis No. 114 Rt. 04 Kel. Kebun Handil Kec. Jelutung Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+279;15;JAMBI;1571;PT.  Tebo Mulia Indah;Jl. Koaklau Perumnas Kel. Candika Kec. Rimbo Tengah Muara Bungo;Usaha Perjalanan Wisata;1,3,4,5
+280;15;JAMBI;1571;PT.  Sriwijaya Mega Angkasa;Jl. H. Kamil No. 18-19 Wijaya Pura Selatan Jambi;Usaha Perjalanan Wisata;1,3,4,5
+281;15;JAMBI;1571;PT.  Andalas Jaya Wisata;Desa Pulau Sangkar Kec. Bukit Kerman Kab. Kerinci - Prov. Jambi;Usaha Perjalanan Wisata;1,3,4,5
+282;15;JAMBI;1571;PT.  Dea Agung Indowisata;Jln. Letkol A. Tarmizi Kadir Rt 11 Pakuan Baru Kec. Jambi Selatan Kota Jambi;Usaha Perjalanan Wisata;1,3,4,5
+283;15;JAMBI;1502;PO. Sari Mustika;Jl. Lintas sumatra, Kota Bangko;Usaha Transportasi;1,3,5
+284;15;JAMBI;1502;CV. PO. Handoyo;Jl. Lintas sumatra, Kota Bangko;Usaha Transportasi;1,3,5
+285;15;JAMBI;1502;Perwakilan PO. Slamet sub agen ALS;Jl. Lintas sumatra, Kota Bangko;Usaha Transportasi;1,3,5
+286;15;JAMBI;1502;PO. Handoyo Grup;Jl. Lintas Sumatra, KM 3 Samping Hotel Cantika;Usaha Transportasi;1,3,5
+287;15;JAMBI;1502;PO. Bintara Jaya Sumatra Jawa loket;Jl. Lintas Sumatra, KM  1 Sungai Masang.Kota Bangko;Usaha Transportasi;1,3,5
+288;15;JAMBI;1502;Like Water Tour & Travel;Jl. Jend Sudirman KM. 0 Kota Bangko;Usaha Transportasi;1,3,4,5
+289;15;JAMBI;1502;Bina Insani Haji Dan Umroh Servis;Jl. Jend Sudirman KM. 0 Kota Bangko;Usaha Transportasi;1,3,4,5
+290;15;JAMBI;1502;PO. Rani Trans;Pasar Baru Bangko;Usaha Transportasi;1,3,5
+291;15;JAMBI;1502;Kantor Pusat Family Raya;Jl. Jend Sudirman KM. 2 Kota Bangko;Usaha Transportasi;1,3,5
+292;15;JAMBI;1502;Loket Bus Dan Travel Jambi Prima Raya;Jl. Jend Sudirman KM. 2 Kota Bangko;Usaha Transportasi;1,3,5
+293;15;JAMBI;1502;Loket Bus Jawa Sumatra PO. Bintara;Jl. Lintas Sumatra KM.46;Usaha Transportasi;1,3,5
+294;15;JAMBI;1502;Agen Bus PT. PO Barok Jaya Utama;Jl. Lintas Sumatra KM.46;Usaha Transportasi;1,3,5
+295;15;JAMBI;1502;Barokah Jaya Grup;Jl. Lintas Sumatra KM. 61 Desa Tanjung Lamin;Usaha Transportasi;1,3,5
+296;15;JAMBI;1502;Biro Perjalanan Hisayah;Lintas Sumatera;Usaha Transportasi;1,3,4,5

@@ -1,0 +1,7 @@
+NO;kode_provinsi;nama_provinsi;kode_kabupaten;nama_kabupaten;komoditi;luas_tanaman_belum_menghasilkan;luas_tanaman_menghasilkan;luas_tanaman_tidak_menghasilkan_atau_tanaman_rusak;jumlah;satuan;tahun
+1;15;JAMBI;1502;MERANGIN;TEMBAKAU;2;4;-;6;HEKTAR;2022
+2;15;JAMBI;1501;KERINCI;TEMBAKAU;174;286;-;460;HEKTAR;2022
+3;15;JAMBI;1572;SUNGAI PENUH;TEMBAKAU;32;21;-;53;HEKTAR;2022
+4;15;JAMBI;1502;MERANGIN;TEMBAKAU;1;5;-;6;HEKTAR;2023
+5;15;JAMBI;1501;KERINCI;TEMBAKAU;77;276;-;353;HEKTAR;2023
+6;15;JAMBI;1572;SUNGAI PENUH;TEMBAKAU;0;3;-;3;HEKTAR;2023

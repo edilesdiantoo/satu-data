@@ -1,0 +1,74 @@
+{
+    "status": "Berhasil",
+    "response_code": 202,
+    "data": {
+        "judul": "Jumlah Korban Jiwa Akibat Bencana Berdasarkan Kondisi di Provinsi Jambi",
+        "nama_opd": "Badan Penanggulangan Bencana Daerah",
+        "id_opd": 29,
+        "diupload_oleh": "Muhammad Rihaz.,S.Kom",
+        "tahun_datasets": 2022,
+        "id_kategori": 3,
+        "status": "APROVED",
+        "deskripsi": "<ul type=\"disc\" style=\"margin-top: 0cm; margin-bottom: 0px; color: rgb(97, 97, 97); font-family: Lato; white-space-collapse: preserve;\"><li class=\"MsoNormal\"><span lang=\"SV\">kode_provinsi: menyatakan kode Provinsi Jambi sesuai ketentuan Kemendagri merujuk pada aturan Peraturan Menteri Dalam Negeri Nomor 58 Tahun 2021 dengan tipe data numerik.</span></li><li class=\"MsoNormal\"><span lang=\"SV\">nama_provinsi: menyatakan lingkup data berasal dari wilayah Provinsi Jambi sesuai ketentuan Kemendagri merujuk pada aturan peraturan Menteri Dalam Negeri Nomor 58 Tahun 2021 dengan tipe data teks.</span></li><li class=\"MsoNormal\"><span lang=\"SV\">kode_kabupaten_kota: menyatakan kode dari setiap kabupaten dan kota di Provinsi Jambi sesuai ketentuan Kemendagri merujuk pada aturan Peraturan Menteri Dalam Negeri Nomor 58 Tahun 2021 dengan tipe data numerik.</span></li><li class=\"MsoNormal\"><span lang=\"SV\">nama_kabupaten_kota: menyatakan lingkup data berasal dari setiap kabupaten dan kota di Provinsi Jambi sesuai penamaan Kemendagri merujuk pada aturan Peraturan Menteri Dalam Negeri Nomor 58 Tahun 2021 dengan tipe data teks.</span></li><li class=\"MsoNormal\">tanggal_kejadian: menyatakan tanggal kejadian bencana data dengan tipe data numerik.</li><li class=\"MsoNormal\">kondisi_korban: menyatakan jumlah kondisi korban bencana alam di Provinsi Jambi dengan tipe data teks. * menderita: menyatakan kondisi korban yang menderita akibat terdampak bencana. * hilang: menyatakan kondisi korban yang belum diketemukan. * meninggal dunia: menyatakan kondisi korban yang meninggal dunia akibat bencana. * mengungsi: menyatakan kondisi korban yang mengungsi akibat bencana. * luka-luka: menyatakan kondisi korban yang terluka akibat bencana.</li><li class=\"MsoNormal\">satuan: menyatakan satuan dari pengukuran jumlah korban jiwa akibat bencana dalam jiwa dengan tipe data teks.</li><li class=\"MsoNormal\">jumlah_kejadian: menyatakan jumlah kejadian korban jiwa akibat bencana dengan tipe data numerik.</li><li class=\"MsoNormal\">jumlah_kerugian: menyatakan jumlah kerugian korban jiwa akibat bencana dengan tipe data numerik.</li></ul>",
+        "tags": ["bencana", "korban"],
+        "sifat_datasets": "PUBLIK"
+    },
+    "metadata": {
+        "pengukuran_datasets": "Jumlah Korban Akibat Bencana",
+        "tingkat_penyajian_datasets": "Per Kabupaten/Kota",
+        "cakupan_datasets": "Seluruh Korban Akibat Bencana",
+        "bidang": "Kedaruratan dan Logistik",
+        "penganggung_jawab": "Kepala Bidang BPBD Provinsi Jambi",
+        "kontak_produsen": "0811-62xx-xxxx",
+        "kode_indikator": "-",
+        "bidang_urusan": "Badan Penanggulangan Bencana Daerah",
+        "satuan_datasets": "Jiwa",
+        "frekuensi_datasets": "Bulanan",
+        "dimensi_datasets": "2022",
+        "metadata": "https://opendata.jambiprov.go.id/assets/metadata/1734326209.pdf"
+    },
+    "table": {
+        "header": [
+            "no",
+            "kode_provinsi",
+            "kode_kabupaten_kota",
+            "tanggal_kejadian",
+            "kondisi_korban",
+            "satuan",
+            "jumlah_kejadian",
+            "jumlah_kerugian"
+        ],
+        "value": [
+            [
+                "1",
+                "15",
+                "1509",
+                "2024-12-15",
+                "Meninggal Dunia",
+                "Jiwa",
+                "3",
+                "15000000"
+            ],
+            [
+                "2",
+                "15",
+                "1509",
+                "2024-12-15",
+                "Meninggal Dunia",
+                "Jiwa",
+                "4",
+                "15000000"
+            ],
+            [
+                "3",
+                "15",
+                "1509",
+                "2024-12-15",
+                "Meninggal Dunia",
+                "Jiwa",
+                "33",
+                "15000000"
+            ]
+        ]
+    }
+}

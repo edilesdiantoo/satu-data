@@ -1,0 +1,5 @@
+﻿id;kode_kabupaten_kota;daerah_rawa;luas_fungsional_ha;baik;rusak_ringan;rusak_sedang;rusak_berat;keterangan
+1;1501;SUNGAI TANDUK;1150;78,19;1,82;18,93;1,06;Baik
+2;1506;SUNGAI SUBAN;1020;97,16;0,62;2,22;0;Sangat Baik
+3;1503;SUNGAI BATANG LIMUN SINGKUT;546;75,06;24,89;0;0,05;Baik
+4;1508;SUNGAI BATANG ULEH;742;57,68;32,41;9,63;0,28;Kurang

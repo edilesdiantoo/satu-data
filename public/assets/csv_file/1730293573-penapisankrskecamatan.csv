@@ -1,0 +1,12 @@
+﻿NO;kode_provinsi;nama_provinsi;kode_kabupaten_kota;nama_kabupaten_kota;jumlah_keluarga_berisiko_stunting;keluarga_tidak_memiliki_sumber_air_minum_layak;keluarga_tidak_memiliki_jamban_layak;pus_terlalu_muda_tidak_menggunakan_kb;pus_terlalu_tua_tidak_menggunakan_kb;pus_terlalu_dekat_tidak_menggunakan_kb;pus_terlalu_banyak_tidak_menggunakan_kb
+1;15;JAMBI;1501;KERINCI;7.267;1.417;4.282;233;1.652;35;765
+2;15;JAMBI;1502;MERANGIN;13.152;4.124;6.867;436;2.892;44;1.793
+3;15;JAMBI;1503;SAROLANGUN;11.615;4.581;5.135;215;2.914;45;2.186
+4;15;JAMBI;1504;BATANGHARI;11.152;4.376;4.129;254;2.718;59;1.949
+5;15;JAMBI;1505;MUARO JAMBI;14.706;4.169;4.767;179;4.717;82;3.443
+6;15;JAMBI;1506;TANJUNG JABUNG BARAT;25.781;20.237;8.309;134;3.250;52;2.427
+7;15;JAMBI;1507;TANJUNG JABUNG TIMUR;15.734;10.466;6.493;89;2.038;29;1.293
+8;15;JAMBI;1508;BUNGO;13.835;3.827;6.935;326;3.498;56;2.544
+9;15;JAMBI;1509;TEBO;9.908;3.401;3.848;238;2.874;31;1.599
+10;15;JAMBI;1571;KOTA JAMBI;11.877;741;1.512;43;6.850;127;3.924
+11;15;JAMBI;1572;KOTA SUNGAI PENUH;2.068;218;1.120;47;635;12;420
