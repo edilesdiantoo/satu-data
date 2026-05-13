@@ -210,7 +210,7 @@ Route::middleware('checkRole:opd')->group(function () {
     Route::resource('akun-opd/permohonan-keluar/opdpermohonan-data', OpdPermohonanDataController::class);
     Route::get('/akun-opd/permohonan-masuk/opdpermohonan-data', [OpdPermohonanDataController::class, 'masuk'])->name('opdpermohonan-data.masuk');
     Route::post('/akun-opd/permohonan-acc/{id}', [OpdPermohonanDataController::class, 'proses'])->name('opdprosespermohonan-data.masuk');
-    Route::get('/akun-opd/permohonan-masuk/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit_masuk'])->name('opdpermohonan-data.edit');
+    // Route::get('/akun-opd/permohonan-masuk/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit_masuk'])->name('opdpermohonan-data.edit');
     // Route::get('/akun-opd/permohonan-keluar/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit'])->name('opdpermohonan-data.edit');
     Route::post('/akun-opd/terbit-permohonan/{id}', [OpdPermohonanDataController::class, 'update_masuk'])->name('opdprosespermohonan-data.terbit');
 
