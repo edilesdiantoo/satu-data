@@ -374,14 +374,26 @@ class WebDatasetsController extends Controller
 
     public function update_unduhan($id)
     {
-        // Temporarily disable automatic timestamps
-        $datasets = Datasets::find($id);
-        $datasets->timestamps = false;  // Disable updating the `updated_at` column
-        $datasets->jumlah_unduhan = $datasets->jumlah_unduhan + 1;
-        $datasets->save();
+        $ips = $this->getClientIps();
 
-        // Re-enable timestamps if needed for future operations
-        $datasets->timestamps = true;
+        // 1. Cek apakah IP ini sudah pernah download dataset ini dalam 1 jam terakhir
+        $isBotOrSpam = DB::table('tbl_datasets_unduh_log')
+            ->where('id_datasets', $id)
+            ->where('ips', $ips)
+            ->where('created_at', '>', now()->subHours(1))
+            ->exists();
+
+        if (! $isBotOrSpam) {
+            // 2. Jika belum ada (atau sudah lewat 1 jam), baru tambah angka unduhan
+            DB::table('tbl_datasets')->where('id', $id)->increment('jumlah_unduhan');
+
+            // 3. Catat log barunya
+            DB::table('tbl_datasets_unduh_log')->insert([
+                'id_datasets' => $id,
+                'ips' => $ips,
+                'created_at' => now(),
+            ]);
+        }
     }
 
     public static function getSektor($id)

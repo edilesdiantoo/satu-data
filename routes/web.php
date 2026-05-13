@@ -67,19 +67,34 @@ Route::resource('web-datasets', WebDatasetsController::class)->except([
 
 Route::get('/web-datasets/{id}/{bearer}/fetch', [WebDatasetsController::class, 'fetchTableData'])->name('web-datasets.fetch');
 
-Route::get('/download-metadata/{id}', [WebDatasetsController::class, 'getDownloadMetadata'])->name('download_metadata');
+// Route::get('/download-metadata/{id}', [WebDatasetsController::class, 'getDownloadMetadata'])->name('download_metadata');
 Route::get('/visualisasi/show/{id}/{slug}', [HomeController::class, 'show_visualisasi'])->name('web-visualisasi.show');
 Route::get('/publikasi/informasi/stunting', [HomeController::class, 'stunting_index'])->name('web-berita.stunting');
 Route::get('/publikasi/informasi/organisasi', [HomeController::class, 'organisasi'])->name('organisasi.informasi');
-Route::get('/web-datasets/download/{id}/{slug}', [WebDatasetsController::class, 'download'])->name('web-datasets.download');
-Route::get('/web-datasets/downloadCsv/{id}/{slug}', [WebDatasetsController::class, 'downloadCsv'])->name('web-datasets.downloadCsv');
-Route::get('/web-datasets/role/download/{id}/{slug}', [WebDatasetsController::class, 'role_download'])->name('role-datasets.download');
-Route::get('/web-datasets/share/download/{id}/{slug}', [WebDatasetsController::class, 'share_download'])->name('share-datasets.download');
+// Route::get('/web-datasets/download/{id}/{slug}', [WebDatasetsController::class, 'download'])->name('web-datasets.download');
+// Route::get('/web-datasets/downloadCsv/{id}/{slug}', [WebDatasetsController::class, 'downloadCsv'])->name('web-datasets.downloadCsv');
+// Route::get('/web-datasets/role/download/{id}/{slug}', [WebDatasetsController::class, 'role_download'])->name('role-datasets.download');
+// Route::get('/web-datasets/share/download/{id}/{slug}', [WebDatasetsController::class, 'share_download'])->name('share-datasets.download');
 Route::get('/web-datasets/{id}/{slug}', [WebDatasetsController::class, 'show'])->name('web-datasets.show');
 Route::post('/web-datasets/ulasan/{id}', [WebDatasetsController::class, 'ulasan'])->name('web-datasets.ulasan');
 Route::get('/data-dasar/badan-pusat-statistik', [WebApiBPSController::class, 'index'])->name('web-datadasar.index');
 Route::get('/data-dasar/download/{id}/{tahun}', [WebApiBPSController::class, 'download_excel'])->name('web-datadasar.download');
 Route::get('/data-dasar/{id}/{slug}', [WebApiBPSController::class, 'show'])->name('web-datadasar.show');
+
+// Baris 70: Metadata
+Route::get('/download-metadata/{id}', [WebDatasetsController::class, 'getDownloadMetadata'])->name('download_metadata')->middleware('throttle:5,1');
+
+// Baris 74: Download Excel (Website)
+Route::get('/web-datasets/download/{id}/{slug}', [WebDatasetsController::class, 'download'])->name('web-datasets.download')->middleware('throttle:5,1');
+
+// Baris 75: Download CSV (Website)
+Route::get('/web-datasets/downloadCsv/{id}/{slug}', [WebDatasetsController::class, 'downloadCsv'])->name('web-datasets.downloadCsv')->middleware('throttle:5,1');
+
+// Baris 76: Role Download
+Route::get('/web-datasets/role/download/{id}/{slug}', [WebDatasetsController::class, 'role_download'])->name('role-datasets.download')->middleware('throttle:5,1');
+
+// Baris 77: Share Download
+Route::get('/web-datasets/share/download/{id}/{slug}', [WebDatasetsController::class, 'share_download'])->name('share-datasets.download')->middleware('throttle:5,1');
 
 Route::get('/web-datasets-api', [WebApiDatasetsController::class, 'index'])->name('web-datasets-api.index');
 Route::get('/web-datasets-api/{id}/{slug}', [WebApiDatasetsController::class, 'show'])->name('web-datasets-api.show');
@@ -195,8 +210,8 @@ Route::middleware('checkRole:opd')->group(function () {
     Route::resource('akun-opd/permohonan-keluar/opdpermohonan-data', OpdPermohonanDataController::class);
     Route::get('/akun-opd/permohonan-masuk/opdpermohonan-data', [OpdPermohonanDataController::class, 'masuk'])->name('opdpermohonan-data.masuk');
     Route::post('/akun-opd/permohonan-acc/{id}', [OpdPermohonanDataController::class, 'proses'])->name('opdprosespermohonan-data.masuk');
-    // Route::get('/akun-opd/permohonan-masuk/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit_masuk'])->name('opdpermohonan-data.edit');
-    Route::get('/akun-opd/permohonan-keluar/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit'])->name('opdpermohonan-data.edit');
+    Route::get('/akun-opd/permohonan-masuk/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit_masuk'])->name('opdpermohonan-data.edit');
+    // Route::get('/akun-opd/permohonan-keluar/edit-opdpermohonan-data/{id}', [OpdPermohonanDataController::class, 'edit'])->name('opdpermohonan-data.edit');
     Route::post('/akun-opd/terbit-permohonan/{id}', [OpdPermohonanDataController::class, 'update_masuk'])->name('opdprosespermohonan-data.terbit');
 
     Route::get('/akun-opd/opd-datasets-share', [OpdDatasetsShareController::class, 'index'])->name('opddatasetsshare.index');
