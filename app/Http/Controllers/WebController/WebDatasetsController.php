@@ -170,7 +170,8 @@ class WebDatasetsController extends Controller
     public function fetchTableData(string $id, $bearer)
     {
         $bearerToken = 'Bearer '.$bearer;
-        $validToken = 'Bearer '.env('BEARER_TOKEN');
+        $validToken = 'Bearer ' . config('app.bearer_token');
+        // $validToken = 'Bearer '.env('BEARER_TOKEN');
         if (! $bearerToken || $bearerToken != $validToken) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
