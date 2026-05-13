@@ -1,10 +1,11 @@
 <?php
+
 namespace App\Http\Controllers\WebController;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Visit;
 use Carbon\Carbon;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
 class VisitorController extends Controller
@@ -16,34 +17,40 @@ class VisitorController extends Controller
      */
     public function logPageView(Request $request)
     {
-        // \Log::info('Logging page view started'); // Log untuk mengecek eksekusi fungsi
+        // 1. AMBIL IP ASLI (Membongkar Proxy)
+        // Cek header X-Forwarded-For (umumnya digunakan Proxy/WAF Pemprov)
+        $ip = $request->header('X-Forwarded-For')
+              ? trim(explode(',', $request->header('X-Forwarded-For'))[0])
+              : $request->ip();
 
-        $ip = $request->ip();
+        // Jika menggunakan Cloudflare, aktifkan baris di bawah ini:
+        // $ip = $request->header('CF-Connecting-IP') ?? $ip;
+
         $userAgent = $request->header('User-Agent');
         $currentDate = Carbon::today()->toDateString();
         $urlVisited = $request->fullUrl();
         $referrer = $request->header('Referer');
 
-        // Debugging: log data yang diterima
-        // \Log::info('Request Data: ', [
-        //     'ip' => $ip,
-        //     'urlVisited' => $urlVisited,
-        //     'referrer' => $referrer
-        // ]);
+        // 2. FILTER BOT: Jangan simpan jika yang akses adalah Crawler/Bot
+        if (preg_match('/bot|crawl|slurp|spider|mediapartners/i', $userAgent)) {
+            return response()->json(['status' => 'ignored', 'message' => 'Bot activity ignored.']);
+        }
 
-        $sessionKey = 'visited_today_' . $currentDate . '_' . $ip . '_' . md5($urlVisited);
+        // 3. GUNAKAN SESSION ID: Membedakan orang di IP yang sama
+        $sessionID = session()->getId();
+        // Tambahkan URL ke MD5 agar pindah halaman tetap tercatat (jika ingin per halaman)
+        $sessionKey = 'v_today_'.$currentDate.'_'.md5($ip.$sessionID.$urlVisited);
 
-        if (!Session::has($sessionKey)) {
-            Session::put($sessionKey, true);
+        if (! Session::has($sessionKey)) {
 
-            // Debugging: cek apakah data sudah ada di database
+            // 4. LOGIKA DATABASE: Gunakan IP asli yang baru didapat
             $existingVisit = Visit::where('ip_address', $ip)
-                                ->whereDate('visit_date', $currentDate)
-                                ->first();
-            
-            // \Log::info('Existing visit: ', ['existingVisit' => $existingVisit]);
+                ->where('user_agent', $userAgent)
+                ->where('url_visited', $urlVisited)
+                ->whereDate('visit_date', $currentDate)
+                ->first();
 
-            if (!$existingVisit) {
+            if (! $existingVisit) {
                 Visit::create([
                     'ip_address' => $ip,
                     'user_agent' => $userAgent,
@@ -53,9 +60,11 @@ class VisitorController extends Controller
                     'created_at' => Carbon::now(),
                     'updated_at' => Carbon::now(),
                 ]);
-                // \Log::info('Data saved for IP: ' . $ip); // Log jika data disimpan
+
+                Session::put($sessionKey, true);
             }
         }
+
         return response()->json(['status' => 'success', 'message' => 'Page view logged.']);
     }
 
@@ -64,36 +73,34 @@ class VisitorController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getVisitorCounts()
+    public function getVisitorCounts(Request $request)
     {
-        $today = Carbon::today();
-        $startOfMonth = Carbon::now()->startOfMonth();
-        $startOfYear = Carbon::now()->startOfYear();
+        $today = \Carbon\Carbon::today();
+        $startOfMonth = \Carbon\Carbon::now()->startOfMonth();
+        $startOfYear = \Carbon\Carbon::now()->startOfYear();
 
-        // Pengunjung Hari Ini (unik IP untuk hari ini)
+        // Query untuk mengambil IP unik
         $todayVisitors = Visit::whereDate('visit_date', $today)
-                            ->distinct('ip_address') // Hanya IP unik
-                            ->count();
+            ->distinct()
+            ->count('ip_address');
 
-        // Pengunjung Bulan Ini (unik IP untuk bulan ini)
         $monthVisitors = Visit::where('visit_date', '>=', $startOfMonth)
-                            ->distinct('ip_address') // Hanya IP unik
-                            ->count();
+            ->distinct()
+            ->count('ip_address');
 
-        // Pengunjung Tahun Ini (unik IP untuk tahun ini)
         $yearVisitors = Visit::where('visit_date', '>=', $startOfYear)
-                            ->distinct('ip_address') // Hanya IP unik
-                            ->count();
+            ->distinct()
+            ->count('ip_address');
 
-        // Total Pengunjung (unik IP sepanjang waktu)
-        $totalVisitors = Visit::distinct('ip_address') // Hanya IP unik
-                            ->count();
+        $totalVisitors = Visit::distinct()
+            ->count('ip_address');
 
         return response()->json([
             'today' => $todayVisitors,
             'month' => $monthVisitors,
             'year' => $yearVisitors,
             'total' => $totalVisitors,
+            'your_ip' => $request->ip(), // Sekarang $request sudah didefinisikan
         ]);
     }
 }

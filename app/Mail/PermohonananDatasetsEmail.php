@@ -3,7 +3,6 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -12,8 +11,8 @@ use Illuminate\Queue\SerializesModels;
 class PermohonananDatasetsEmail extends Mailable
 {
     use Queueable, SerializesModels;
-    
-    public function __construct(private $id_tracking,private $judul,private $nama)
+
+    public function __construct(private $id_tracking, private $judul, private $nama)
     {
         //
     }

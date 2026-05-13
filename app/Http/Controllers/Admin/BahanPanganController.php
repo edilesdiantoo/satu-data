@@ -2,15 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\BahanPangan;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Http;
 use App\Http\Requests\UpdateBahanPanganRequest;
+use App\Models\BahanPangan;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 class BahanPanganController extends Controller
 {
@@ -20,10 +18,10 @@ class BahanPanganController extends Controller
     public function index()
     {
         $pangan = DB::table('harga_eceran')
-        ->join('kabupaten', 'harga_eceran.id_kabupaten_kota', '=', 'kabupaten.id')
-        ->join('komoditas', 'harga_eceran.id_komoditas', '=', 'komoditas.id')
-        ->select('harga_eceran.*', 'kabupaten.nama_kabupaten_kota', 'komoditas.nama_komoditas')
-        ->orderBy('id','DESC')->get();
+            ->join('kabupaten', 'harga_eceran.id_kabupaten_kota', '=', 'kabupaten.id')
+            ->join('komoditas', 'harga_eceran.id_komoditas', '=', 'komoditas.id')
+            ->select('harga_eceran.*', 'kabupaten.nama_kabupaten_kota', 'komoditas.nama_komoditas')
+            ->orderBy('id', 'DESC')->get();
 
         // Fetch kabupaten data
         $kabupatens = DB::table('kabupaten')->select('id', 'nama_kabupaten_kota')->get();
@@ -54,11 +52,11 @@ class BahanPanganController extends Controller
             // Get the uploaded file and store it in a temporary path
             $tempFile = $request->file('csv_file')->getRealPath();
             $escapedFilePath = addslashes($tempFile);
-            $tableName = 'harga_eceran'; 
+            $tableName = 'harga_eceran';
 
             // Load data into the table using `LOAD DATA INFILE`
-            $loadDataQuery = "LOAD DATA LOCAL INFILE '" . $escapedFilePath . "' 
-                            INTO TABLE " . $tableName . " 
+            $loadDataQuery = "LOAD DATA LOCAL INFILE '".$escapedFilePath."' 
+                            INTO TABLE ".$tableName." 
                             FIELDS TERMINATED BY ';' 
                             OPTIONALLY ENCLOSED BY '\"' 
                             LINES TERMINATED BY '\n' 
@@ -100,7 +98,8 @@ class BahanPanganController extends Controller
             return redirect()->back()->with('success', 'Data successfully uploaded!');
         } catch (\Exception $e) {
             // Log the error and redirect with an error message
-            \Log::error('Error uploading CSV: ' . $e->getMessage());
+            \Log::error('Error uploading CSV: '.$e->getMessage());
+
             return redirect()->back()->with('error', 'Failed to upload data. Please check the CSV file and try again.');
         }
     }
@@ -142,7 +141,6 @@ class BahanPanganController extends Controller
         return response()->json($item);
     }
 
-
     /**
      * Update the specified resource in storage.
      */
@@ -159,7 +157,7 @@ class BahanPanganController extends Controller
 
         // Redirect back to the index with the current page number
         return redirect()->route('pangan.index')
-                        ->with('success', 'Data updated successfully.');
+            ->with('success', 'Data updated successfully.');
     }
 
     /**

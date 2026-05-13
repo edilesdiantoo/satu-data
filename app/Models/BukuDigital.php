@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class BukuDigital extends Model
 {
     use HasFactory;
+
     protected $table = 'tbl_buku_digital';
-    protected $fillable = ['id_users','id_sektor','judul','cover','url'];
+
+    protected $fillable = ['id_users', 'id_sektor', 'judul', 'cover', 'url'];
 }

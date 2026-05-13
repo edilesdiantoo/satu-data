@@ -159,7 +159,7 @@
                                                 class="form-control @error('nama_kolom')is-invalid @enderror"
                                                 style="text-transform: lowercase">
                                             <div class="input-group-btn">
-                                                <button class="btn btn-success add-more" type="button"><i
+                                                <butto n class="btn btn-success add-more" type="button"><i
                                                         class="glyphicon glyphicon-plus"></i> Add</button>
                                             </div>
                                         </div>
@@ -274,6 +274,177 @@
                                             Ms
                                             Indikator (dalam 1 file .Pdf).</div>
                                     </div>
+
+                                    <div class="table-responsive">
+                                        <label>Jadwal Rilis Tahunan</label>
+
+                                        <table class="table table-bordered table-sm calendar-matrix">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th class="month-header">Jan</th>
+                                                    <th class="month-header">Feb</th>
+                                                    <th class="month-header">Mar</th>
+                                                    <th class="month-header">Apr</th>
+                                                    <th class="month-header">Mei</th>
+                                                    <th class="month-header">Jun</th>
+                                                    <th class="month-header">Jul</th>
+                                                    <th class="month-header">Agu</th>
+                                                    <th class="month-header">Sep</th>
+                                                    <th class="month-header">Okt</th>
+                                                    <th class="month-header">Nov</th>
+                                                    <th class="month-header">Des</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_jan') is-invalid @enderror"
+                                                            name="tgl_jan" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_jan') }}">
+                                                        @error('tgl_jan')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="29"
+                                                            class="form-control input-rilis mx-auto @error('tgl_feb') is-invalid @enderror"
+                                                            name="tgl_feb" placeholder="29" data-max-day="29"
+                                                            value="{{ old('tgl_feb') }}">
+                                                        @error('tgl_feb')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_mar') is-invalid @enderror"
+                                                            name="tgl_mar" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_mar') }}">
+                                                        @error('tgl_mar')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="30"
+                                                            class="form-control input-rilis mx-auto @error('tgl_apr') is-invalid @enderror"
+                                                            name="tgl_apr" placeholder="30" data-max-day="30"
+                                                            value="{{ old('tgl_apr') }}">
+                                                        @error('tgl_apr')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_mei') is-invalid @enderror"
+                                                            name="tgl_mei" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_mei') }}">
+                                                        @error('tgl_mei')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="30"
+                                                            class="form-control input-rilis mx-auto @error('tgl_jun') is-invalid @enderror"
+                                                            name="tgl_jun" placeholder="30" data-max-day="30"
+                                                            value="{{ old('tgl_jun') }}">
+                                                        @error('tgl_jun')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_jul') is-invalid @enderror"
+                                                            name="tgl_jul" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_jul') }}">
+                                                        @error('tgl_jul')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_agu') is-invalid @enderror"
+                                                            name="tgl_agu" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_agu') }}">
+                                                        @error('tgl_agu')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="30"
+                                                            class="form-control input-rilis mx-auto @error('tgl_sep') is-invalid @enderror"
+                                                            name="tgl_sep" placeholder="30" data-max-day="30"
+                                                            value="{{ old('tgl_sep') }}">
+                                                        @error('tgl_sep')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_okt') is-invalid @enderror"
+                                                            name="tgl_okt" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_okt') }}">
+                                                        @error('tgl_okt')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="30"
+                                                            class="form-control input-rilis mx-auto @error('tgl_nov') is-invalid @enderror"
+                                                            name="tgl_nov" placeholder="30" data-max-day="30"
+                                                            value="{{ old('tgl_nov') }}">
+                                                        @error('tgl_nov')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+
+                                                    <td>
+                                                        <input type="number" min="1" max="31"
+                                                            class="form-control input-rilis mx-auto @error('tgl_des') is-invalid @enderror"
+                                                            name="tgl_des" placeholder="31" data-max-day="31"
+                                                            value="{{ old('tgl_des') }}">
+                                                        @error('tgl_des')
+                                                            <div class="invalid-feedback">
+                                                                {{ $message }}
+                                                            </div>
+                                                        @enderror
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                     <button class="btn btn-primary mt-3" type="submit">Tambah Data</button>
                                 </div>
                             </div>
@@ -284,3 +455,55 @@
         </section>
     </div>
 @endsection
+
+<script src="https://cdn.jsdelivr-net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('.input-rilis');
+
+        inputs.forEach(input => {
+            const maxDay = parseInt(input.getAttribute('data-max-day'));
+
+            if (isNaN(maxDay)) return;
+
+            // 1. Validasi saat nilai berubah (Input Event)
+            input.addEventListener('input', function(event) {
+                let value = this.value.trim();
+                value = value.replace(/[^0-9]/g, '');
+                this.value = value;
+
+                if (value === "") return;
+
+                let numValue = parseInt(value);
+
+                if (numValue > maxDay) {
+                    this.value = maxDay;
+                    this.classList.add('is-invalid');
+                    setTimeout(() => this.classList.remove('is-invalid'), 1000);
+                } else if (numValue < 1 && value.length > 0) {
+                    this.value = 1;
+                }
+            });
+
+            // 2. Memblokir karakter non-angka saat pengetikan (Keypress Event)
+            input.addEventListener('keypress', function(event) {
+                const charCode = (event.which) ? event.which : event.keyCode;
+                if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+
+            // 3. Validasi saat fokus hilang (Blur)
+            input.addEventListener('blur', function() {
+                let value = parseInt(this.value);
+                if (isNaN(value) || value < 1) {
+                    this.value = '';
+                }
+            });
+        });
+    });
+</script>

@@ -2,7 +2,6 @@
 
 namespace App\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -21,14 +20,16 @@ class RedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-                if(Auth::user()->role == 'admin'){
+                if (Auth::user()->role == 'admin') {
                     return redirect()->route('dashboard');
-                }elseif(Auth::user()->role == 'opd'){
+                } elseif (Auth::user()->role == 'opd') {
                     return redirect()->route('opd_dashboard');
                 }
+
                 return redirect('/');
             }
         }
+
         return $next($request);
     }
 }

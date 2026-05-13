@@ -1,10 +1,11 @@
 <?php
+
 namespace App\Charts\WebView;
 
 use App\Models\Datasets;
+use ArielMejiaDev\LarapexCharts\LarapexChart;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use ArielMejiaDev\LarapexCharts\LarapexChart;
 
 class WebDatasetsChart
 {
@@ -28,22 +29,22 @@ class WebDatasetsChart
 
         // Mapping kode_kabupaten_kota ke nama kabupaten/kota
         $kode_kab_mapping = [
-        '1501' => 'KERINCI',
-        '1502' => 'MERANGIN',
-        '1503' => 'SAROLANGUN',
-        '1504' => 'BATANGHARI',
-        '1505' => 'MUARO JAMBI',
-        '1506' => 'TANJUNG JABUNG BARAT',
-        '1507' => 'TANJUNG JABUNG TIMUR',
-        '1508' => 'BUNGO',
-        '1509' => 'TEBO',
-        '1571' => 'KOTA JAMBI',
-        '1572' => 'KOTA SUNGAI PENUH',
+            '1501' => 'KERINCI',
+            '1502' => 'MERANGIN',
+            '1503' => 'SAROLANGUN',
+            '1504' => 'BATANGHARI',
+            '1505' => 'MUARO JAMBI',
+            '1506' => 'TANJUNG JABUNG BARAT',
+            '1507' => 'TANJUNG JABUNG TIMUR',
+            '1508' => 'BUNGO',
+            '1509' => 'TEBO',
+            '1571' => 'KOTA JAMBI',
+            '1572' => 'KOTA SUNGAI PENUH',
         ];
 
         // Determine the default grouping column (e.g., 'kode_kabupaten_kota')
         $temp_kolom = 'kode_kabupaten_kota';
-        if (!Schema::hasColumn($datasets->db_datasets, $temp_kolom)) {
+        if (! Schema::hasColumn($datasets->db_datasets, $temp_kolom)) {
             $temp_kolom = $table[0]; // Fallback to first column if 'kode_kabupaten_kota' does not exist
         }
 
@@ -65,19 +66,16 @@ class WebDatasetsChart
             return $kode_kab_mapping[$kode_kab] ?? $kode_kab; // If not found in mapping, keep the code
         }, $x_axis_labels);
 
-
         return $this->chart->barChart()
-            ->setTitle('Grafik Datasets ' . $datasets->judul)
-            ->setSubtitle('Grafik berdasarkan ' . $kolom_x . ' dan ' . $kolom_y)
+            ->setTitle('Grafik Datasets '.$datasets->judul)
+            ->setSubtitle('Grafik berdasarkan '.$kolom_x.' dan '.$kolom_y)
             ->setDataset([
                 [
                     'name' => $kolom_y,
-                    'data' => $y_data
-                ]
+                    'data' => $y_data,
+                ],
             ])
             ->setXAxis($x_axis_labels)
             ->setGrid();
     }
 }
-
-?>

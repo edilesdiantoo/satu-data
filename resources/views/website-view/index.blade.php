@@ -299,7 +299,7 @@
                     <li class="dropdown"><a class="@if (Route::is('web-berita.*')) active @endif"
                             href="#"><span>Informasi</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ route('web-agenda.index') }}">Agenda</a></li>
+                            <li><a href="{{ route('web-agenda.index') }}">Rencana Terbit</a></li>
                             <li><a href="{{ route('web-berita.index') }}">Berita</a></li>
                             <li><a href="{{ route('web-artikel.index') }}">Artikel</a></li>
                             <li><a href="/#infografis">Infografis</a></li>
@@ -314,7 +314,7 @@
                             href="#"><span>Datasets</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('web-datasets.index') }}">Statistik Sektoral</a></li>
-                            <li><a href="">Metadata Sektoral</a></li>
+                            <li><a href="{{ route('web-metadatasets-api.index') }}">Metadata Sektoral</a></li>
                             <li><a href="{{ route('web-datasets-api.index') }}"> API Statistik Sektoral</a></li>
                         </ul>
                     </li>

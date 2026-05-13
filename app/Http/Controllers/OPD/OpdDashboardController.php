@@ -2,54 +2,58 @@
 
 namespace App\Http\Controllers\OPD;
 
-use App\Models\User;
-use App\Models\Berita;
-use App\Models\Sektor;
-use App\Models\Artikel;
-use App\Models\Datasets;
-use App\Models\Aktivitas;
-use App\Models\Publikasi;
-use App\Models\Infografis;
-use App\Models\Visualisasi;
-use Illuminate\Http\Request;
-use App\Models\PermohonanData;
-use Illuminate\Support\Carbon;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
+use App\Models\Aktivitas;
+use App\Models\Artikel;
+use App\Models\Berita;
+use App\Models\Datasets;
+use App\Models\Infografis;
+use App\Models\PermohonanData;
+use App\Models\Publikasi;
+use App\Models\Sektor;
+use App\Models\User;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class OpdDashboardController extends Controller
 {
     public function __construct()
     {
         $this->middleware('checkRole:opd');
-    }   
+    }
+
     public function index()
     {
-        $datasets = Datasets::where('diupload_oleh',Auth::user()->id)->where('status','APPROVED')->count();
-        $infografis = Infografis::where('id_user',Auth::user()->id)->where('status','terverifikasi')->count();
-        $artikel = Artikel::where('id_user',Auth::user()->id)->where('status','terverifikasi')->count();
-        $produk_statistik = Publikasi::where('id_user',Auth::user()->id)->where('status','terverifikasi')->count();
+        $datasets = Datasets::where('diupload_oleh', Auth::user()->id)->where('status', 'APPROVED')->count();
+        $infografis = Infografis::where('id_user', Auth::user()->id)->where('status', 'terverifikasi')->count();
+        $artikel = Artikel::where('id_user', Auth::user()->id)->where('status', 'terverifikasi')->count();
+        $produk_statistik = Publikasi::where('id_user', Auth::user()->id)->where('status', 'terverifikasi')->count();
         $sektor = Sektor::all();
-        $jumlah_datasets = Datasets::where('diupload_oleh',Auth::user()->id)->count();
-        $today = Datasets::where('diupload_oleh',Auth::user()->id)->whereDate('created_at', Carbon::today())->count();
-        $week = Datasets::where('diupload_oleh',Auth::user()->id)->whereBetween('created_at', [Carbon::now()->startOfWeek(), Carbon::now()->endOfWeek()])->count();;
-        $month = Datasets::where('diupload_oleh',Auth::user()->id)->whereMonth('created_at', date('m'))->count();
-        $aktivitas = Aktivitas::where('id_user',Auth::user()->id)->orderBy('created_at', 'DESC')->paginate(6);
+        $jumlah_datasets = Datasets::where('diupload_oleh', Auth::user()->id)->count();
+        $today = Datasets::where('diupload_oleh', Auth::user()->id)->whereDate('created_at', Carbon::today())->count();
+        $week = Datasets::where('diupload_oleh', Auth::user()->id)->whereBetween('created_at', [Carbon::now()->startOfWeek(), Carbon::now()->endOfWeek()])->count();
+        $month = Datasets::where('diupload_oleh', Auth::user()->id)->whereMonth('created_at', date('m'))->count();
+        $aktivitas = Aktivitas::where('id_user', Auth::user()->id)->orderBy('created_at', 'DESC')->paginate(6);
         $berita = Berita::latest()->take(3)->get();
-        $user =  User::get(['id', 'name', 'photo']);
-        return view('opd.index', compact('sektor','datasets','jumlah_datasets','infografis','artikel','produk_statistik', 'today', 'week', 'month', 'aktivitas', 'user','berita'));
+        $user = User::get(['id', 'name', 'photo']);
+
+        return view('opd.index', compact('sektor', 'datasets', 'jumlah_datasets', 'infografis', 'artikel', 'produk_statistik', 'today', 'week', 'month', 'aktivitas', 'user', 'berita'));
     }
 
-    public function kategori_data($id){
-        $datasets = Datasets::where('sektor',$id)->where('sifat_datasets','PUBLIK')->where('status','APPROVED')->get();
+    public function kategori_data($id)
+    {
+        $datasets = Datasets::where('sektor', $id)->where('sifat_datasets', 'PUBLIK')->where('status', 'APPROVED')->get();
         $sektor = Sektor::all();
         $idNode = $id;
-        return view('opd.kategori-data.index',compact('sektor','datasets','idNode'));
+
+        return view('opd.kategori-data.index', compact('sektor', 'datasets', 'idNode'));
     }
 
-    static function getPermohonanMasuk($id_opd){
-        $permohonan = PermohonanData::where('opd',$id_opd)->where('status','!=','terbit')->count();
+    public static function getPermohonanMasuk($id_opd)
+    {
+        $permohonan = PermohonanData::where('opd', $id_opd)->where('status', '!=', 'terbit')->count();
+
         return $permohonan;
     }
 
@@ -83,23 +87,24 @@ class OpdDashboardController extends Controller
         $fri = 0;
         $sat = 0;
         foreach ($stat as $item) {
-            if ($item->created_at->format('D') == "Sun") {
+            if ($item->created_at->format('D') == 'Sun') {
                 $sun = $sun + 1;
-            } elseif ($item->created_at->format('D') == "Mon") {
+            } elseif ($item->created_at->format('D') == 'Mon') {
                 $mon = $mon + 1;
-            } elseif ($item->created_at->format('D') == "Tue") {
+            } elseif ($item->created_at->format('D') == 'Tue') {
                 $tue = $tue + 1;
-            } elseif ($item->created_at->format('D') == "Wed") {
+            } elseif ($item->created_at->format('D') == 'Wed') {
                 $wed = $wed + 1;
-            } elseif ($item->created_at->format('D') == "Thu") {
+            } elseif ($item->created_at->format('D') == 'Thu') {
                 $thu = $thu + 1;
-            } elseif ($item->created_at->format('D') == "Fri") {
+            } elseif ($item->created_at->format('D') == 'Fri') {
                 $fri = $fri + 1;
-            } elseif ($item->created_at->format('D') == "Sat") {
+            } elseif ($item->created_at->format('D') == 'Sat') {
                 $sat = $sat + 1;
             }
         }
         $graph = "$sun,"."$mon,"."$tue,"."$wed,"."$thu,"."$fri,"."$sat";
+
         return $graph;
     }
 }

@@ -2,14 +2,15 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
 use App\Models\Visitor;
-use App\Models\YearlyVisitorSummary; // <<< Tambahkan ini
-use Carbon\Carbon;
+use App\Models\YearlyVisitorSummary;
+use Carbon\Carbon; // <<< Tambahkan ini
+use Illuminate\Console\Command;
 
 class ResetVisitors extends Command
 {
     protected $signature = 'visitors:reset';
+
     protected $description = 'Resets daily, monthly, and yearly visitor counts, and saves yearly summary.';
 
     public function handle()
@@ -43,7 +44,6 @@ class ResetVisitors extends Command
                 $visitor->year_visitors = 0;
             }
             // --- Akhir Logika Menyimpan Data Tahunan ---
-
 
             // Reset today_visitors setiap hari
             $visitor->today_visitors = 0;

@@ -2,16 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\Opd;
 use App\Models\User;
-use App\Models\Aktivitas;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
-use App\Http\Controllers\Admin\AktivitasController;
-
 
 class AkunOpdController extends Controller
 {
@@ -19,6 +16,7 @@ class AkunOpdController extends Controller
     {
         $this->middleware('checkRole:admin');
     }
+
     /**
      * Display a listing of the resource.
      */
@@ -27,8 +25,9 @@ class AkunOpdController extends Controller
         $users = User::where('role', 'opd')->get();
         $opd = Opd::all();
         $title = 'Hapus Akun OPD !';
-        $text = "Kamu yakin ingin Menghapus Akun ini?";
+        $text = 'Kamu yakin ingin Menghapus Akun ini?';
         confirmDelete($title, $text);
+
         return view('super-admin.akun-opd.index', compact('users', 'opd'));
     }
 
@@ -38,6 +37,7 @@ class AkunOpdController extends Controller
     public function create()
     {
         $opd = Opd::all();
+
         return view('super-admin.akun-opd.tambah', compact('opd'));
     }
 
@@ -51,18 +51,18 @@ class AkunOpdController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|unique:users|max:255',
             'password' => 'required|confirmed|max:255',
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         if ($request->photo != null) {
-            $imageName = time() . '.' . $request->photo->extension();
+            $imageName = time().'.'.$request->photo->extension();
             $request->photo->move(public_path('assets/photo-profile'), $imageName);
             user::create([
                 'id_opd' => $request->id_opd,
                 'name' => $request->name,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
-                'role' => "opd",
+                'role' => 'opd',
                 'photo' => $imageName,
             ]);
         } else {
@@ -71,11 +71,12 @@ class AkunOpdController extends Controller
                 'name' => $request->name,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
-                'role' => "opd",
-                'photo' => "avatar-1.png",
+                'role' => 'opd',
+                'photo' => 'avatar-1.png',
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id , "Menambahkan Akun OPD dengan Nama ".$request->name , "AOPD1",Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Akun OPD dengan Nama '.$request->name, 'AOPD1', Auth::user()->role);
+
         return redirect()->route('akunopd.index')->with('success', 'Berhasil Menambahkan Data Baru !');
     }
 
@@ -86,6 +87,7 @@ class AkunOpdController extends Controller
     {
         $users = User::where('id', $id)->first();
         $opd = Opd::all();
+
         return view('super-admin.akun-opd.edit', compact('users', 'opd'));
     }
 
@@ -98,19 +100,19 @@ class AkunOpdController extends Controller
         $request->validate([
             'id_opd' => 'required',
             'name' => 'required|max:255',
-            'email' => 'required|max:255|unique:users,email,' . $id,
+            'email' => 'required|max:255|unique:users,email,'.$id,
             'password' => 'confirmed|max:255',
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         if ($request->photo != null) {
-            if ($users->photo != "avatar-1.png") {
-                $image_path = public_path('assets/photo-profile/' . $users->photo);
+            if ($users->photo != 'avatar-1.png') {
+                $image_path = public_path('assets/photo-profile/'.$users->photo);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->photo->extension();
+            $imageName = time().'.'.$request->photo->extension();
             $request->photo->move(public_path('assets/photo-profile'), $imageName);
             if ($request->password != null) {
                 user::where('id', $id)->update([
@@ -144,7 +146,8 @@ class AkunOpdController extends Controller
                 ]);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id , "Mengubah Akun OPD dengan Nama ".$request->name , "AOPD2",Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengubah Akun OPD dengan Nama '.$request->name, 'AOPD2', Auth::user()->role);
+
         return redirect()->route('akunopd.index')->with('success', 'Berhasil Mengubah Data Akun OPD !');
     }
 
@@ -154,14 +157,15 @@ class AkunOpdController extends Controller
     public function destroy(string $id)
     {
         $users = user::find($id);
-        if ($users->photo != "avatar-1.png") {
-            $image_path = public_path('assets/photo-profile/' . $users->photo);
+        if ($users->photo != 'avatar-1.png') {
+            $image_path = public_path('assets/photo-profile/'.$users->photo);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id , "Menghapus Akun OPD dengan Nama ".$users->name , "AOPD3",Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Akun OPD dengan Nama '.$users->name, 'AOPD3', Auth::user()->role);
         $users->delete();
+
         return redirect()->route('akunopd.index')->with('success', 'Berhasil Menghapus Data Akun OPD !');
     }
 }

@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\OPD;
 
-use App\Models\User;
-use App\Models\Sektor;
-use App\Models\Publikasi;
-use Illuminate\Http\Request;
+use App\Http\Controllers\Admin\AktivitasController;
 use App\Http\Controllers\Controller;
+use App\Models\Publikasi;
+use App\Models\Sektor;
+use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
-use App\Http\Controllers\Admin\AktivitasController;
 
 class OpdPublikasiController extends Controller
 {
@@ -20,19 +20,20 @@ class OpdPublikasiController extends Controller
 
     public function index()
     {
-        $publikasi = Publikasi::where('id_user',Auth::user()->id)->latest()->get();
+        $publikasi = Publikasi::where('id_user', Auth::user()->id)->latest()->get();
         $users = User::all();
         $title = 'Hapus Publikasi !';
-        $text = "Kamu yakin ingin Menghapus Publikasi ini?";
+        $text = 'Kamu yakin ingin Menghapus Publikasi ini?';
         confirmDelete($title, $text);
-        return view('opd.publikasi.index', compact('publikasi','users'));
-    }
 
+        return view('opd.publikasi.index', compact('publikasi', 'users'));
+    }
 
     public function create()
     {
         $sektor = Sektor::all();
-        return view('opd.publikasi.tambah',compact('sektor'));
+
+        return view('opd.publikasi.tambah', compact('sektor'));
     }
 
     /**
@@ -49,41 +50,40 @@ class OpdPublikasiController extends Controller
         ]);
         $filename = null;
         $filename_cover = null;
-            if ($request->file != null) {
-                $filename = time() . '.' . $request->file->extension();
-                $request->file->move(public_path('assets/publikasi'), $filename);
-            }
-            if ($request->cover != null) {
-                $filename_cover = time() . '.' . $request->cover->extension();
-                $request->cover->move(public_path('assets/cover-publikasi'), $filename_cover);
-            }
-            Publikasi::create([
-                'id_user' => Auth::user()->id,
-                'cover' => $filename_cover,
-                'judul' => $request->judul,
-                'file' => $filename,
-                'deskripsi' => $request->deskripsi,
-                'status' => 'proses',
-                'id_sektor' => $request->id_sektor,
-            ]);
+        if ($request->file != null) {
+            $filename = time().'.'.$request->file->extension();
+            $request->file->move(public_path('assets/publikasi'), $filename);
+        }
+        if ($request->cover != null) {
+            $filename_cover = time().'.'.$request->cover->extension();
+            $request->cover->move(public_path('assets/cover-publikasi'), $filename_cover);
+        }
+        Publikasi::create([
+            'id_user' => Auth::user()->id,
+            'cover' => $filename_cover,
+            'judul' => $request->judul,
+            'file' => $filename,
+            'deskripsi' => $request->deskripsi,
+            'status' => 'proses',
+            'id_sektor' => $request->id_sektor,
+        ]);
 
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Publikasi dengan Nama " . $request->judul, "P1", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Publikasi dengan Nama '.$request->judul, 'P1', Auth::user()->role);
+
         return redirect()->route('opd-publikasi.index')->with('success', 'Berhasil Menambahkan Publikasi Baru !');
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
-    {
-       
-    }
-    
+    public function show(string $id) {}
+
     public function edit(string $id)
     {
-        $publikasi = Publikasi::where('id', $id)->where('id_user',Auth::user()->id)->first();
+        $publikasi = Publikasi::where('id', $id)->where('id_user', Auth::user()->id)->first();
         $sektor = Sektor::all();
-        return view('opd.publikasi.edit', compact('publikasi','sektor'));
+
+        return view('opd.publikasi.edit', compact('publikasi', 'sektor'));
     }
 
     /**
@@ -103,31 +103,32 @@ class OpdPublikasiController extends Controller
         $cover = $publikasi->cover;
 
         if ($request->file != null) {
-            $file_path = public_path('assets/publikasi/' . $file);
+            $file_path = public_path('assets/publikasi/'.$file);
             if (File::exists($file_path)) {
                 File::delete($file_path);
             }
-            $file = time() . '.' . $request->file->extension();
+            $file = time().'.'.$request->file->extension();
             $request->file->move(public_path('assets/publikasi'), $file);
         }
 
         if ($request->cover != null) {
-            $file_path = public_path('assets/cover-publikasi/' . $cover);
+            $file_path = public_path('assets/cover-publikasi/'.$cover);
             if (File::exists($file_path)) {
                 File::delete($file_path);
             }
-            $cover = time() . '.' . $request->cover->extension();
+            $cover = time().'.'.$request->cover->extension();
             $request->cover->move(public_path('assets/cover-publikasi'), $cover);
         }
 
         Publikasi::where('id', $id)->update([
-                'cover' => $cover,
-                'judul' => $request->judul,
-                'file' => $file,
-                'deskripsi' => $request->deskripsi,
-                'id_sektor' => $request->id_sektor,
+            'cover' => $cover,
+            'judul' => $request->judul,
+            'file' => $file,
+            'deskripsi' => $request->deskripsi,
+            'id_sektor' => $request->id_sektor,
         ]);
-        (new AktivitasController)->store(Auth::user()->id, "Mengubah Publikasi" . $request->judul, "P2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengubah Publikasi'.$request->judul, 'P2', Auth::user()->role);
+
         return redirect()->route('opd-publikasi.index')->with('success', 'Berhasil Merubah Publikasi !');
     }
 
@@ -137,16 +138,17 @@ class OpdPublikasiController extends Controller
     public function destroy(string $id)
     {
         $publikasi = Publikasi::find($id);
-        $file_path = public_path('assets/publikasi/' . $publikasi->file);
-        $file_path2 = public_path('assets/cover-publikasi/' . $publikasi->cover);
+        $file_path = public_path('assets/publikasi/'.$publikasi->file);
+        $file_path2 = public_path('assets/cover-publikasi/'.$publikasi->cover);
         if (File::exists($file_path)) {
             File::delete($file_path);
         }
         if (File::exists($file_path2)) {
             File::delete($file_path2);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus Publikasi dengan Nama " . $publikasi->judul, "P3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Publikasi dengan Nama '.$publikasi->judul, 'P3', Auth::user()->role);
         $publikasi->delete();
+
         return redirect()->route('opd-publikasi.index')->with('success', 'Data Berhasil dihapus !');
     }
 }

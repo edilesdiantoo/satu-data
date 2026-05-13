@@ -260,10 +260,18 @@
                             <ul class="dropdown-menu">
                                 <li class="@if (Route::is('datasets.index')) active @endif"><a class="nav-link"
                                         href="{{ route('datasets.index') }}">Data Sektoral</a></li>
+
+                                <li class="{{ Route::is('datasets.agendaList') ? 'active' : '' }}"><a
+                                        class="nav-link" href="{{ route('datasets.agendaList') }}">Agenda List
+                                        Update</a>
+                                </li>
+
                                 <li class="@if (Route::is('datasets-api.*')) active @endif"><a class="nav-link"
                                         href="{{ route('datasets-api.index') }}">API Data Sektoral</a></li>
+
                                 <li class="@if (Route::is('bps.*')) active @endif"><a class="nav-link"
                                         href="{{ route('bps.index') }}">Data Dasar</a></li>
+
                                 <li class="@if (Route::is('permohonan-data.index')) active @endif"><a class="nav-link"
                                         href="{{ route('permohonan-data.index') }}">Permohonan Data</a></li>
                             </ul>

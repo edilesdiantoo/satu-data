@@ -15,70 +15,74 @@
         }
     </style>
     @php
-    // Fungsi untuk mengekstrak tahun dari judul
-    function extractYearsFromTitle($title) {
-        preg_match_all('/\b(19|20)\d{2}\b/', $title, $matches);
-        
-        if (!empty($matches[0])) {
-            $years = array_unique($matches[0]);
-            sort($years);
-            return $years;
-        }
-        
-        return [];
-    }
+        // Fungsi untuk mengekstrak tahun dari judul
+        function extractYearsFromTitle($title)
+        {
+            preg_match_all('/\b(19|20)\d{2}\b/', $title, $matches);
 
-    // Fungsi untuk mengecek apakah ada rentang tahun
-    function hasYearRange($title) {
-        return preg_match('/\b(19|20)\d{2}[-–]\s*(19|20)\d{2}\b/', $title);
-    }
-
-    // Fungsi untuk mengekstrak rentang tahun
-    function extractYearRange($title) {
-        preg_match('/\b((19|20)\d{2})[-–]\s*((19|20)\d{2})\b/', $title, $matches);
-        
-        if (count($matches) >= 4) {
-            $startYear = (int)$matches[1];
-            $endYear = (int)$matches[3];
-            
-            $years = [];
-            for ($year = $startYear; $year <= $endYear; $year++) {
-                $years[] = $year;
+            if (!empty($matches[0])) {
+                $years = array_unique($matches[0]);
+                sort($years);
+                return $years;
             }
-            
-            return $years;
-        }
-        
-        return [];
-    }
 
-    // Fungsi untuk mengekstrak tahun periode data (prioritas: akhir judul, setelah koma)
-    function extractDataYears($title) {
-        // Cek dulu apakah ada rentang tahun
-        if (hasYearRange($title)) {
-            return extractYearRange($title);
+            return [];
         }
-        
-        // Cari tahun setelah koma (biasanya menunjukkan periode data)
-        if (preg_match('/,\s*(\d{4})(?:\s*$|\s*[^\d])/', $title, $matches)) {
-            return [(int)$matches[1]];
+
+        // Fungsi untuk mengecek apakah ada rentang tahun
+        function hasYearRange($title)
+        {
+            return preg_match('/\b(19|20)\d{2}[-–]\s*(19|20)\d{2}\b/', $title);
         }
-        
-        // Cari tahun di akhir judul
-        if (preg_match('/\b(19|20)\d{2}\s*$/', $title, $matches)) {
-            return [(int)$matches[0]];
+
+        // Fungsi untuk mengekstrak rentang tahun
+        function extractYearRange($title)
+        {
+            preg_match('/\b((19|20)\d{2})[-–]\s*((19|20)\d{2})\b/', $title, $matches);
+
+            if (count($matches) >= 4) {
+                $startYear = (int) $matches[1];
+                $endYear = (int) $matches[3];
+
+                $years = [];
+                for ($year = $startYear; $year <= $endYear; $year++) {
+                    $years[] = $year;
+                }
+
+                return $years;
+            }
+
+            return [];
         }
-        
-        // Jika tidak ada pola khusus, ambil tahun terakhir yang ditemukan
-        preg_match_all('/\b(19|20)\d{2}\b/', $title, $matches);
-        if (!empty($matches[0])) {
-            // Ambil tahun terbesar (terakhir secara kronologis)
-            $years = array_map('intval', $matches[0]);
-            return [max($years)];
+
+        // Fungsi untuk mengekstrak tahun periode data (prioritas: akhir judul, setelah koma)
+        function extractDataYears($title)
+        {
+            // Cek dulu apakah ada rentang tahun
+            if (hasYearRange($title)) {
+                return extractYearRange($title);
+            }
+
+            // Cari tahun setelah koma (biasanya menunjukkan periode data)
+            if (preg_match('/,\s*(\d{4})(?:\s*$|\s*[^\d])/', $title, $matches)) {
+                return [(int) $matches[1]];
+            }
+
+            // Cari tahun di akhir judul
+            if (preg_match('/\b(19|20)\d{2}\s*$/', $title, $matches)) {
+                return [(int) $matches[0]];
+            }
+
+            // Jika tidak ada pola khusus, ambil tahun terakhir yang ditemukan
+            preg_match_all('/\b(19|20)\d{2}\b/', $title, $matches);
+            if (!empty($matches[0])) {
+                // Ambil tahun terbesar (terakhir secara kronologis)
+                $years = array_map('intval', $matches[0]);
+                return [max($years)];
+            }
+
+            return [];
         }
-        
-        return [];
-    }
     @endphp
     <main id="main">
         <!-- ======= Breadcrumbs Section ======= -->
@@ -159,7 +163,8 @@
                                         <tr @if ($i % 2 == 1) style="background-color: #f2f2f2;" @endif>
                                             <td>
                                                 <span>
-                                                    <a style="color: #010246;"href="?sub_kategori={{ $demografi[$i]['title'] }}">{{ $demografi[$i]['title'] }}</a>
+                                                    <a
+                                                        style="color: #010246;"href="?sub_kategori={{ $demografi[$i]['title'] }}">{{ $demografi[$i]['title'] }}</a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -171,7 +176,8 @@
                                             <tr>
                                                 <td>
                                                     <span>
-                                                        <a style="color: #010246;" href="?sub_kategori={{ $demografi[$i]['title'] }}">{{ $demografi[$i]['title'] }}</a>
+                                                        <a style="color: #010246;"
+                                                            href="?sub_kategori={{ $demografi[$i]['title'] }}">{{ $demografi[$i]['title'] }}</a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -192,7 +198,8 @@
                                             <td>
                                                 <span>
                                                     @if (isset($ekonomi[$i]) && !empty($ekonomi[$i]['title']))
-                                                        <a style="color: #010246;" href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a>
+                                                        <a style="color: #010246;"
+                                                            href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a>
                                                     @endif
                                                     {{-- <a style="color: #010246;" href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a> --}}
                                                 </span>
@@ -207,7 +214,8 @@
                                                 <td>
                                                     <span>
                                                         @if (isset($ekonomi[$i]) && !empty($ekonomi[$i]['title']))
-                                                            <a style="color: #010246;" href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a>
+                                                            <a style="color: #010246;"
+                                                                href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a>
                                                         @endif
                                                         {{-- <a style="color: #010246;" href="?s    ub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a> --}}
                                                     </span>
@@ -231,7 +239,8 @@
                                             <td>
                                                 <span>
                                                     @if (isset($lhdanmultidomain[$i]) && !empty($lhdanmultidomain[$i]['title']))
-                                                        <a style="color: #010246;" href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
+                                                        <a style="color: #010246;"
+                                                            href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
                                                     @endif
                                                     {{-- <a style="color: #010246;" href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a> --}}
                                                 </span>
@@ -246,9 +255,11 @@
                                                 <td>
                                                     <span>
                                                         @if (isset($lhdanmultidomain[$i]) && !empty($lhdanmultidomain[$i]['title']))
-                                                            <a style="color: #010246;" href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
+                                                            <a style="color: #010246;"
+                                                                href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
                                                         @endif
-                                                        <a style="color: #010246;" href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
+                                                        <a style="color: #010246;"
+                                                            href="?sub_kategori={{ $lhdanmultidomain[$i]['title'] }}">{{ $lhdanmultidomain[$i]['title'] }}</a>
                                                     </span>
                                                 </td>
                                             </tr>
@@ -280,64 +291,67 @@
                                                     <!--</div>-->
                                                     <div class="fs-16 font-weight-500 text-capitalize">
                                                         @php
-                                                        // Tentukan tahun yang tersedia untuk item ini
-                                                        $years = extractDataYears($item->judul);
+                                                            // Tentukan tahun yang tersedia untuk item ini
+                                                            $years = extractDataYears($item->judul);
                                                         @endphp
-                                                    
+
                                                         @if (count($years) === 1)
                                                             {{-- Jika hanya 1 tahun, tampilkan input readonly --}}
-                                                            <div class="d-flex flex-column align-items-start gap-2 flex-wrap">
-                                                                <a class="fw-bold" 
-                                                                   href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}?tahun={{ $years[0] }}"
-                                                                   style="color: #f98c16" 
-                                                                   onclick="checkYearAndRedirect(event, '{{ $years[0] }}', '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
+                                                            <div
+                                                                class="d-flex flex-column align-items-start gap-2 flex-wrap">
+                                                                <a class="fw-bold"
+                                                                    href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}?tahun={{ $years[0] }}"
+                                                                    style="color: #f98c16"
+                                                                    onclick="checkYearAndRedirect(event, '{{ $years[0] }}', '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
                                                                     {{ $item->judul }}
                                                                 </a>
-                                                                <input type="text" hidden name="tahun" class="form-control form-control-sm" 
-                                                                       value="{{ $years[0] }}" readonly 
-                                                                       style="width: 80px; background-color: #f8f9fa; font-size: 12px;">
+                                                                <input type="text" hidden name="tahun"
+                                                                    class="form-control form-control-sm"
+                                                                    value="{{ $years[0] }}" readonly
+                                                                    style="width: 80px; background-color: #f8f9fa; font-size: 12px;">
                                                             </div>
                                                         @elseif (count($years) > 1)
                                                             {{-- Jika lebih dari 1 tahun, tampilkan select --}}
-                                                            <div class="d-flex flex-column align-items-start gap-2 flex-wrap">
-                                                                <a class="fw-bold" 
-                                                                   id="data-link-{{ $item->id }}"
-                                                                   href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
-                                                                   style="color: #f98c16"
-                                                                   onclick="checkYearAndRedirect(event, document.querySelector('select[name=\'tahun\']').value, '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
-                                                                   {{ $item->judul }}
+                                                            <div
+                                                                class="d-flex flex-column align-items-start gap-2 flex-wrap">
+                                                                <a class="fw-bold" id="data-link-{{ $item->id }}"
+                                                                    href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
+                                                                    style="color: #f98c16"
+                                                                    onclick="checkYearAndRedirect(event, document.querySelector('select[name=\'tahun\']').value, '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
+                                                                    {{ $item->judul }}
                                                                 </a>
-                                                                <select name="tahun" class="form-select form-select-sm" 
-                                                                        style="width: auto; font-size: 12px;" 
-                                                                        onchange="checkYearAndRedirect(event, this.value, '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
+                                                                <select name="tahun" class="form-select form-select-sm"
+                                                                    style="width: auto; font-size: 12px;"
+                                                                    onchange="checkYearAndRedirect(event, this.value, '{{ route('web-datadasar.show', [$item->id, $item->slug]) }}')">
                                                                     <option value="">Pilih Tahun</option>
                                                                     @foreach ($years as $year)
-                                                                        <option value="{{ $year }}">{{ $year }}</option>
+                                                                        <option value="{{ $year }}">
+                                                                            {{ $year }}</option>
                                                                     @endforeach
                                                                 </select>
                                                             </div>
-                                                    
+
                                                             <script>
-                                                            function checkYearAndRedirect(event, tahun, baseUrl) {
-                                                                // console.log("Selected year:", tahun); // Debugging line to check selected year value
-                                                    
-                                                                // Trim any unwanted spaces or check if the year is still empty
-                                                                if (!tahun || tahun.trim() === "") {
-                                                                    // If the year is not selected or is empty, prevent the default action and show the alert
-                                                                    event.preventDefault();
-                                                                    alert('Silakan pilih tahun terlebih dahulu!');
-                                                                } else {
-                                                                    // If the year is selected, continue the redirection
-                                                                    const redirectUrl = baseUrl + '?tahun=' + tahun;
-                                                                    window.location.href = redirectUrl;
+                                                                function checkYearAndRedirect(event, tahun, baseUrl) {
+                                                                    // console.log("Selected year:", tahun); // Debugging line to check selected year value
+
+                                                                    // Trim any unwanted spaces or check if the year is still empty
+                                                                    if (!tahun || tahun.trim() === "") {
+                                                                        // If the year is not selected or is empty, prevent the default action and show the alert
+                                                                        event.preventDefault();
+                                                                        alert('Silakan pilih tahun terlebih dahulu!');
+                                                                    } else {
+                                                                        // If the year is selected, continue the redirection
+                                                                        const redirectUrl = baseUrl + '?tahun=' + tahun;
+                                                                        window.location.href = redirectUrl;
+                                                                    }
                                                                 }
-                                                            }
                                                             </script>
                                                         @else
                                                             {{-- Jika tidak ada tahun ditemukan, tampilkan link biasa --}}
-                                                            <a class="fw-bold" 
-                                                               href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
-                                                               style="color: #f98c16">{{ $item->judul }}</a>
+                                                            <a class="fw-bold"
+                                                                href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
+                                                                style="color: #f98c16">{{ $item->judul }}</a>
                                                         @endif
                                                     </div>
 

@@ -2,29 +2,30 @@
 
 namespace App\Http\Controllers\OPD;
 
-use App\Models\Sektor;
-use App\Models\Artikel;
-use Illuminate\Support\Str;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
 use App\Http\Controllers\Admin\AktivitasController;
+use App\Http\Controllers\Controller;
+use App\Models\Artikel;
+use App\Models\Sektor;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 
 class OpdArtikelController extends Controller
 {
-   /**
+    /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $artikel = Artikel::where('id_user',Auth::user()->id)->get();
+        $artikel = Artikel::where('id_user', Auth::user()->id)->get();
         $sektor = Sektor::all();
         $title = 'Hapus Artikel !';
-        $text = "Kamu yakin ingin Menghapus Artikel ini?";
+        $text = 'Kamu yakin ingin Menghapus Artikel ini?';
         confirmDelete($title, $text);
-        return view('opd.artikel.index', compact('artikel','sektor'));
+
+        return view('opd.artikel.index', compact('artikel', 'sektor'));
     }
 
     /**
@@ -33,6 +34,7 @@ class OpdArtikelController extends Controller
     public function create()
     {
         $sektor = Sektor::all();
+
         return view('opd.artikel.create', compact('sektor'));
     }
 
@@ -50,7 +52,7 @@ class OpdArtikelController extends Controller
         $statement = DB::select("show table status like 'tbl_artikel'");
         $latest_id = $statement[0]->Auto_increment;
         if ($request->gambar != null) {
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/artikel-thumbnail'), $imageName);
             Artikel::create([
                 'id_user' => Auth::user()->id,
@@ -60,18 +62,21 @@ class OpdArtikelController extends Controller
                 'slug' => Str::slug($request->judul.$latest_id),
                 'isi' => $request->isi,
             ]);
-        } 
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Artikel " . $request->judul, "A1", Auth::user()->role);
+        }
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Artikel '.$request->judul, 'A1', Auth::user()->role);
+
         return redirect()->route('opd-artikel.index')->with('success', 'Berhasil Menambahkan Artikel Baru !');
     }
+
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)
     {
-        $artikel = Artikel::where('id', $id)->where('id_user',Auth::user()->id)->first();
+        $artikel = Artikel::where('id', $id)->where('id_user', Auth::user()->id)->first();
         $sektor = Sektor::all();
-        return view('opd.artikel.edit',compact('artikel','sektor'));
+
+        return view('opd.artikel.edit', compact('artikel', 'sektor'));
     }
 
     /**
@@ -88,13 +93,13 @@ class OpdArtikelController extends Controller
         ]);
 
         if ($request->gambar != null) {
-            if ($artikel->gambar != "img01.jpg") {
-                $image_path = public_path('assets/artikel-thumbnail/' . $artikel->gambar);
+            if ($artikel->gambar != 'img01.jpg') {
+                $image_path = public_path('assets/artikel-thumbnail/'.$artikel->gambar);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/artikel-thumbnail'), $imageName);
             Artikel::where('id', $id)->update([
                 'id_sektor' => $request->id_sektor,
@@ -111,7 +116,8 @@ class OpdArtikelController extends Controller
                 'isi' => $request->isi,
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate Artikel " . $request->judul, "A2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate Artikel '.$request->judul, 'A2', Auth::user()->role);
+
         return redirect()->route('opd-artikel.index')->with('success', 'Berhasil Mengubah Data Artikel !');
     }
 
@@ -121,14 +127,15 @@ class OpdArtikelController extends Controller
     public function destroy(string $id)
     {
         $artikel = Artikel::find($id);
-        if ($artikel->gambar != "img01.jpg") {
-            $image_path = public_path('assets/artikel-thumbnail/' . $artikel->gambar);
+        if ($artikel->gambar != 'img01.jpg') {
+            $image_path = public_path('assets/artikel-thumbnail/'.$artikel->gambar);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus Artikel " . $artikel->judul, "A3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Artikel '.$artikel->judul, 'A3', Auth::user()->role);
         $artikel->delete();
+
         return redirect()->route('opd-artikel.index')->with('success', 'Berhasil Menghapus Data artikel !');
     }
 }

@@ -15,9 +15,9 @@ class SecurityHeaderMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        
+
         $response = $next($request);
-        
+
         // Set security headers
         $response->headers->set('X-XSS-Protection', '1; mode=block');
 

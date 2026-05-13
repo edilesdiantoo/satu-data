@@ -3,12 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Opd;
-use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
-
 
 class OperatorController extends Controller
 {
@@ -16,13 +15,15 @@ class OperatorController extends Controller
     {
         $this->middleware('checkRole:admin');
     }
+
     public function index()
     {
         $users = User::where('role', 'admin')->get();
         $opd = Opd::all();
         $title = 'Hapus Operator !';
-        $text = "Kamu yakin ingin Menghapus Operator ini?";
+        $text = 'Kamu yakin ingin Menghapus Operator ini?';
         confirmDelete($title, $text);
+
         return view('super-admin.operator.index', compact('users', 'opd'));
     }
 
@@ -32,6 +33,7 @@ class OperatorController extends Controller
     public function create()
     {
         $opd = Opd::all();
+
         return view('super-admin.operator.tambah', compact('opd'));
     }
 
@@ -45,18 +47,18 @@ class OperatorController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|unique:users|max:255',
             'password' => 'required|confirmed|max:255',
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         if ($request->photo != null) {
-            $imageName = time() . '.' . $request->photo->extension();
+            $imageName = time().'.'.$request->photo->extension();
             $request->photo->move(public_path('assets/photo-profile'), $imageName);
             user::create([
                 'id_opd' => $request->id_opd,
                 'name' => $request->name,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
-                'role' => "admin",
+                'role' => 'admin',
                 'photo' => $imageName,
             ]);
         } else {
@@ -65,11 +67,12 @@ class OperatorController extends Controller
                 'name' => $request->name,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
-                'role' => "admin",
-                'photo' => "avatar-1.png",
+                'role' => 'admin',
+                'photo' => 'avatar-1.png',
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Operator dengan Nama " . $request->name, "O1", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Operator dengan Nama '.$request->name, 'O1', Auth::user()->role);
+
         return redirect()->route('operator.index')->with('success', 'Berhasil Menambahkan Data Baru !');
     }
 
@@ -80,6 +83,7 @@ class OperatorController extends Controller
     {
         $users = User::where('id', $id)->first();
         $opd = Opd::all();
+
         return view('super-admin.operator.edit', compact('users', 'opd'));
     }
 
@@ -92,19 +96,19 @@ class OperatorController extends Controller
         $request->validate([
             'id_opd' => 'required',
             'name' => 'required|max:255',
-            'email' => 'required|max:255|unique:users,email,' . $id,
+            'email' => 'required|max:255|unique:users,email,'.$id,
             'password' => 'confirmed|max:255',
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         if ($request->photo != null) {
-            if ($users->photo != "avatar-1.png") {
-                $image_path = public_path('assets/photo-profile/' . $users->photo);
+            if ($users->photo != 'avatar-1.png') {
+                $image_path = public_path('assets/photo-profile/'.$users->photo);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->photo->extension();
+            $imageName = time().'.'.$request->photo->extension();
             $request->photo->move(public_path('assets/photo-profile'), $imageName);
             if ($request->password != null) {
                 user::where('id', $id)->update([
@@ -138,7 +142,8 @@ class OperatorController extends Controller
                 ]);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate Operator dengan Nama " . $request->name, "O2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate Operator dengan Nama '.$request->name, 'O2', Auth::user()->role);
+
         return redirect()->route('operator.index')->with('success', 'Berhasil Mengubah Data Operator !');
     }
 
@@ -148,14 +153,15 @@ class OperatorController extends Controller
     public function destroy(string $id)
     {
         $users = user::find($id);
-        if ($users->photo != "avatar-1.png") {
-            $image_path = public_path('assets/photo-profile/' . $users->photo);
+        if ($users->photo != 'avatar-1.png') {
+            $image_path = public_path('assets/photo-profile/'.$users->photo);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
         $users->delete();
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus Operator dengan Nama " . $users->nama_opd, "O3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Operator dengan Nama '.$users->nama_opd, 'O3', Auth::user()->role);
+
         return redirect()->route('operator.index')->with('success', 'Berhasil Menghapus Data Operator !');
     }
 }

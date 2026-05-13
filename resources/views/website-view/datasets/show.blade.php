@@ -245,7 +245,6 @@
                                                 border: 2px solid #acacac;
                                             }
                                         </style>
-
                                         <div class="tab-content" id="nav-tabContent">
                                             <div class="tab-pane fade @if (!app('request')->input('grafik') && !app('request')->input('peta')) show active @endif"
                                                 id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"

@@ -15,9 +15,9 @@ class WhatsAppService
 
     public function sendWhatsAppMessage($to, $message)
     {
-        $this->client->messages->create("whatsapp:".$to, [
+        $this->client->messages->create('whatsapp:'.$to, [
             'from' => env('TWILIO_WHATSAPP_FROM'),
-            'body' => $message
+            'body' => $message,
         ]);
     }
 }

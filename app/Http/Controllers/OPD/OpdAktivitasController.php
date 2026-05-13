@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers\OPD;
 
-use App\Models\User;
-use App\Models\Aktivitas;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Aktivitas;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
 class OpdAktivitasController extends Controller
@@ -14,13 +13,14 @@ class OpdAktivitasController extends Controller
     {
         $this->middleware('checkRole:opd');
     }
+
     public function index()
     {
-        $aktivitas = Aktivitas::where('id_user',Auth::user()->id)->orderBy('created_at', 'desc')->paginate(10);
-        $users = User::where('id',Auth::user()->id)->get();
+        $aktivitas = Aktivitas::where('id_user', Auth::user()->id)->orderBy('created_at', 'desc')->paginate(10);
+        $users = User::where('id', Auth::user()->id)->get();
+
         return view('opd.aktivitas.index', compact('aktivitas', 'users'));
     }
-
 
     public function store($id_user, $pesan, $status, $role)
     {
@@ -28,7 +28,7 @@ class OpdAktivitasController extends Controller
             'id_user' => $id_user,
             'pesan' => $pesan,
             'status' => $status,
-            'role' => $role
+            'role' => $role,
         ]);
         if ($data) {
             return true;
@@ -40,11 +40,14 @@ class OpdAktivitasController extends Controller
     public static function data()
     {
         $aktivitas = Aktivitas::orderBy('created_at', 'DESC')->get();
+
         return $aktivitas;
     }
+
     public static function data_user()
     {
-        $user =  User::get(['id', 'name', 'photo']);
+        $user = User::get(['id', 'name', 'photo']);
+
         return $user;
     }
 }

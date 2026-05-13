@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\BPS;
-use Illuminate\Support\Str;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\BPS;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Http;
-use App\Http\Controllers\Admin\AktivitasController;
+use Illuminate\Support\Str;
 
 class BpsController extends Controller
 {
@@ -16,9 +15,10 @@ class BpsController extends Controller
     {
         $bps = BPS::orderBy('created_at', 'DESC')->get();
         $title = 'Hapus Data !';
-        $text = "Kamu yakin ingin Menghapus Data ini?";
+        $text = 'Kamu yakin ingin Menghapus Data ini?';
         confirmDelete($title, $text);
-        return view('super-admin.bps.index',compact('bps'));
+
+        return view('super-admin.bps.index', compact('bps'));
     }
 
     /**
@@ -36,7 +36,7 @@ class BpsController extends Controller
         // $ekonomiperdagangan = $this->ekonomiperdagangan;
         // $pertaniandanpertambangan = $this->pertaniandanpertambangan;
         // return view ('super-admin.bps.create',['kategori'=>$kategori],compact('sosialdankependudukan','ekonomiperdagangan','pertaniandanpertambangan'));
-        $apiKey = "97fb2e54e7ed024d54ca2825e6448e0d";
+        $apiKey = '97fb2e54e7ed024d54ca2825e6448e0d';
         $domain = 1500;
 
         // Fetch kategori (subcatcsa)
@@ -44,7 +44,7 @@ class BpsController extends Controller
         $kategoriData = $kategoriResponse->json()['data'] ?? [];
 
         // Extract the actual kategori data (second element in array)
-        $kategori = $kategoriData[1] ?? []; 
+        $kategori = $kategoriData[1] ?? [];
 
         $subkategori = []; // Store all subcategories in one array
         $page = 1;
@@ -79,7 +79,7 @@ class BpsController extends Controller
             'judul' => 'required|max:255',
             'link_api' => 'required|max:255',
         ]);
-        
+
         BPS::create([
             'kategori' => $request->kategori,
             'sub_kategori' => $request->sub_kategori,
@@ -87,18 +87,18 @@ class BpsController extends Controller
             'slug' => Str::slug($request->judul),
             'link_api' => $request->link_api,
         ]);
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Data API dengan Judul " . $request->judul, "BPS1", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Data API dengan Judul '.$request->judul, 'BPS1', Auth::user()->role);
+
         return redirect()->route('bps.index')->with('success', 'Berhasil Menambahkan Data API Baru !');
     }
-
 
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)
     {
-        $bps = BPS::where('id',$id)->first();
-        $apiKey = "97fb2e54e7ed024d54ca2825e6448e0d";
+        $bps = BPS::where('id', $id)->first();
+        $apiKey = '97fb2e54e7ed024d54ca2825e6448e0d';
         $domain = 1500;
 
         // Fetch kategori (subcatcsa)
@@ -106,7 +106,7 @@ class BpsController extends Controller
         $kategoriData = $kategoriResponse->json()['data'] ?? [];
 
         // Extract the actual kategori data (second element in array)
-        $kategori = $kategoriData[1] ?? []; 
+        $kategori = $kategoriData[1] ?? [];
 
         $subkategori = []; // Store all subcategories in one array
         $page = 1;
@@ -148,14 +148,15 @@ class BpsController extends Controller
             'judul' => 'required|max:255',
             'link_api' => 'required|max:255',
         ]);
-        BPS::where('id',$id)->update([
+        BPS::where('id', $id)->update([
             'kategori' => $request->kategori,
             'sub_kategori' => $request->sub_kategori,
             'judul' => $request->judul,
             'slug' => Str::slug($request->judul),
             'link_api' => $request->link_api,
         ]);
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate Data API dengan Judul " . $request->judul, "BPS2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate Data API dengan Judul '.$request->judul, 'BPS2', Auth::user()->role);
+
         return redirect()->route('bps.index')->with('success', 'Berhasil Mengupdate Data API !');
     }
 
@@ -166,7 +167,8 @@ class BpsController extends Controller
     {
         $bps = BPS::find($id);
         $bps->delete();
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus Data dengan Judul " . $bps->judul, "BPS3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Data dengan Judul '.$bps->judul, 'BPS3', Auth::user()->role);
+
         return redirect()->route('bps.index')->with('success', 'Berhasil Menghapus Data !');
     }
 }

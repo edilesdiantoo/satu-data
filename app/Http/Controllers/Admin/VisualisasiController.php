@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use App\Models\Visualisasi;
 use App\Models\Sektor;
+use App\Models\Visualisasi;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 
@@ -18,21 +18,23 @@ class VisualisasiController extends Controller
 
     public function index()
     {
-        $visualisasi = Visualisasi::where('kategori','dashboard')->get();
+        $visualisasi = Visualisasi::where('kategori', 'dashboard')->get();
         $sektor = Sektor::all();
         $title = 'Hapus Visualisasi !';
-        $text = "Kamu yakin ingin Menghapus Visualisasi ini?";
+        $text = 'Kamu yakin ingin Menghapus Visualisasi ini?';
         confirmDelete($title, $text);
+
         return view('super-admin.visualisasi.index', compact('visualisasi', 'sektor'));
     }
-    
+
     public function storyboard()
     {
-        $visualisasi = Visualisasi::where('kategori','storyboard')->get();
+        $visualisasi = Visualisasi::where('kategori', 'storyboard')->get();
         $sektor = Sektor::all();
         $title = 'Hapus Visualisasi !';
-        $text = "Kamu yakin ingin Menghapus Visualisasi ini?";
+        $text = 'Kamu yakin ingin Menghapus Visualisasi ini?';
         confirmDelete($title, $text);
+
         return view('super-admin.visualisasi.index', compact('visualisasi', 'sektor'));
     }
 
@@ -42,6 +44,7 @@ class VisualisasiController extends Controller
     public function create()
     {
         $sektor = Sektor::all();
+
         return view('super-admin.visualisasi.tambah', compact('sektor'));
     }
 
@@ -60,7 +63,7 @@ class VisualisasiController extends Controller
         ]);
 
         if ($request->gambar != null) {
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/visualisasi-thumbnail'), $imageName);
             Visualisasi::create([
                 'judul' => $request->judul,
@@ -76,11 +79,12 @@ class VisualisasiController extends Controller
                 'deskripsi' => $request->deskripsi,
                 'url' => $request->url,
                 'kategori' => $request->kategori,
-                'gambar' => "img01.jpg",
+                'gambar' => 'img01.jpg',
                 'sektor' => $request->sektor,
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Visualisasi " . $request->judul, "V1", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Visualisasi '.$request->judul, 'V1', Auth::user()->role);
+
         return redirect()->route('visualisasi.index')->with('success', 'Berhasil Menambahkan Visualisasi Baru !');
     }
 
@@ -88,9 +92,9 @@ class VisualisasiController extends Controller
     {
         $visualisasi = Visualisasi::where('id', $id)->first();
         $sektor = Sektor::all();
+
         return view('super-admin.visualisasi.edit', compact('visualisasi', 'sektor'));
     }
-
 
     /**
      * Update the specified resource in storage.
@@ -108,13 +112,13 @@ class VisualisasiController extends Controller
         ]);
 
         if ($request->gambar != null) {
-            if ($visualisasi->gambar != "img01.jpg") {
-                $image_path = public_path('assets/visualisasi-thumbnail/' . $visualisasi->gambar);
+            if ($visualisasi->gambar != 'img01.jpg') {
+                $image_path = public_path('assets/visualisasi-thumbnail/'.$visualisasi->gambar);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/visualisasi-thumbnail'), $imageName);
             Visualisasi::where('id', $id)->update([
                 'judul' => $request->judul,
@@ -133,7 +137,8 @@ class VisualisasiController extends Controller
                 'sektor' => $request->sektor,
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate Visualisasi " . $request->judul, "V2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate Visualisasi '.$request->judul, 'V2', Auth::user()->role);
+
         return redirect()->route('visualisasi.index')->with('success', 'Berhasil Mengubah Data Visualisasi !');
     }
 
@@ -143,14 +148,15 @@ class VisualisasiController extends Controller
     public function destroy(string $id)
     {
         $visualisasi = Visualisasi::find($id);
-        if ($visualisasi->gambar != "img01.jpg") {
-            $image_path = public_path('assets/visualisasi-thumbnail/' . $visualisasi->gambar);
+        if ($visualisasi->gambar != 'img01.jpg') {
+            $image_path = public_path('assets/visualisasi-thumbnail/'.$visualisasi->gambar);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus Visualisasi " . $visualisasi->judul, "V3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus Visualisasi '.$visualisasi->judul, 'V3', Auth::user()->role);
         $visualisasi->delete();
+
         return redirect()->route('visualisasi.index')->with('success', 'Berhasil Menghapus Data Visualisasi !');
     }
 }

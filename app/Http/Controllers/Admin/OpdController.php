@@ -3,11 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Opd;
-use Illuminate\Support\Facades\File;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\Admin\AktivitasController;
+use Illuminate\Support\Facades\File;
 
 class OpdController extends Controller
 {
@@ -15,12 +14,14 @@ class OpdController extends Controller
     {
         $this->middleware('checkRole:admin');
     }
+
     public function index()
     {
         $opd = Opd::all();
         $title = 'Hapus Nama OPD !';
-        $text = "Kamu yakin ingin Menghapus Nama OPD ini?";
+        $text = 'Kamu yakin ingin Menghapus Nama OPD ini?';
         confirmDelete($title, $text);
+
         return view('super-admin.opd.index', compact('opd'));
     }
 
@@ -31,20 +32,22 @@ class OpdController extends Controller
             'gambar' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
         if ($request->gambar != null) {
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/opd'), $imageName);
             Opd::create([
                 'nama_opd' => $request->nama_opd,
                 'gambar' => $imageName,
             ]);
-        } 
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan OPD dengan Nama " . $request->nama_opd, "OPD1", Auth::user()->role);
+        }
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan OPD dengan Nama '.$request->nama_opd, 'OPD1', Auth::user()->role);
+
         return redirect()->route('opd.index')->with('success', 'Berhasil Menambahkan Data Baru !');
     }
 
     public function edit(string $id)
     {
         $opd = Opd::where('id', $id)->first();
+
         return view('super-admin.opd.edit', compact('opd'));
     }
 
@@ -58,16 +61,15 @@ class OpdController extends Controller
             'nama_opd' => 'required|max:255|unique:tbl_opd,nama_opd,'.$opd->id,
             'gambar' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
-       
 
         if ($request->gambar != null) {
-            if ($opd->gambar != "default.jpg") {
-                $image_path = public_path('assets/opd/' . $opd->gambar);
+            if ($opd->gambar != 'default.jpg') {
+                $image_path = public_path('assets/opd/'.$opd->gambar);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/opd'), $imageName);
             Opd::where('id', $id)->update([
                 'nama_opd' => $request->nama_opd,
@@ -78,7 +80,8 @@ class OpdController extends Controller
                 'nama_opd' => $request->nama_opd,
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate OPD dengan Nama " . $request->nama_opd, "OPD2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate OPD dengan Nama '.$request->nama_opd, 'OPD2', Auth::user()->role);
+
         return redirect()->route('opd.index')->with('success', 'Berhasil Merubah Data OPD !');
     }
 
@@ -88,14 +91,15 @@ class OpdController extends Controller
     public function destroy(string $id)
     {
         $opd = Opd::find($id);
-        if ($opd->gambar != "default.jpg") {
-            $image_path = public_path('assets/opd/' . $opd->gambar);
+        if ($opd->gambar != 'default.jpg') {
+            $image_path = public_path('assets/opd/'.$opd->gambar);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
         $opd->delete();
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus OPD dengan Nama " . $opd->nama_opd, "OPD3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus OPD dengan Nama '.$opd->nama_opd, 'OPD3', Auth::user()->role);
+
         return redirect()->route('opd.index')->with('success', 'Berhasil Menghapus Data !');
     }
 }

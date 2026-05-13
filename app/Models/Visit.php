@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -20,7 +21,7 @@ class Visit extends Model
     ];
 
     // Tentukan kolom tanggal yang menggunakan Carbon
-    protected $dates = ['visit_date']; 
+    protected $dates = ['visit_date'];
 
     // Timestamps otomatis oleh Laravel (created_at, updated_at)
     public $timestamps = true;

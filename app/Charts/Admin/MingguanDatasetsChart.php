@@ -3,8 +3,8 @@
 namespace App\Charts\Admin;
 
 use App\Models\Datasets;
-use Illuminate\Support\Carbon;
 use ArielMejiaDev\LarapexCharts\LarapexChart;
+use Illuminate\Support\Carbon;
 
 class MingguanDatasetsChart
 {
@@ -26,27 +26,28 @@ class MingguanDatasetsChart
         $fri = 0;
         $sat = 0;
         foreach ($stat as $item) {
-            if ($item->created_at->format('D') == "Sun") {
+            if ($item->created_at->format('D') == 'Sun') {
                 $sun = $sun + 1;
-            } elseif ($item->created_at->format('D') == "Mon") {
+            } elseif ($item->created_at->format('D') == 'Mon') {
                 $mon = $mon + 1;
-            } elseif ($item->created_at->format('D') == "Tue") {
+            } elseif ($item->created_at->format('D') == 'Tue') {
                 $tue = $tue + 1;
-            } elseif ($item->created_at->format('D') == "Wed") {
+            } elseif ($item->created_at->format('D') == 'Wed') {
                 $wed = $wed + 1;
-            } elseif ($item->created_at->format('D') == "Thu") {
+            } elseif ($item->created_at->format('D') == 'Thu') {
                 $thu = $thu + 1;
-            } elseif ($item->created_at->format('D') == "Fri") {
+            } elseif ($item->created_at->format('D') == 'Fri') {
                 $fri = $fri + 1;
-            } elseif ($item->created_at->format('D') == "Sat") {
+            } elseif ($item->created_at->format('D') == 'Sat') {
                 $sat = $sat + 1;
             }
         }
+
         return $this->chart->lineChart()
             ->addData('Datasets', [
-                $mon,$tue,$wed,$thu,$fri,$sat,$sun  
+                $mon, $tue, $wed, $thu, $fri, $sat, $sun,
             ])
-            ->setXAxis(['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu','Minggu'])
+            ->setXAxis(['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'])
             ->setGrid();
     }
 }

@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\User;
-use App\Models\Sektor;
-use App\Models\Infografis;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Infografis;
+use App\Models\Sektor;
+use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
-use App\Http\Controllers\Admin\AktivitasController;
 
 class InfografisController extends Controller
 {
@@ -20,22 +19,24 @@ class InfografisController extends Controller
     {
         $infografis = Infografis::all();
         $sektor = Sektor::all();
-        $user = User::get(['id','name']);
+        $user = User::get(['id', 'name']);
         $title = 'Hapus Infografis !';
-        $text = "Kamu yakin ingin Menghapus Infografis ini?";
+        $text = 'Kamu yakin ingin Menghapus Infografis ini?';
         confirmDelete($title, $text);
-        return view('super-admin.infografis.index', compact('infografis','user','sektor'));
+
+        return view('super-admin.infografis.index', compact('infografis', 'user', 'sektor'));
     }
-    
+
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
         $sektor = Sektor::all();
-        return view('super-admin.infografis.create',compact('sektor'));
+
+        return view('super-admin.infografis.create', compact('sektor'));
     }
-    
+
     /**
      * Store a newly created resource in storage.
      */
@@ -47,20 +48,21 @@ class InfografisController extends Controller
             'id_sektor' => 'required|max:255',
         ]);
         if ($request->gambar != null) {
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/infografis'), $imageName);
             Infografis::create([
-                'id_user'=>  Auth::user()->id,
+                'id_user' => Auth::user()->id,
                 'judul' => $request->judul,
                 'id_sektor' => $request->id_sektor,
                 'gambar' => $imageName,
                 'status' => 'proses',
             ]);
-        } 
-        (new AktivitasController)->store(Auth::user()->id, "Menambahkan Infografis " . $request->judul, "I1", Auth::user()->role);
+        }
+        (new AktivitasController)->store(Auth::user()->id, 'Menambahkan Infografis '.$request->judul, 'I1', Auth::user()->role);
+
         return redirect()->route('infografis.index')->with('success', 'Berhasil Menambahkan Infografis Baru !');
     }
-    
+
     /**
      * Display the specified resource.
      */
@@ -68,17 +70,18 @@ class InfografisController extends Controller
     {
         //
     }
-    
+
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)
     {
-        $infografis = Infografis::where('id',$id)->first();
+        $infografis = Infografis::where('id', $id)->first();
         $sektor = Sektor::all();
-        return view('super-admin.infografis.edit',compact('infografis','sektor'));
+
+        return view('super-admin.infografis.edit', compact('infografis', 'sektor'));
     }
-    
+
     /**
      * Update the specified resource in storage.
      */
@@ -92,13 +95,13 @@ class InfografisController extends Controller
         ]);
 
         if ($request->gambar != null) {
-            if ($infografis->gambar != "img01.jpg") {
-                $image_path = public_path('assets/infografis/' . $infografis->gambar);
+            if ($infografis->gambar != 'img01.jpg') {
+                $image_path = public_path('assets/infografis/'.$infografis->gambar);
                 if (File::exists($image_path)) {
                     File::delete($image_path);
                 }
             }
-            $imageName = time() . '.' . $request->gambar->extension();
+            $imageName = time().'.'.$request->gambar->extension();
             $request->gambar->move(public_path('assets/infografis'), $imageName);
             infografis::where('id', $id)->update([
                 'judul' => $request->judul,
@@ -113,7 +116,8 @@ class InfografisController extends Controller
                 'status' => $request->status,
             ]);
         }
-        (new AktivitasController)->store(Auth::user()->id, "Mengupdate infografis " . $request->judul, "I2", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Mengupdate infografis '.$request->judul, 'I2', Auth::user()->role);
+
         return redirect()->route('infografis.index')->with('success', 'Berhasil Mengubah Data infografis !');
     }
 
@@ -123,14 +127,15 @@ class InfografisController extends Controller
     public function destroy(string $id)
     {
         $infografis = Infografis::find($id);
-        if ($infografis->gambar != "img01.jpg") {
-            $image_path = public_path('assets/infografis/' . $infografis->gambar);
+        if ($infografis->gambar != 'img01.jpg') {
+            $image_path = public_path('assets/infografis/'.$infografis->gambar);
             if (File::exists($image_path)) {
                 File::delete($image_path);
             }
         }
-        (new AktivitasController)->store(Auth::user()->id, "Menghapus infografis " . $infografis->judul, "I3", Auth::user()->role);
+        (new AktivitasController)->store(Auth::user()->id, 'Menghapus infografis '.$infografis->judul, 'I3', Auth::user()->role);
         $infografis->delete();
+
         return redirect()->route('infografis.index')->with('success', 'Berhasil Menghapus Data infografis !');
     }
 }

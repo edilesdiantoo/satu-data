@@ -1,0 +1,372 @@
+@extends('website-view.layout.layout')
+@section('title', 'Statistik Dasar')
+@section('main')
+    <style>
+        #hidden_sosial {
+            display: none;
+        }
+
+        #hidden_ekonomi {
+            display: none;
+        }
+
+        #hidden_pertanian {
+            display: none;
+        }
+    </style>
+    @php
+
+    @endphp
+    <main id="main">
+        <!-- ======= Breadcrumbs Section ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Metadata Sektoral</h2>
+                    <ol>
+                        <li><a href="/">Home</a></li>
+                        <li>Meta Datasets</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section><!-- End Breadcrumbs Section -->
+        <section class="inner-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 my-auto">
+                        <div class="section-title" data-aos="fade-up">
+                            <h2>Meta Datasets</h2>
+                            <p>40 Data Ditemukan </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <form action="{{ route('web-datadasar.index') }}" method="get">
+                            <div class="input-group mb-3" data-aos="fade-up">
+                                <span class="input-group-text"><i class='bx bx-search'></i></span>
+                                <div class="form-floating">
+                                    <input type="text" name="judul" value="" class="form-control"
+                                        id="floatingInputGroup1" placeholder="Username">
+                                    <label for="floatingInputGroup1">Cari Statistik Dasar</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-md-3">
+                        <form method="get" action="{{ route('web-datadasar.index') }}" id="form" data-aos="fade-up">
+                            <div class="col-md-12">
+                                <select name="kategori" id="kategori" class="form-select" onchange="this.form.submit()">
+                                    <option value="">Semua Kategori</option>
+
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="input-group mt-3">
+                                    <span class="input-group-text">Tampilkan Sebanyak</span>
+                                    <select name="record" id="record" class="form-select" onchange="this.form.submit()">
+                                        <option value="20"{{ app('request')->input('record') == 20 ? 'selected' : '' }}>
+                                            20</option>
+                                        <option value="30"{{ app('request')->input('record') == 30 ? 'selected' : '' }}>
+                                            30</option>
+                                        <option value="40"{{ app('request')->input('record') == 40 ? 'selected' : '' }}>
+                                            40</option>
+                                        <option value="50"{{ app('request')->input('record') == 50 ? 'selected' : '' }}>
+                                            50</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <hr class="mb-2" style="border: 2px solid;">
+                        <div class="card mt-4" data-aos="fade-up">
+                            <h5 class="card-header header-sosialdankependudukan text-white">Statistik Demografi dan Sosial
+                            </h5>
+                            <div class="card-body">
+                                <table class="table" style="margin-bottom:0;">
+                                    @for ($i = 0; $i < 3; $i++)
+                                        <tr @if ($i % 2 == 1) style="background-color: #f2f2f2;" @endif>
+                                            <td>
+                                                <span>
+                                                    <a style="color: #010246;"href=""></a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    @endfor
+                                </table>
+                                <div id="hidden_sosial">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <td>
+                                                <span>
+                                                    <a style="color: #010246;" href=""></a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="btn btn-sm btn-success mt-3 float-end" onclick="hiddenSosial()">Lihat
+                                    Selengkapnya >></button>
+                            </div>
+                        </div><!--/.card-->
+                        <div class="card mt-4" data-aos="fade-up">
+                            <h5 class="card-header header-ekonomidanperdagangan text-white">Statistik Ekonomi
+                            </h5>
+                            <div class="card-body">
+                                <table class="table" style="margin-bottom:0;">
+                                    @for ($i = 0; $i < 3; $i++)
+                                        <tr @if ($i % 2 == 1) style="background-color: #f2f2f2;" @endif>
+                                            <td>
+                                                <span>
+                                                    @if (isset($ekonomi[$i]) && !empty($ekonomi[$i]['title']))
+                                                        <a style="color: #010246;" href=""></a>
+                                                    @endif
+                                                    {{-- <a style="color: #010246;" href="?sub_kategori={{ $ekonomi[$i]['title'] }}">{{ $ekonomi[$i]['title'] }}</a> --}}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    @endfor
+                                </table>
+                                <div id="hidden_ekonomi">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <td>
+                                                <span>
+                                                    <a style="color: #010246;" href=""></a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="btn btn-sm btn-success mt-3 float-end" onclick="hiddenEkonomi()">Lihat
+                                    Selengkapnya >></button>
+                            </div>
+                        </div><!--/.card-->
+                        <div class="card mt-4" data-aos="fade-up">
+                            <h5 class="card-header header-pertaniandanpertambangan text-white">Statistik Lingkungan Hidup
+                                dan Multi-domain
+                            </h5>
+                            <div class="card-body">
+                                <table class="table" style="margin-bottom:0;">
+                                    {{-- @for ($i = 0; $i < 3; $i++) --}}
+                                    <tr @if ($i % 2 == 1) style="background-color: #f2f2f2;" @endif>
+                                        <td>
+                                            <span>
+                                                <a style="color: #010246;" href=""></a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    {{-- @endfor --}}
+                                </table>
+                                <div id="hidden_pertanian">
+                                    <table class="table table-striped">
+                                        {{-- @for ($i = 3; $i < count($lhdanmultidomain); $i++) --}}
+                                        <tr>
+                                            <td>
+                                                <span>
+                                                    <a style="color: #010246;" href="?sub_kategori="></a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        {{-- @endfor --}}
+                                    </table>
+                                </div>
+                                <button class="btn btn-sm btn-success mt-3 float-end" onclick="hiddenPertanian()">Lihat
+                                    Selengkapnya >></button>
+                            </div>
+                        </div><!--/.card-->
+                    </div>
+                    <div class="col-md-9" data-aos="fade-up">
+                        {{-- @foreach ($bps as $item) --}}
+                        <div class="card">
+                            <div class="g-2 py-3 row">
+                                <div class="position-relative px-4 col-lg-1 col-md-2 col-sm-3 col-4 my-auto"
+                                    style="width: 7.33rem;">
+                                    <img src="{{ asset('assets/bpsicon.png') }}" alt="" class="img-fluid ms-3">
+                                </div>
+                                <div class="col-lg col-md col-sm-9 col-8 px-4">
+                                    <div class="flex-grow-1 row">
+                                        <div class="col">
+                                            <div class="d-flex flex-column gap-2">
+
+                                                <div class="fs-16 font-weight-500 text-capitalize">
+
+                                                    {{-- Jika hanya 1 tahun, tampilkan input readonly --}}
+                                                    <div class="d-flex flex-column align-items-start gap-2 flex-wrap">
+                                                        <a class="fw-bold" {{-- href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}?tahun={{ $years[0] }}"
+                                                            style="color: #f98c16" onclick=""> --}} judul </a>
+                                                            <input type="text" hidden name="tahun"
+                                                                class="form-control form-control-sm" value=""
+                                                                readonly
+                                                                style="width: 80px; background-color: #f8f9fa; font-size: 12px;">
+                                                    </div>
+                                                    {{-- Jika tidak ada tahun ditemukan, tampilkan link biasa --}}
+                                                    {{-- <a class="fw-bold"
+                                                        href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
+                                                        style="color: #f98c16">{{ $item->judul }}</a> --}}
+                                                    judul
+                                                </div>
+
+                                                <div class="d-flex flex-column flex-sm-row gap-2">
+                                                    <div class="d-flex align-items-center gap-1"><svg width="20"
+                                                            height="21" viewBox="0 0 20 21" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.4"
+                                                                d="M1.74997 18.8334V5.52504C1.74997 3.85004 2.58335 3.00836 4.24168 3.00836H9.43333C11.0917 3.00836 11.9166 3.85004 11.9166 5.52504V18.8334"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M8.95832 8H4.83331C4.49165 8 4.20831 7.71667 4.20831 7.375C4.20831 7.03333 4.49165 6.75 4.83331 6.75H8.95832C9.29999 6.75 9.58332 7.03333 9.58332 7.375C9.58332 7.71667 9.29999 8 8.95832 8Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M8.95832 11.125H4.83331C4.49165 11.125 4.20831 10.8417 4.20831 10.5C4.20831 10.1583 4.49165 9.875 4.83331 9.875H8.95832C9.29999 9.875 9.58332 10.1583 9.58332 10.5C9.58332 10.8417 9.29999 11.125 8.95832 11.125Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M6.875 19.4583C6.53333 19.4583 6.25 19.175 6.25 18.8333V15.7083C6.25 15.3666 6.53333 15.0833 6.875 15.0833C7.21667 15.0833 7.5 15.3666 7.5 15.7083V18.8333C7.5 19.175 7.21667 19.4583 6.875 19.4583Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M19.1667 18.2084H17.275V15.7084C18.0667 15.45 18.6417 14.7084 18.6417 13.8334V12.1667C18.6417 11.075 17.75 10.1833 16.6583 10.1833C15.5667 10.1833 14.675 11.075 14.675 12.1667V13.8334C14.675 14.7 15.2417 15.4333 16.0167 15.7V18.2084H0.833344C0.491677 18.2084 0.208344 18.4917 0.208344 18.8334C0.208344 19.175 0.491677 19.4584 0.833344 19.4584H16.6083C16.625 19.4584 16.6333 19.4667 16.65 19.4667C16.6667 19.4667 16.675 19.4584 16.6917 19.4584H19.1667C19.5083 19.4584 19.7917 19.175 19.7917 18.8334C19.7917 18.4917 19.5083 18.2084 19.1667 18.2084Z"
+                                                                fill="#F98404"></path>
+                                                        </svg>
+                                                        <div class="fs-14 font-weight-400 text-capitalize">Badan Pusat
+                                                            Statistik</div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-1 d-block"><svg
+                                                            width="20" height="21" viewBox="0 0 20 21"
+                                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.4"
+                                                                d="M17.1833 7.54165C16.3083 3.69165 12.95 1.95831 9.99999 1.95831C9.99999 1.95831 9.99999 1.95831 9.99165 1.95831C7.04999 1.95831 3.68332 3.68331 2.80832 7.53331C1.83332 11.8333 4.46665 15.475 6.84999 17.7666C7.73332 18.6166 8.86665 19.0416 9.99999 19.0416C11.1333 19.0416 12.2667 18.6166 13.1417 17.7666C15.525 15.475 18.1583 11.8416 17.1833 7.54165Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M10 11.7167C11.4497 11.7167 12.625 10.5414 12.625 9.09168C12.625 7.64193 11.4497 6.46667 10 6.46667C8.55025 6.46667 7.375 7.64193 7.375 9.09168C7.375 10.5414 8.55025 11.7167 10 11.7167Z"
+                                                                fill="#F98404"></path>
+                                                        </svg>
+                                                        <div class="fs-14 font-weight-400 text-capitalize">Provinsi
+                                                            Jambi
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column flex-sm-row gap-2">
+                                                    <div class="d-flex align-items-center gap-1"><svg width="20"
+                                                            height="21" viewBox="0 0 20 21" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.9583 3.46669V2.16669C13.9583 1.82502 13.675 1.54169 13.3333 1.54169C12.9917 1.54169 12.7083 1.82502 12.7083 2.16669V3.41669H7.29165V2.16669C7.29165 1.82502 7.00832 1.54169 6.66665 1.54169C6.32499 1.54169 6.04165 1.82502 6.04165 2.16669V3.46669C3.79165 3.67502 2.69999 5.01669 2.53332 7.00835C2.51665 7.25002 2.71665 7.45002 2.94999 7.45002H17.05C17.2917 7.45002 17.4917 7.24169 17.4667 7.00835C17.3 5.01669 16.2083 3.67502 13.9583 3.46669Z"
+                                                                fill="#F98404"></path>
+                                                            <path opacity="0.4"
+                                                                d="M16.6667 8.70001C17.125 8.70001 17.5 9.07501 17.5 9.53335V14.6667C17.5 17.1667 16.25 18.8333 13.3333 18.8333H6.66667C3.75 18.8333 2.5 17.1667 2.5 14.6667V9.53335C2.5 9.07501 2.875 8.70001 3.33333 8.70001H16.6667Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M7.08333 13C6.86667 13 6.65 12.9083 6.49167 12.7583C6.34167 12.6 6.25 12.3833 6.25 12.1666C6.25 11.95 6.34167 11.7333 6.49167 11.575C6.725 11.3416 7.09167 11.2666 7.4 11.4C7.50833 11.4416 7.6 11.5 7.675 11.575C7.825 11.7333 7.91667 11.95 7.91667 12.1666C7.91667 12.3833 7.825 12.6 7.675 12.7583C7.51667 12.9083 7.3 13 7.08333 13Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M9.99999 13C9.78332 13 9.56666 12.9083 9.40832 12.7583C9.25832 12.6 9.16666 12.3833 9.16666 12.1666C9.16666 11.95 9.25832 11.7333 9.40832 11.575C9.48332 11.5 9.57499 11.4416 9.68332 11.4C9.99166 11.2666 10.3583 11.3416 10.5917 11.575C10.7417 11.7333 10.8333 11.95 10.8333 12.1666C10.8333 12.3833 10.7417 12.6 10.5917 12.7583C10.55 12.7916 10.5083 12.825 10.4667 12.8583C10.4167 12.8916 10.3667 12.9167 10.3167 12.9333C10.2667 12.9583 10.2167 12.975 10.1667 12.9833C10.1083 12.9917 10.0583 13 9.99999 13Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M12.9167 13C12.7 13 12.4833 12.9083 12.325 12.7583C12.175 12.6 12.0833 12.3833 12.0833 12.1667C12.0833 11.95 12.175 11.7333 12.325 11.575C12.4083 11.5 12.4917 11.4416 12.6 11.4C12.75 11.3333 12.9167 11.3166 13.0833 11.35C13.1333 11.3583 13.1833 11.375 13.2333 11.4C13.2833 11.4166 13.3333 11.4417 13.3833 11.475C13.425 11.5083 13.4667 11.5417 13.5083 11.575C13.6583 11.7333 13.75 11.95 13.75 12.1667C13.75 12.3833 13.6583 12.6 13.5083 12.7583C13.4667 12.7916 13.425 12.825 13.3833 12.8583C13.3333 12.8916 13.2833 12.9167 13.2333 12.9333C13.1833 12.9583 13.1333 12.975 13.0833 12.9833C13.025 12.9917 12.9667 13 12.9167 13Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M7.08333 15.9167C6.975 15.9167 6.86667 15.8917 6.76667 15.85C6.65833 15.8084 6.575 15.75 6.49167 15.675C6.34167 15.5167 6.25 15.3 6.25 15.0833C6.25 14.8667 6.34167 14.65 6.49167 14.4917C6.575 14.4167 6.65833 14.3583 6.76667 14.3167C6.91667 14.25 7.08333 14.2333 7.25 14.2667C7.3 14.275 7.35 14.2917 7.4 14.3167C7.45 14.3333 7.5 14.3584 7.55 14.3917C7.59167 14.425 7.63333 14.4584 7.675 14.4917C7.825 14.65 7.91667 14.8667 7.91667 15.0833C7.91667 15.3 7.825 15.5167 7.675 15.675C7.63333 15.7083 7.59167 15.75 7.55 15.775C7.5 15.8083 7.45 15.8334 7.4 15.85C7.35 15.875 7.3 15.8917 7.25 15.9C7.19167 15.9084 7.14167 15.9167 7.08333 15.9167Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M9.99999 15.9167C9.78332 15.9167 9.56666 15.825 9.40832 15.675C9.25832 15.5167 9.16666 15.3 9.16666 15.0833C9.16666 14.8667 9.25832 14.65 9.40832 14.4917C9.71666 14.1834 10.2833 14.1834 10.5917 14.4917C10.7417 14.65 10.8333 14.8667 10.8333 15.0833C10.8333 15.3 10.7417 15.5167 10.5917 15.675C10.4333 15.825 10.2167 15.9167 9.99999 15.9167Z"
+                                                                fill="#F98404"></path>
+                                                            <path
+                                                                d="M12.9167 15.9167C12.7 15.9167 12.4833 15.825 12.325 15.675C12.175 15.5167 12.0833 15.3 12.0833 15.0833C12.0833 14.8667 12.175 14.65 12.325 14.4917C12.6333 14.1834 13.2 14.1834 13.5083 14.4917C13.6583 14.65 13.75 14.8667 13.75 15.0833C13.75 15.3 13.6583 15.5167 13.5083 15.675C13.35 15.825 13.1333 15.9167 12.9167 15.9167Z"
+                                                                fill="#F98404"></path>
+                                                        </svg>
+                                                        <div class="fs-14 font-weight-400 text-capitalize">
+                                                            {{-- {{ $item->updated_at->format('Y') }} --}}
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc-fjvvzt hjjJXH">
+                                                        <div class="fs-14 font-weight-400 text-capitalize py-1 px-2"
+                                                            style="color: #f98c16">
+                                                            {{-- {{ $item->kategori }} --}}
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div class="fs-14 font-weight-400 text-capitalize">
+                                                            <span class="badge opacity-70"
+                                                                style="background-color: #f98c16">
+                                                                {{-- {{ $item->sub_kategori }} --}}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div
+                                                class="d-flex flex-column align-items-start align-align-items-lg-end gap-2">
+                                                <div class="fs-14 font-weight-500 text-capitalize">
+                                                    {{-- {{ $item->updated_at->format('d M Y') }} --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- @endforeach --}}
+                        <div class="mt-3">
+                            {{-- {{ $bps->links('vendor.pagination.bootstrap-5') }} --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+    <script>
+        function hiddenSosial() {
+            var x = document.getElementById("hidden_sosial");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function hiddenEkonomi() {
+            var x = document.getElementById("hidden_ekonomi");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function hiddenPertanian() {
+            var x = document.getElementById("hidden_pertanian");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    {{-- Card View Version --}}
+    {{-- <div class="card @if ($loop->iteration > 1) mt-4 @endif">
+        <div class="card-body">
+            <a href="{{ route('web-datadasar.show', [$item->id, $item->slug]) }}"
+                class="text-decoration-none text-reset">
+                <div class="row mb-3">
+                    <div class="col-lg-10">
+                        <div class="judul">
+                            {{ $item->judul }}
+                        </div>
+                        <div class="opd-dataset">
+                            <i class='bx bxs-buildings'></i>
+                            <span>{{ $item->sub_kategori }}</span>
+                        </div>
+                        <span class="opd-dataset">
+                            <i class='bx bx-calendar'></i>
+                            <span> {{ $item->created_at->format('d M Y') }}</span>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div> --}}
+@endsection

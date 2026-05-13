@@ -6,11 +6,11 @@
         <section class="breadcrumbs">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Jadwal Rilis Dataset</h2>
+                    <h2>Rencana Terbit Dataset</h2>
                     <ol>
                         <li><a href="/">Home</a></li>
                         <li>Informasi</li>
-                        <li>Jadwal Rilis Dataset</li>
+                        <li>Rencana Terbit Dataset</li>
                     </ol>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 height: 100%;
                 align-items: flex-end;
                 /* background: hsla(246, 40%, 30%, 0.5);
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ; */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ; */
                 padding: 10px;
 
                 border-radius: 12px;
@@ -238,7 +238,7 @@
             <div class="container">
                 <div class="section-title" data-aos="fade-up" style="padding-bottom: 0px">
                     <h2>Data Dasar</h2>
-                    <p>{{ $datasetCount }} Agenda Ditemukan </p>
+                    <p>{{ $datasetCount }} Rencana Terbit Ditemukan </p>
                 </div>
                 <div class="row" data-aos="fade-up">
                     <div class="col-md-12">
@@ -256,16 +256,16 @@
                                                 type="button" role="tab" aria-controls="nav-home" aria-selected="true">
                                                 <i class="bi bi-table"></i> Bulan
                                             </button>
+                                            <button class="nav-link fw-bolder" id="nav-list-tab" data-bs-toggle="tab"
+                                                data-bs-target="#nav-list" type="button" role="tab"
+                                                aria-controls="nav-list" aria-selected="false">
+                                                <i class="bi bi-clipboard-data"></i> Tahunan
+                                            </button>
                                             <button class="nav-link fw-bolder" id="nav-profile-tab" data-bs-toggle="tab"
                                                 data-bs-target="#nav-profile" type="button" role="tab"
                                                 aria-controls="nav-profile" aria-selected="false">
-                                                <i class="bi bi-clipboard-check"></i> Tahun
+                                                <i class="bi bi-clipboard-check"></i> List
                                             </button>
-                                            {{-- <button class="nav-link fw-bolder" id="nav-list-tab" data-bs-toggle="tab"
-                                                data-bs-target="#nav-list" type="button" role="tab"
-                                                aria-controls="nav-list" aria-selected="false">
-                                                <i class="bi bi-clipboard-data"></i> List
-                                            </button> --}}
                                         </div>
                                     </nav>
 
@@ -338,8 +338,121 @@
                                         <!-- Tab List -->
                                         <div class="tab-pane fade" id="nav-list" role="tabpanel"
                                             aria-labelledby="nav-list-tab" tabindex="0">
-                                            <h1>Data List Tersedia</h1>
-                                            <p>Isi data list yang sesuai di sini.</p>
+                                            <h1>Data Tahunan </h1>
+                                            <p>Rencana Rilis Metadataset.</p>
+                                            {{-- <div class="d-flex justify-content-between align-items-center">
+                                                <button id="prevYear" class="btn btn-outline-secondary">&lt;</button>
+                                                <h3 id="yearLabel">{{ $year }}</h3> <!-- Tampilkan hanya tahun -->
+                                                <button id="nextYear" class="btn btn-outline-secondary">&gt;</button>
+                                            </div> --}}
+                                            <div class="table-responsive mt-3">
+                                                <table class="table table-striped" id="table-2">
+                                                    <thead class="text-white table-header">
+                                                        <tr>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                No</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Judul</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Jan</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Feb</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Mar</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Apr</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Mei</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Jun</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Jul</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Agu</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Sep</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Okt</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Nov</th>
+                                                            <th
+                                                                style="background-color: #1a42a9; font-size:14px; text-transform: capitalize; color: #fff !important; vertical-align : middle;">
+                                                                Des</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach ($jadwal_rilis as $no => $ds)
+                                                            <tr>
+                                                                <td class="text-center">{{ $no + 1 }}</td>
+                                                                <td style="min-width: 200px;">{{ $ds->judul }}</td>
+
+                                                                @for ($m = 1; $m <= 12; $m++)
+                                                                    @php
+                                                                        // 1. Ubah angka $m menjadi nama bulan bahasa Indonesia sesuai database
+                                                                        $namaBulan = [
+                                                                            1 => 'Januari',
+                                                                            2 => 'Februari',
+                                                                            3 => 'Maret',
+                                                                            4 => 'April',
+                                                                            5 => 'Mei',
+                                                                            6 => 'Juni',
+                                                                            7 => 'Juli',
+                                                                            8 => 'Agustus',
+                                                                            9 => 'September',
+                                                                            10 => 'Oktober',
+                                                                            11 => 'November',
+                                                                            12 => 'Desember',
+                                                                        ][$m];
+
+                                                                        // 2. Cari data agenda berdasarkan datasets_id DAN nama bulan
+                                                                        $dataBulan = null;
+                                                                        if (isset($detail_agenda[$ds->id])) {
+                                                                            // Sekarang kita mencari kecocokan dengan Nama Bulan (string)
+                                                                            $dataBulan = $detail_agenda[
+                                                                                $ds->id
+                                                                            ]->firstWhere('bulan', $namaBulan);
+                                                                        }
+                                                                    @endphp
+                                                                    <td class="text-center"
+                                                                        style="vertical-align: middle;">
+                                                                        @if ($dataBulan)
+                                                                            @if ($dataBulan->status == 1)
+                                                                                {{-- STATUS 1: Link Aktif sesuai format yang Anda minta --}}
+                                                                                <a href="{{ url('web-agenda/' . $dataBulan->id . '/' . Str::slug($ds->judul)) }}"
+                                                                                    style="font-size: 14px; font-weight: 700; color: #1a42a9; text-decoration: underline;">
+                                                                                    {{ $dataBulan->tanggal }}
+                                                                                </a>
+                                                                            @else
+                                                                                {{-- STATUS 0: Teks Biasa (Hitam) --}}
+                                                                                <span
+                                                                                    style="font-size: 14px; font-weight: 500; color: #000;">
+                                                                                    {{ $dataBulan->tanggal }}
+                                                                                </span>
+                                                                            @endif
+                                                                        @else
+                                                                            {{-- KOSONG --}}
+                                                                            <span style="opacity: 0.2;">-</span>
+                                                                        @endif
+                                                                    </td>
+                                                                @endfor
+                                                            </tr>
+                                                        @endforeach
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +461,8 @@
                     </div>
                 </div>
         </section>
-    </main><!-- End #main -->
+    </main>
+    <!-- End #main -->
     <!-- modal kalender -->
     <div id="calendarModal" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -378,7 +492,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -393,84 +506,103 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
             locale: 'id',
             initialView: 'dayGridMonth',
-            timeZone: 'local', // Menggunakan zona waktu lokal browser
+            timeZone: 'local',
             navLinks: true,
             selectable: true,
             selectMirror: true,
             editable: true,
             dayMaxEvents: true,
+
+            // Sumber event awal dari Controller index
             eventSources: [{
-                events: @json($events), // Menyuntikkan data events dari Laravel ke dalam JavaScript
+                events: @json($events),
                 textColor: '#fff',
                 color: '#0054e6',
+                eventDataTransform: function(eventData) {
+                    // Tetap menggunakan logika hitung rilis Anda
+                    const count = eventData.title.split(' ')[0];
+                    return {
+                        ...eventData,
+                        title: count + ' Rilis Data'
+                    };
+                },
             }],
+
             eventClick: function(arg) {
-                // Ambil tanggal dari event yang diklik
                 var dateObj = arg.event.start;
                 var year = dateObj.getFullYear();
-                var month = ('0' + (dateObj.getMonth() + 1)).slice(-2); // getMonth() is 0-indexed
+                var month = ('0' + (dateObj.getMonth() + 1)).slice(-2);
                 var day = ('0' + dateObj.getDate()).slice(-2);
 
                 var dateClicked = year + '-' + month + '-' + day;
                 var dateClickedJudul = day + '/' + month + '/' + year;
 
-                // Ambil data detail event dari controller
                 $.ajax({
-                    url: '{{ route('getEventDetails') }}', // Pastikan URL sudah benar
+                    url: '{{ route('getEventDetails') }}',
                     type: 'GET',
                     data: {
                         date: dateClicked
                     },
                     success: function(response) {
-                        // Update modal dengan data yang diterima
                         $('#modalDate').text('Tanggal Rilis: ' + dateClickedJudul);
-                        $('#modaltitle').text(response.length + ' Kegiatan');
-                        $('#eventList').empty(); // Kosongkan daftar acara sebelumnya
+                        $('#modaltitle').text(response.length + ' Rilis Data');
+                        $('#eventList').empty();
 
-                        // Tampilkan setiap acara di dalam modal
-                        response.forEach(function(event) {
-                            // Buat URL friendly string untuk "judul" event
-                            let text = event.judul
-                                .replace(/[^a-zA-Z0-9]+/g,
-                                    '-'
-                                ) // Mengganti karakter non-alfanumerik dengan -
-                                .replace(/-+/g, '-') // Menghapus pengulangan -
-                                .toLowerCase(); // Menjadikan huruf kecil
+                        response.forEach(function(event, index) {
+                            let displayJudul = event.display_judul;
+                            let displayStatus = event.display_status;
 
-                            // Encode string untuk URL
-                            let urlFriendlyText = encodeURIComponent(text);
+                            let cleanSlug = displayJudul.toLowerCase()
+                                .replace(/[^a-z0-9]/g, '-')
+                                .replace(/-+/g, '-')
+                                .replace(/^-|-$/g, '');
+                            let urlFriendlyText = encodeURIComponent(cleanSlug);
 
-                            // Bangun URL dinamis menggunakan JavaScript
-                            let url = "{{ url('web-datasets') }}/" + event.id +
-                                "/" + urlFriendlyText;
-                            let tanggal = `${event.created_at}`
-                            let tahun = tanggal.split('-')[0];
+                            let finalUrl = "#";
+                            let isLink = false;
 
-                            // Menambahkan item ke dalam daftar
+                            // KONDISI DIPERBAIKI: 
+                            // Izinkan link jika statusnya 'PUBLIK' ATAU 'APPROVED'
+                            if (displayStatus === 'PUBLIK' || displayStatus ===
+                                'APPROVED') {
+                                isLink = true;
+                                if (parseInt(event.is_agenda) === 1) {
+                                    finalUrl = "{{ url('web-agenda') }}/" +
+                                        event.agenda_id + "/" + urlFriendlyText;
+                                } else {
+                                    finalUrl = "{{ url('web-datasets') }}/" +
+                                        event.id + "/" + urlFriendlyText;
+                                }
+                            }
+
+                            // Template judul: Jika isLink true pakai <a>, jika tidak pakai <span>
+                            let judulTemplate = isLink ?
+                                `<a class="fw-bold text-capitalize" href="${finalUrl}">${displayJudul}</a>` :
+                                `<span class="fw-bold text-capitalize text-secondary">${displayJudul}</span>`;
+
                             $('#eventList').append(`
-                            <li>
-                                <div class="time fs-7 text-secondary">${moment(event.created_at).format('HH:mm')}</div>
-                                <div class="isi">
-                                    <div class="border border-primary rounded bg-primary bg-opacity-10 p-2">
-                                        <div class="fs-7 text-primary fw-semibold pb-2">
-                                            <a class="fw-bold text-capitalize" href="${url}" style="color: #3f67d8">${event.judul}</a>
-                                        </div>
-                                        <span class="badge text-bg-primary fw-light text-primary">${event.status}</span>
-                                        <div class="d-flex align-items-center justify-content-between pt-2">
-                                            <div class="fs-7 text-primary">${tahun}</div>
-                                            <div class="fs-7 text-primary">${event.nama_opd}</div>
+                                <li>
+                                    <div class="time fs-7 text-secondary fw-bold">${index + 1}.</div> 
+                                    <div class="isi">
+                                        <div class="border border-primary rounded bg-primary bg-opacity-10 p-2">
+                                            <div class="fs-7 text-primary fw-semibold pb-1">
+                                                <small class="text-uppercase" style="font-size: 0.65rem;">
+                                                    ${parseInt(event.is_agenda) === 1 ? 'Agenda Rilis' : 'Update Dataset'}
+                                                </small>
+                                            </div>
+                                            <div class="fs-7 text-primary fw-semibold pb-2">
+                                                ${judulTemplate} 
+                                            </div>
+                                            <span class="badge text-bg-primary fw-light text-primary">${displayStatus}</span>
+                                            <div class="d-flex align-items-center justify-content-between pt-2">
+                                                <div class="fs-7 text-primary">${event.nama_opd}</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </li>
-                        `);
+                                </li>
+                            `);
                         });
-
-                        // Tampilkan modal
                         $('#calendarModal').modal('show');
-                    },
-                    error: function(xhr, status, err) {
-                        console.error('AJAX error', status, err, xhr.responseText);
                     }
                 });
             },
@@ -485,39 +617,32 @@
 
         calendar.render();
 
-        // Menambahkan event listener ketika bulan atau tahun diubah
+        // Listener DatesSet untuk Next/Prev
         calendar.on('datesSet', function(info) {
-            var currentMonth = info.view.currentStart.getMonth() + 1; // +1 => 1..12
+            var currentMonth = info.view.currentStart.getMonth() + 1;
             var currentYear = info.view.currentStart.getFullYear();
 
-            console.log('Request month/year =>', currentMonth, currentYear);
-
             $.ajax({
-                url: '{{ route('getEventsByMonth') }}',
+                url: '{{ route('getEventsByMonth') }}', // Pastikan method ini pakai logic COUNT(DISTINCT)
                 type: 'GET',
-                dataType: 'json',
                 data: {
                     month: currentMonth,
                     year: currentYear
                 },
                 success: function(data) {
-                    // console.log('Response events:', data);
+                    // Hapus sumber lama agar tidak tumpang tindih
+                    calendar.getEventSources().forEach(source => source.remove());
 
-                    // 1. Hapus SEMUA SUMBER EVENT yang ada.
-                    // Ini lebih aman daripada hanya removeAllEvents()
-                    calendar.getEventSources().forEach(function(source) {
-                        source.remove();
-                    });
-
-                    // 2. Tambahkan sumber event BARU
+                    // Tambahkan data baru dengan format yang Anda inginkan
                     calendar.addEventSource({
-                        events: data, // data harus berisi array event {title, start}
+                        events: data.map(event => ({
+                            ...event,
+                            title: event.total +
+                                ' Rilis Data' // Mengambil jumlah asli dari server
+                        })),
                         textColor: '#fff',
                         color: '#0054e6',
                     });
-                },
-                error: function(xhr, status, err) {
-                    console.error('AJAX error', status, err, xhr.responseText);
                 }
             });
         });
@@ -539,6 +664,8 @@
                     year: year
                 },
                 success: function(response) {
+                    // console.log(response);
+
                     // jika DataTable sudah inisialisasi, destroy dulu
                     if ($.fn.dataTable.isDataTable('#table-1')) {
                         $('#table-1').DataTable().clear().destroy();
@@ -610,66 +737,4 @@
         // Memperbarui tampilan awal
         updateYearDisplay();
     });
-
-
-    // $(document).ready(function() {
-    //     var currentMonth = {{ $month }}; // Mengambil bulan yang diterima dari controller
-    //     var currentYear = {{ $year }}; // Mengambil tahun yang diterima dari controller
-
-    //     // Fungsi untuk memperbarui tampilan bulan dan tahun
-    //     function updateMonthYearDisplay() {
-    //         var months = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agt", "Sep", "Okt", "Nov", "Des"];
-    //         $('#monthYearLabel').text(months[currentMonth] + " " + currentYear); // Menampilkan bulan dan tahun
-    //     }
-
-    //     // Fungsi untuk memicu permintaan AJAX
-    //     function fetchAgenda(month, year) {
-    //         $.ajax({
-    //             // Seragamkan URL AJAX menggunakan path relatif
-    //             url: '/publikasi/agenda',
-    //             method: 'GET',
-    //             data: {
-    //                 month: month,
-    //                 year: year
-    //             },
-    //             success: function(response) {
-    //                 // Perbarui tampilan bulan dan tahun
-    //                 updateMonthYearDisplay();
-    //                 // Perbarui tabel dengan data yang baru
-    //                 $('#table-1 tbody').html(response.tableData);
-    //             },
-    //             error: function(xhr, status, error) {
-    //                 console.error("AJAX Error: ", error);
-    //                 console.log(xhr.responseText); // Lihat respons server
-    //             }
-    //         });
-    //     }
-
-    //     // Fungsi untuk mundur satu bulan
-    //     $('#prevMonth').click(function() {
-    //         if (currentMonth === 0) {
-    //             currentMonth = 11; // Januari (0) menjadi Desember (11)
-    //             currentYear--;
-    //         } else {
-    //             currentMonth--;
-    //         }
-    //         // Panggil fungsi AJAX dengan nilai bulan dan tahun yang baru
-    //         fetchAgenda(currentMonth, currentYear);
-    //     });
-
-    //     // Fungsi untuk maju satu bulan
-    //     $('#nextMonth').click(function() {
-    //         if (currentMonth === 11) {
-    //             currentMonth = 0; // Desember (11) menjadi Januari (0)
-    //             currentYear++;
-    //         } else {
-    //             currentMonth++;
-    //         }
-    //         // Panggil fungsi AJAX dengan nilai bulan dan tahun yang baru
-    //         fetchAgenda(currentMonth, currentYear);
-    //     });
-
-    //     // Memperbarui tampilan awal
-    //     updateMonthYearDisplay();
-    // });
 </script>

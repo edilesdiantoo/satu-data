@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\WebController;
 
-use App\Models\Sektor;
-use App\Models\Infografis;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Infografis;
+use App\Models\Sektor;
+use Illuminate\Http\Request;
 
 class WebInfografisController extends Controller
 {
@@ -22,9 +22,9 @@ class WebInfografisController extends Controller
         }
         if ($request->input('urut')) {
             $queryString = $request->input('urut');
-            if ($queryString == "terbaru") {
+            if ($queryString == 'terbaru') {
                 $builder->orderBy('updated_at', 'DESC');
-            } elseif ($queryString == "abjad") {
+            } elseif ($queryString == 'abjad') {
                 $builder->orderBy('judul');
             }
         }
@@ -48,6 +48,4 @@ class WebInfografisController extends Controller
 
         return view('website-view.infografis.index', compact('infografis', 'sektor', 'infografisId', 'selectedInfographic'));
     }
-    
-
 }
