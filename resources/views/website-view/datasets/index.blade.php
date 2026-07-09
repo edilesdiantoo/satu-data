@@ -123,8 +123,8 @@
                                 <div class="g-2 py-3 row">
                                     <div class="position-relative px-4 col-lg-1 col-md-2 col-sm-3 col-4 my-auto mx-auto"
                                         style="width: 7.33rem;">
-                                        <img src="{{ asset('assets/dataicon.png') }}" alt=""
-                                            class="img-fluid ms-3">
+                                        <img src="{{ asset('assets/dataicon.png') }}" alt="" class="img-fluid ms-3"
+                                            loading="lazy">
                                     </div>
                                     <div class="col-lg col-md col-sm-9 col-8 px-4">
                                         <div class="flex-grow-1 row">
