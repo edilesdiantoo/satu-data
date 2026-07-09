@@ -28,38 +28,52 @@ class WebDatasetsController extends Controller
     {
         $opd = Opd::all();
         $sektor = Sektor::all();
-        $builder = Datasets::query();
+
+        // Gunakan DB table agar bisa melakukan leftJoin count secara efisien
+        $builder = DB::table('tbl_datasets as d')
+            ->leftJoin('tbl_datasets_seen as s', 'd.id', '=', 's.id_datasets')
+            ->select(
+                'd.*',
+                DB::raw('COUNT(s.id) as total_viewer') // Hitung viewer langsung di database
+            )
+            ->groupBy('d.id'); // Kelompokkan berdasarkan id dataset induk
+
         if ($request->input('judul')) {
             $queryString = $request->input('judul');
-            $builder->where('judul', 'LIKE', "%$queryString%");
+            $builder->where('d.judul', 'LIKE', "%$queryString%");
         }
         if ($request->input('urut')) {
             $queryString = $request->input('urut');
             if ($queryString == 'terbaru') {
-                $builder->orderBy('updated_at', 'DESC');
+                $builder->orderBy('d.updated_at', 'DESC');
             } elseif ($queryString == 'abjad') {
-                $builder->orderBy('judul');
+                $builder->orderBy('d.judul');
             } elseif ($queryString == 'terpopuler') {
-                $builder->orderBy('jumlah_unduhan', 'DESC');
+                $builder->orderBy('d.jumlah_unduhan', 'DESC');
             }
         }
         if ($request->input('opd')) {
             $queryString = $request->input('opd');
-            $builder->where('nama_opd', $queryString);
+            $builder->where('d.nama_opd', $queryString);
         }
         if ($request->input('sektor')) {
             $queryString = $request->input('sektor');
-            $builder->where('sektor', $queryString);
+            $builder->where('d.sektor', $queryString);
         }
-        if ($request->input('record')) {
-            $datasets = $builder->where('sifat_datasets', 'PUBLIK')->where('status', 'APPROVED')->orderBy('updated_at', 'DESC')->paginate($request->input('record'))->withQueryString();
-        } else {
-            $datasets = $builder->where('sifat_datasets', 'PUBLIK')->where('status', 'APPROVED')->orderBy('updated_at', 'DESC')->paginate(20)->withQueryString();
-        }
-        $seen = DB::table('tbl_datasets_seen')->get();
 
-        // dd($builder);
-        return view('website-view.datasets.index', compact('datasets', 'opd', 'seen', 'sektor'));
+        // Filter dasar aplikasi Anda
+        $builder->where('d.sifat_datasets', 'PUBLIK')
+            ->where('d.status', 'APPROVED');
+
+        $recordLimit = $request->input('record') ? (int) $request->input('record') : 20;
+
+        $datasets = $builder->orderBy('d.updated_at', 'DESC')
+            ->paginate($recordLimit)
+            ->withQueryString();
+
+        // Hapus variabel $seen lama karena sudah dilebur ke dalam objek $datasets
+
+        return view('website-view.datasets.index', compact('datasets', 'opd', 'sektor'));
     }
 
     public function ulasan(Request $request, $id_datasets)
@@ -170,7 +184,7 @@ class WebDatasetsController extends Controller
     public function fetchTableData(string $id, $bearer)
     {
         $bearerToken = 'Bearer '.$bearer;
-        $validToken = 'Bearer ' . config('app.bearer_token');
+        $validToken = 'Bearer '.config('app.bearer_token');
         // $validToken = 'Bearer '.env('BEARER_TOKEN');
         if (! $bearerToken || $bearerToken != $validToken) {
             return response()->json(['error' => 'Unauthorized'], 401);

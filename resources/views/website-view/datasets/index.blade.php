@@ -109,69 +109,22 @@
 
                     <div class="col-md-9">
                         @foreach ($datasets as $item)
-                            <?php $viewer = 0; ?>
-                            <?php
-                            // replace non letter or digits by divider
-                            $text = preg_replace('~[^\pL\d]+~u', '-', $item->judul);
-                            
-                            // transliterate
-                            $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
-                            
-                            // remove unwanted characters
-                            $text = preg_replace('~[^-\w]+~', '', $text);
-                            
-                            // trim
-                            $text = trim($text, '-');
-                            
-                            // remove duplicate divider
-                            $text = preg_replace('~-+~', '-', $text);
-                            
-                            // lowercase
-                            $text = strtolower($text);
-                            
-                            ?>
-                            @foreach ($seen as $item_seen)
-                                @if ($item->id == $item_seen->id_datasets)
-                                    @php
-                                        $viewer = $viewer + 1;
-                                    @endphp
-                                @endif
-                            @endforeach
+                            @php
+                                // Logika pembuatan URL friendly text (slug) tetap dipertahankan
+                                $text = preg_replace('~[^\pL\d]+~u', '-', $item->judul);
+                                $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+                                $text = preg_replace('~[^-\w]+~', '', $text);
+                                $text = trim($text, '-');
+                                $text = preg_replace('~-+~', '-', $text);
+                                $text = strtolower($text);
+                            @endphp
+
                             <div class="card" style="margin-bottom:15px;" data-aos="fade-up">
                                 <div class="g-2 py-3 row">
                                     <div class="position-relative px-4 col-lg-1 col-md-2 col-sm-3 col-4 my-auto mx-auto"
                                         style="width: 7.33rem;">
                                         <img src="{{ asset('assets/dataicon.png') }}" alt=""
                                             class="img-fluid ms-3">
-                                        {{-- <svg width="88" height="88" viewBox="0 0 88 88" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_4151_20419)">
-                                                <rect width="88" height="88" rx="12" fill="#00988B"
-                                                    fill-opacity="0.2"></rect>
-                                                <ellipse cx="23.5" cy="64" rx="35.5" ry="35"
-                                                    fill="#00988B" fill-opacity="0.12"></ellipse>
-                                                <circle cx="44.5" cy="105.5" r="29" stroke="#00988B"
-                                                    stroke-opacity="0.2"></circle>
-                                                <path opacity="0.4"
-                                                    d="M43.9993 31.7167V61.105C43.6877 61.105 43.3577 61.05 43.101 60.9034L43.0277 60.8667C39.5077 58.9417 33.366 56.925 29.3877 56.3934L28.856 56.32C27.096 56.1 25.666 54.45 25.666 52.69V30.5434C25.666 28.3617 27.4443 26.7117 29.626 26.895C33.476 27.2067 39.306 29.15 42.5693 31.185L43.0277 31.46C43.3027 31.625 43.651 31.7167 43.9993 31.7167Z"
-                                                    fill="#00988B"></path>
-                                                <path
-                                                    d="M62.3333 30.5616V52.6899C62.3333 54.4499 60.9033 56.0999 59.1433 56.3199L58.5383 56.3932C54.5417 56.9249 48.3817 58.9599 44.8617 60.9032C44.6233 61.0499 44.33 61.1049 44 61.1049V31.7166C44.3483 31.7166 44.6967 31.6249 44.9717 31.4599L45.2833 31.2582C48.5467 29.2049 54.395 27.2432 58.245 26.9132H58.355C60.5367 26.7299 62.3333 28.3616 62.3333 30.5616Z"
-                                                    fill="#00988B"></path>
-                                                <path
-                                                    d="M36.209 38.9399H32.084C31.3323 38.9399 30.709 38.3166 30.709 37.5649C30.709 36.8133 31.3323 36.1899 32.084 36.1899H36.209C36.9607 36.1899 37.584 36.8133 37.584 37.5649C37.584 38.3166 36.9607 38.9399 36.209 38.9399Z"
-                                                    fill="#00988B"></path>
-                                                <path
-                                                    d="M37.584 44.4399H32.084C31.3323 44.4399 30.709 43.8166 30.709 43.0649C30.709 42.3133 31.3323 41.6899 32.084 41.6899H37.584C38.3357 41.6899 38.959 42.3133 38.959 43.0649C38.959 43.8166 38.3357 44.4399 37.584 44.4399Z"
-                                                    fill="#00988B"></path>
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_4151_20419">
-                                                    <rect width="88" height="88" rx="12" fill="white">
-                                                    </rect>
-                                                </clipPath>
-                                            </defs>
-                                        </svg> --}}
                                     </div>
                                     <div class="col-lg col-md col-sm-9 col-8 px-4">
                                         <div class="flex-grow-1 row">
@@ -270,11 +223,11 @@
                                                                 fill="#8D9197"></path>
                                                         </svg>
                                                         <div class="fs-14 font-weight-400 text-capitalize">
-                                                            {{ $viewer }}
-                                                            Lihat</div>
+                                                            {{ $item->total_viewer }} Lihat
+                                                        </div>
                                                     </div>
                                                     <div class="fs-14 font-weight-500 text-capitalize">
-                                                        {{ $item->updated_at->format('d M Y') }}
+                                                        {{ \Carbon\Carbon::parse($item->updated_at)->format('d M Y') }}
                                                     </div>
                                                 </div>
                                             </div>
