@@ -45,7 +45,7 @@ use App\Http\Controllers\WebController\WebBeritaController;
 use App\Http\Controllers\WebController\WebDatasetsController;
 use App\Http\Controllers\WebController\WebGalleryController;
 use App\Http\Controllers\WebController\WebInfografisController;
-use App\Http\Controllers\WebController\WebPermohonar\WebPublikasiController;
+use App\Http\Controllers\WebController\WebPermohonan\WebPublikasiController;
 use Illuminate\Support\Facades\Route;
 
 /*

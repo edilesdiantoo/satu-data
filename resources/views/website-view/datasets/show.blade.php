@@ -712,9 +712,20 @@
                     url: "{{ route('web-datasets.fetch', ['id' => $datasets->id, 'bearer' => '3bd2f3f9059ff21e2ff85bb7b803728f']) }}",
                     type: 'GET',
                     dataSrc: function(json) {
-                        // console.log('AJAX response data:', json);
-                        return json
-                            .data; // Pastikan json.data sesuai dengan data yang diambil dari server
+                        // Pastikan json.data sesuai dengan data yang diambil dari server
+                        return json.data;
+                    },
+                    // Tambahkan handler error ini untuk menangkap notifikasi dari controller
+                    error: function(xhr, error, thrown) {
+                        if (xhr.status === 422) {
+                            let errorData = xhr.responseJSON;
+                            // Menampilkan pesan error spesifik dari controller ke operator
+                            alert("Peringatan Gagal Memuat Tabel:\n" + errorData.message);
+                        } else {
+                            alert("Terjadi kesalahan sistem saat memuat data tabel.");
+                        }
+                        // Menghentikan processing loader DataTables agar tidak loading terus menerus
+                        $('#table-5').DataTable().processing(false);
                     }
                 },
                 columns: [
@@ -757,57 +768,15 @@
                     @endforeach
                 ],
                 columnDefs: [{
-                    targets: 0, // Cek apakah ID berada di kolom pertama
+                    targets: 0,
                     render: function(data, type, row, meta) {
-                        return meta.row + 1 + meta.settings
-                            ._iDisplayStart; // Menampilkan nomor urut yang berlanjut
+                        return meta.row + 1 + meta.settings._iDisplayStart;
                     }
                 }],
-                "paging": true, // Aktifkan pagination
-                "pageLength": 10, // Tentukan jumlah baris per halaman
+                "paging": true,
+                "pageLength": 10,
             });
         });
-
-        // $('#table-5').DataTable({
-        //         processing: true,
-        //         serverSide: true,
-        //         ajax: {
-        //             url: "{{ route('web-datasets.fetch', ['id' => $datasets->id, 'bearer' => '3bd2f3f9059ff21e2ff85bb7b803728f']) }}",
-        //             type: 'GET',
-        //         },
-        //         columns: [
-        //             @foreach ($table as $column)
-        //                 @if ($column == 'kode_kabupaten_kota')
-        //                     {
-        //                         data: 'kode_kabupaten_kota',
-        //                         name: 'kode_kabupaten_kota'
-        //                     }, {
-        //                         data: 'nama_kabupaten_kota',
-        //                         name: 'nama_kabupaten_kota'
-        //                     },
-        //                 @elseif ($column == 'kode_kecamatan') {
-        //                         data: 'kode_kecamatan',
-        //                         name: 'kode_kecamatan'
-        //                     }, {
-        //                         data: 'nama_kecamatan',
-        //                         name: 'nama_kecamatan'
-        //                     },
-        //                 @elseif ($column == 'kode_kelurahan_desa') {
-        //                         data: 'kode_kelurahan_desa',
-        //                         name: 'kode_kelurahan_desa'
-        //                     }, {
-        //                         data: 'nama_kelurahan_desa',
-        //                         name: 'nama_kelurahan_desa'
-        //                     },
-        //                 @else
-        //                     {
-        //                         data: '{{ $column }}',
-        //                         name: '{{ $column }}'
-        //                     },
-        //                 @endif
-        //             @endforeach
-        //         ]
-        //     });
     </script>
 
     <script>

@@ -1,6 +1,12 @@
 @extends('website-view.layout.layout')
 @section('title', 'Statistik Sektoral')
 @section('main')
+    <style>
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
     <main id="main">
         <!-- ======= Breadcrumbs Section ======= -->
         <section class="breadcrumbs">

@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
 use Yajra\DataTables\Facades\DataTables;
@@ -168,10 +167,23 @@ class WebDatasetsController extends Controller
                     )
                     ->groupBy('kode_kabupaten_kota')
                     ->get();
+
                 foreach ($data as $item) {
+                    // 1. Ambil data wilayahnya dulu
+                    $wilayah = WilayahController::wilayah($item->kode_kabupaten ?? '-');
+
+                    // 2. Cek apakah data wilayah ditemukan
+                    if ($wilayah === null) {
+                        // Jika null/salah, langsung return error biar operator tahu kode mana yang salah
+                        return response()->json([
+                            'status' => 'error',
+                            'message' => 'Terdeteksi kesalahan input data! Kode wilayah "'.($item->kode_kabupaten ?? '-').'" tidak terdaftar di master data wilayah. Mohon periksa kembali dataset Anda.',
+                        ], 422); // Gunakan HTTP status 422 (Unprocessable Entity)
+                    }
+
                     $output[] = [
                         'kode_kabupaten' => $item->kode_kabupaten,
-                        'nama_kabupaten' => WilayahController::wilayah($item->kode_kabupaten ?? '-')->nama,
+                        'nama_kabupaten' => $wilayah->nama, // Sekarang aman dari crash
                         'value' => $item->value,
                     ];
                 }
@@ -257,51 +269,6 @@ class WebDatasetsController extends Controller
             })
             ->make(true);
     }
-
-    // public function fetchTableData(string $id, $bearer)
-    // {
-    //     $bearerToken = 'Bearer '. $bearer;
-    //     $validToken = 'Bearer ' . env('BEARER_TOKEN');
-    //     if (!$bearerToken || $bearerToken != $validToken) {
-    //         return response()->json(['error' => 'Unauthorized'], 401);
-    //     }
-    //     if(Auth::user()){
-    //         $datasets = Datasets::where('id', $id)
-    //         ->firstOrFail();
-    //     }else{
-    //         $datasets = Datasets::where('id', $id)
-    //         ->where('status', 'APPROVED')
-    //         ->where('sifat_datasets', 'PUBLIK')
-    //         ->firstOrFail();
-    //     }
-    //     if (!$datasets || !Schema::hasTable($datasets->db_datasets)) {
-    //         return response()->json(['error' => 'Dataset atau tabel tidak ditemukan.'], 404);
-    //     }
-
-    //     $query = DB::table($datasets->db_datasets);
-    //     $debugData = $query->take(10)->get();
-    //     Log::info('Data fetched:', $debugData->toArray());
-
-    //     // $query = DB::table($datasets->db_datasets);
-    //     // $query->orderBy('tahun', 'desc');
-    //     // $debugData = $query->get(); // Will fetch all data, sorted by 'tahun'
-    //     // Log::info('Data fetched:', $debugData->toArray());
-
-    //     return DataTables::of($query)
-    //         ->addColumn('nama_kabupaten_kota', function ($row) {
-    //             $wilayah = WilayahController::wilayah($row->kode_kabupaten_kota ?? "-");
-    //             return $wilayah->nama ?? '-';
-    //         })
-    //         ->addColumn('nama_kecamatan', function ($row) {
-    //             $wilayah = WilayahController::wilayah($row->kode_kecamatan ?? '-');
-    //             return $wilayah->nama ?? '-';
-    //         })
-    //         ->addColumn('nama_kelurahan_desa', function ($row) {
-    //             $wilayah = WilayahController::wilayah($row->kode_kelurahan_desa ?? '-');
-    //             return $wilayah->nama ?? '-';
-    //         })
-    //         ->make(true);
-    // }
 
     public function download(string $id)
     {
