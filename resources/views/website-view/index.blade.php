@@ -1556,7 +1556,7 @@
     </main>
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
+    <!-- Footer -->
     <footer id="footer">
         <div class="footer-top">
             <div class="container">
@@ -1568,7 +1568,9 @@
                         </div>
                         <div class="footer-info">
                             <div class="row">
-                                <div class="col-md-8">
+
+                                <!-- Kolom 1: Info Kontak & Logo -->
+                                <div class="col-md-4">
                                     <p> Jl. Jend. Ahmad Yani No.1, Telanaipura,<br>
                                         Kec. Telanaipura, Kota Jambi, Jambi 36128<br><br>
                                         <strong>Phone:</strong> (0741)<br>
@@ -1578,47 +1580,62 @@
                                         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                                         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                                     </div>
-                                    <div class="d-inline g-2">
+                                    <div class="d-inline g-2 mt-4 mb-3 d-block">
                                         <img src="{{ asset('assets/kerjasama/DISKOMINFO.png') }}"
-                                            style="max-width: 100px;">
+                                            style="max-width: 80px; margin-right: 5px;">
                                         <img src="{{ asset('assets/kerjasama/portal-indonesia.png') }}"
-                                            style="max-width: 100px;">
+                                            style="max-width: 80px; margin-right: 5px;">
                                         <img src="{{ asset('assets/kerjasama/satu-data-indonesia.png') }}"
-                                            style="max-width: 100px;">
+                                            style="max-width: 80px; margin-right: 5px;">
                                         <img src="{{ asset('assets/kerjasama/logo-bps-provinsi-jambi.png') }}"
-                                            style="max-width: 100px;">
+                                            style="max-width: 80px;">
                                     </div>
                                     <br>
                                     &copy; Copyright <strong><span>JDAC</span></strong>. All Rights Reserved
                                     <div class="credits">
-                                        Designed by TIM IT JDAC</a>
+                                        Designed by TIM IT JDAC
                                     </div>
                                 </div>
+
+                                <!-- Kolom 2: Sumber Data Lainnya -->
+                                <div class="col-md-4">
+                                    <h4 class="text-white mb-3">Telusuri Sumber Data Lainnya :</h4>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="bx bx-chevron-right"></i> <a
+                                                href="https://data.go.id/" target="_blank"
+                                                class="text-white text-decoration-none">Satu Data Indonesia</a></li>
+                                        <li class="mb-2"><i class="bx bx-chevron-right"></i> <a
+                                                href="https://sadata.jambiprov.go.id/" target="_blank"
+                                                class="text-white text-decoration-none">Sadata Jambi</a></li>
+                                        <li class="mb-2"><i class="bx bx-chevron-right"></i> <a
+                                                href="https://peta.jambiprov.go.id/" target="_blank"
+                                                class="text-white text-decoration-none">Sapeta Jambi</a></li>
+                                        <li class="mb-2"><i class="bx bx-chevron-right"></i> <a
+                                                href="https://jambi.bps.go.id/id" target="_blank"
+                                                class="text-white text-decoration-none">BPS Provinsi Jambi</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Kolom 3: Google Maps -->
                                 <div class="col-md-4">
                                     <div
-                                        style="text-decoration:none; overflow:hidden;max-width:100%;width:NaNpx;height:250px;">
+                                        style="text-decoration:none; overflow:hidden;max-width:100%;width:100%;height:250px;">
                                         <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;">
-                                            <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                                            <iframe style="height:100%;width:100%;border:0;border-radius:8px;"
+                                                frameborder="0"
                                                 src="https://www.google.com/maps/embed/v1/place?q=Kantor+Gubernur+Jambi,+Jalan+Jendral+Ahmad+Yani,+Telanaipura,+Jambi+City,+Jambi,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                                         </div>
-                                        <style>
-                                            #google-maps-canvas .text-marker {}
-
-                                            .map-generator {
-                                                max-width: 100%;
-                                                max-height: 100%;
-                                                background: none;
-                                            }
-                                        </style>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
